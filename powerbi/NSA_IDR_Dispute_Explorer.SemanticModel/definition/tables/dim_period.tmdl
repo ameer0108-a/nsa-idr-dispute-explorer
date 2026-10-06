@@ -1,0 +1,42 @@
+table dim_period
+	lineageTag: c38acd9c-5ab2-59da-bc57-38e36e78e545
+
+	column period
+		dataType: string
+		lineageTag: ba280223-fde1-584e-a172-c7096c98dfe5
+		summarizeBy: none
+		sourceColumn: period
+		sortByColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		isHidden
+		lineageTag: 36d5e012-ce00-5e02-b5f6-81d71ff91e5a
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 55b699cb-d309-5073-b9b0-89c73efa8236
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	partition dim_period = m
+		mode: import
+		source =
+				let
+				    Source = v_quarterly_summary,
+				    Kept = Table.SelectColumns(Source, {"period", "period_type", "period_sort"}),
+				    Distinct = Table.Distinct(Kept)
+				in
+				    Distinct
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,138 @@
+table v_eligibility_trend
+	lineageTag: 018517c5-8088-5ee6-a50b-9d6dd7c30b1d
+
+	column period
+		dataType: string
+		lineageTag: 421d822a-ba1e-5a5f-87c9-52ce7828e2fe
+		summarizeBy: none
+		sourceColumn: period
+		sortByColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column year
+		dataType: int64
+		lineageTag: b0985441-661b-5c6f-8757-b71ccef4ebdd
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = User
+
+	column quarter
+		dataType: int64
+		lineageTag: fc55ba77-76f4-5291-bc9c-5b212aa94391
+		summarizeBy: none
+		sourceColumn: quarter
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 5f08dd47-ee3f-57cf-8552-1ed4633cd8d0
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 3ca17736-1ec8-5ff9-924f-1144bf618131
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column disputes_initiated
+		dataType: int64
+		formatString: #,0
+		lineageTag: 2df811db-18eb-5672-b70c-88ef887eabf2
+		summarizeBy: none
+		sourceColumn: disputes_initiated
+
+		annotation SummarizationSetBy = User
+
+	column total_closed
+		dataType: int64
+		formatString: #,0
+		lineageTag: c76abc46-fe1d-5b90-9c17-75eeee34db64
+		summarizeBy: none
+		sourceColumn: total_closed
+
+		annotation SummarizationSetBy = User
+
+	column payment_determinations
+		dataType: int64
+		formatString: #,0
+		lineageTag: f32ee7b8-41ca-592a-966d-2ead5bbe7fe4
+		summarizeBy: none
+		sourceColumn: payment_determinations
+
+		annotation SummarizationSetBy = User
+
+	column found_ineligible
+		dataType: int64
+		formatString: #,0
+		lineageTag: 83057d00-e13f-585f-95ea-abc3c47cb6a6
+		summarizeBy: none
+		sourceColumn: found_ineligible
+
+		annotation SummarizationSetBy = User
+
+	column other_closed
+		dataType: int64
+		formatString: #,0
+		lineageTag: 738b0e96-d6f8-53e3-bdc0-40a338a88fa4
+		summarizeBy: none
+		sourceColumn: other_closed
+
+		annotation SummarizationSetBy = User
+
+	column ineligible_share
+		dataType: double
+		formatString: 0.0%
+		lineageTag: f85bfb84-842e-58b6-9455-54b8a7a1c13c
+		summarizeBy: none
+		sourceColumn: ineligible_share
+
+		annotation SummarizationSetBy = User
+
+	column determination_share
+		dataType: double
+		formatString: 0.0%
+		lineageTag: f48467f9-0769-5938-9bb0-277999263a06
+		summarizeBy: none
+		sourceColumn: determination_share
+
+		annotation SummarizationSetBy = User
+
+	column other_share
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 4a57ac32-c2bc-5a0a-bd44-53f26b0af7ee
+		summarizeBy: none
+		sourceColumn: other_share
+
+		annotation SummarizationSetBy = User
+
+	column source
+		dataType: string
+		lineageTag: ca1d309b-4e98-56c9-8647-cc860f9e7527
+		summarizeBy: none
+		sourceColumn: source
+
+		annotation SummarizationSetBy = User
+
+	partition v_eligibility_trend = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_eligibility_trend.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"year", Int64.Type}, {"quarter", Int64.Type}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"disputes_initiated", Int64.Type}, {"total_closed", Int64.Type}, {"payment_determinations", Int64.Type}, {"found_ineligible", Int64.Type}, {"other_closed", Int64.Type}, {"ineligible_share", type number}, {"determination_share", type number}, {"other_share", type number}, {"source", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

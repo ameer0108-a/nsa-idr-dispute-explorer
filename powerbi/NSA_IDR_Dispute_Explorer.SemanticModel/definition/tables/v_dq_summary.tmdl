@@ -1,0 +1,83 @@
+table v_dq_summary
+	lineageTag: 5a9a5e08-8f98-5456-bfa8-8fecd1ccf893
+
+	column check_id
+		dataType: string
+		lineageTag: c0d350f9-001b-57f1-9b42-8d3bb3863bf9
+		summarizeBy: none
+		sourceColumn: check_id
+
+		annotation SummarizationSetBy = User
+
+	column check_name
+		dataType: string
+		lineageTag: 2bdafaff-93f8-53fd-a8e8-9a05abef6e26
+		summarizeBy: none
+		sourceColumn: check_name
+
+		annotation SummarizationSetBy = User
+
+	column dq_dimension
+		dataType: string
+		lineageTag: 756e2261-cae7-5f2f-9106-6eb4f77b3f16
+		summarizeBy: none
+		sourceColumn: dq_dimension
+
+		annotation SummarizationSetBy = User
+
+	column severity
+		dataType: string
+		lineageTag: cb484dfc-37d0-54b8-8f2a-09e13159d874
+		summarizeBy: none
+		sourceColumn: severity
+
+		annotation SummarizationSetBy = User
+
+	column check_description
+		dataType: string
+		lineageTag: 910adec5-1eda-5e7a-a623-38c04981e123
+		summarizeBy: none
+		sourceColumn: check_description
+
+		annotation SummarizationSetBy = User
+
+	column rows_flagged
+		dataType: int64
+		formatString: #,0
+		lineageTag: 84944c55-2cf2-5d3a-9120-356c7727cc58
+		summarizeBy: none
+		sourceColumn: rows_flagged
+
+		annotation SummarizationSetBy = User
+
+	column share_of_rows
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 608205b0-17ce-5a34-9126-3de749a10112
+		summarizeBy: none
+		sourceColumn: share_of_rows
+
+		annotation SummarizationSetBy = User
+
+	column total_rows
+		dataType: int64
+		formatString: #,0
+		lineageTag: d1a646cb-7058-5deb-a149-c369a32f8c1b
+		summarizeBy: none
+		sourceColumn: total_rows
+
+		annotation SummarizationSetBy = User
+
+	partition v_dq_summary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_dq_summary.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"check_id", type text}, {"check_name", type text}, {"dq_dimension", type text}, {"severity", type text}, {"check_description", type text}, {"rows_flagged", Int64.Type}, {"share_of_rows", type number}, {"total_rows", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

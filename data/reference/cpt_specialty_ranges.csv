@@ -1,0 +1,47 @@
+range_start,range_end,cms_specialty,service_group
+0001U,0999U,Pathology and Laboratory,Pathology and lab
+80047,89398,Pathology and Laboratory,Pathology and lab
+00100,01999,Anesthesia,Anesthesia
+10004,69990,Surgery,Surgery
+70010,79999,Radiology,Radiology
+90281,90399,"Immune Globulins, Serum or Recombinant Products",Other medicine
+90460,90474,Immunization Administration for Vaccines/Toxoids,Other medicine
+90476,91322,"Vaccines, Toxoids",Other medicine
+90785,90899,Psychiatry,Other medicine
+90935,90999,Dialysis,Other medicine
+91010,91299,Gastroenterology,Other medicine
+92002,92499,Ophthalmology,Other medicine
+92502,92700,Special Otorhinolaryngologic Services,Other medicine
+92920,93799,Cardiovascular,Cardiovascular
+93880,93998,Noninvasive Vascular Diagnostic Studies,Cardiovascular
+94002,94799,Pulmonary,Other medicine
+95004,95199,Allergy and Clinical Immunology,Other medicine
+95700,96020,Neurology and Neuromuscular Procedures,Neurology and neuromonitoring
+96105,96146,Neuropsychological and Developmental Testing,Other medicine
+96156,96171,Health Behavior Assessment and Intervention,Other medicine
+96360,96549,"Injections, Infusions and Chemotherapy Administration",Other medicine
+97010,97799,Physical Medicine and Rehabilitation,Other medicine
+98925,98929,Osteopathic Manipulative Treatment,Other medicine
+98940,98943,Chiropractic Manipulative Treatment,Other medicine
+98960,98962,Education and Training for Patient Self-Management,Other medicine
+99000,99091,"Special Services, Procedures and Reports",Other medicine
+99100,99140,Qualifying Circumstances for Anesthesia,Anesthesia
+99151,99157,Moderate (Conscious) Sedation,Anesthesia
+99170,99199,Other Services and Procedures,Other medicine
+99202,99215,Office or Other Outpatient Services,Other E/M
+99217,99239,Hospital Inpatient and Observation Care Services,Hospital inpatient and observation
+99242,99255,Consultations,Other E/M
+99281,99288,Emergency Department Services,Emergency department visits
+99291,99292,Critical Care Services,Critical care
+99304,99316,Nursing Facility Services,Other E/M
+99341,99350,Home or Residence Services,Other E/M
+99354,99418,Prolonged Services,Other E/M
+99381,99429,Preventive Medicine Services,Other E/M
+99421,99474,Non-Face-to-Face Services,Other E/M
+99424,99491,Care Management Services,Other E/M
+99460,99463,Newborn Care Services,Other E/M
+99464,99465,Delivery/Birthing Room,Other E/M
+99466,99480,Inpatient Neonatal and Pediatric Critical Care Services,Critical care
+99483,99486,Cognitive Assessment and Care Planning,Other E/M
+99497,99498,Advance Care Planning,Other E/M
+99499,99499,Unlisted Evaluation and Management Service,Other E/M

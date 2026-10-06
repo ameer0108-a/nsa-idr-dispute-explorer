@@ -1,0 +1,14 @@
+# CMS line-item files are large, get them with scripts/download_cms_data.py
+data/raw/*.csv
+data/raw/*.csv.gz
+data/raw/*.part
+
+# DuckDB database is rebuilt by build.py
+data/*.duckdb
+data/*.duckdb.wal
+
+# Power BI local cache
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+__pycache__/

@@ -1,0 +1,130 @@
+table v_reconciliation
+	lineageTag: 7f3605c6-aaf9-5d1f-a5c6-273255e16f04
+
+	column period
+		dataType: string
+		lineageTag: 7a5046ff-a7e6-5144-bea5-cd9ef415fc63
+		summarizeBy: none
+		sourceColumn: period
+		sortByColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 8347a453-3db8-5d9e-869e-723b33ec7286
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 7a0319d5-9449-5fbc-b039-84065c2868e5
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 3080ff8d-76eb-5076-8adf-5277493ea437
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column metric
+		dataType: string
+		lineageTag: 4524a500-5e51-577e-8613-de73abd73b36
+		summarizeBy: none
+		sourceColumn: metric
+
+		annotation SummarizationSetBy = User
+
+	column metric_sort
+		dataType: int64
+		isHidden
+		lineageTag: 20c1d096-329a-5a22-8848-87dd099cc6cc
+		summarizeBy: none
+		sourceColumn: metric_sort
+
+		annotation SummarizationSetBy = User
+
+	column cms_published
+		dataType: int64
+		formatString: #,0
+		lineageTag: 7aa47185-97e1-508b-a7a2-c829b5d8262c
+		summarizeBy: none
+		sourceColumn: cms_published
+
+		annotation SummarizationSetBy = User
+
+	column puf_raw
+		dataType: int64
+		formatString: #,0
+		lineageTag: bb24327a-3305-51cf-8852-4f6ad7b667f7
+		summarizeBy: none
+		sourceColumn: puf_raw
+
+		annotation SummarizationSetBy = User
+
+	column raw_difference
+		dataType: int64
+		formatString: #,0
+		lineageTag: 0c670e10-9fc5-5af3-9272-a6b70cf271ad
+		summarizeBy: none
+		sourceColumn: raw_difference
+
+		annotation SummarizationSetBy = User
+
+	column raw_pct_difference
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 376233ee-2394-5f08-bc96-54f287e34508
+		summarizeBy: none
+		sourceColumn: raw_pct_difference
+
+		annotation SummarizationSetBy = User
+
+	column puf_after_dq
+		dataType: int64
+		formatString: #,0
+		lineageTag: 02c14f64-4734-5c74-aeb3-4173eabe95f7
+		summarizeBy: none
+		sourceColumn: puf_after_dq
+
+		annotation SummarizationSetBy = User
+
+	column clean_difference
+		dataType: int64
+		formatString: #,0
+		lineageTag: 6b71359b-324f-5c15-8bdc-2d872735f7ad
+		summarizeBy: none
+		sourceColumn: clean_difference
+
+		annotation SummarizationSetBy = User
+
+	column clean_pct_difference
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 089967cd-b381-55dd-bd0a-f2b4832173f8
+		summarizeBy: none
+		sourceColumn: clean_pct_difference
+
+		annotation SummarizationSetBy = User
+
+	partition v_reconciliation = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_reconciliation.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"metric", type text}, {"metric_sort", Int64.Type}, {"cms_published", Int64.Type}, {"puf_raw", Int64.Type}, {"raw_difference", Int64.Type}, {"raw_pct_difference", type number}, {"puf_after_dq", Int64.Type}, {"clean_difference", Int64.Type}, {"clean_pct_difference", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

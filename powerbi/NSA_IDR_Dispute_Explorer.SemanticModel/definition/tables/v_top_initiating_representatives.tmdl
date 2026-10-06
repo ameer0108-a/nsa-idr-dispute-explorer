@@ -1,0 +1,101 @@
+table v_top_initiating_representatives
+	lineageTag: 1caef01d-4319-5d4c-bac3-9e7dd897db50
+
+	column period
+		dataType: string
+		lineageTag: c6ce4652-79d3-5fc2-bb5c-6a8599a8247e
+		summarizeBy: none
+		sourceColumn: period
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 876a91c5-3649-5401-983b-a0899608bf88
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: fdda18da-0f87-59df-875f-a9b459b74431
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 06484099-8937-5962-8444-6da4bc439192
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column representative
+		dataType: string
+		lineageTag: 8270acc3-ee59-5020-9863-115bdf0a40a9
+		summarizeBy: none
+		sourceColumn: representative
+
+		annotation SummarizationSetBy = User
+
+	column rank_in_slice
+		dataType: int64
+		lineageTag: aec456f2-c650-579c-9acb-5024fac47f76
+		summarizeBy: none
+		sourceColumn: rank_in_slice
+
+		annotation SummarizationSetBy = User
+
+	column disputes
+		dataType: int64
+		formatString: #,0
+		lineageTag: 516e002b-b11e-5ff9-bfdf-c47eff8d7508
+		summarizeBy: none
+		sourceColumn: disputes
+
+		annotation SummarizationSetBy = User
+
+	column line_items
+		dataType: int64
+		formatString: #,0
+		lineageTag: af7e8e76-d101-5e84-80f4-a84d391f4ba9
+		summarizeBy: none
+		sourceColumn: line_items
+
+		annotation SummarizationSetBy = User
+
+	column provider_win_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: c53f37fb-bc9d-5486-a674-c47e6d12cf35
+		summarizeBy: none
+		sourceColumn: provider_win_rate
+
+		annotation SummarizationSetBy = User
+
+	column share_of_disputes
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 1773fe8e-a267-5640-82a5-84de77c7a480
+		summarizeBy: none
+		sourceColumn: share_of_disputes
+
+		annotation SummarizationSetBy = User
+
+	partition v_top_initiating_representatives = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_top_initiating_representatives.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"representative", type text}, {"rank_in_slice", Int64.Type}, {"disputes", Int64.Type}, {"line_items", Int64.Type}, {"provider_win_rate", type number}, {"share_of_disputes", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

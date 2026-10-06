@@ -1,0 +1,216 @@
+table v_quarterly_summary
+	lineageTag: 4b927937-73d0-5306-937e-18dd859b33a1
+
+	column period
+		dataType: string
+		lineageTag: 1b6abb1f-7f54-59e1-b1c3-72692f8a68d9
+		summarizeBy: none
+		sourceColumn: period
+		sortByColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 627d657b-ec73-578e-a18e-b3b85af114ec
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 04e6718e-1171-5440-b9cb-1471cb43c182
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 35bfacac-078b-57c3-9cbe-901d69b0e873
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column line_items
+		dataType: int64
+		formatString: #,0
+		lineageTag: 5d694595-d021-53b5-9e02-6e8a602de93a
+		summarizeBy: none
+		sourceColumn: line_items
+
+		annotation SummarizationSetBy = User
+
+	column disputes
+		dataType: int64
+		formatString: #,0
+		lineageTag: 4e40e9eb-6051-5837-b636-41b2c3fdf5cd
+		summarizeBy: none
+		sourceColumn: disputes
+
+		annotation SummarizationSetBy = User
+
+	column provider_wins
+		dataType: int64
+		formatString: #,0
+		lineageTag: a4114be5-4d73-5aa7-8851-8f03e14b407f
+		summarizeBy: none
+		sourceColumn: provider_wins
+
+		annotation SummarizationSetBy = User
+
+	column plan_wins
+		dataType: int64
+		formatString: #,0
+		lineageTag: d4593117-c572-5f70-86ef-8f8f8f7fb6f5
+		summarizeBy: none
+		sourceColumn: plan_wins
+
+		annotation SummarizationSetBy = User
+
+	column split_decisions
+		dataType: int64
+		formatString: #,0
+		lineageTag: 065de06e-9c30-570b-9db0-dcc92b7be152
+		summarizeBy: none
+		sourceColumn: split_decisions
+
+		annotation SummarizationSetBy = User
+
+	column provider_win_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 10dc5838-951a-526d-9010-5266b219fb92
+		summarizeBy: none
+		sourceColumn: provider_win_rate
+
+		annotation SummarizationSetBy = User
+
+	column default_decisions
+		dataType: int64
+		formatString: #,0
+		lineageTag: 697b2114-e274-5524-9878-b1d4326bf11f
+		summarizeBy: none
+		sourceColumn: default_decisions
+
+		annotation SummarizationSetBy = User
+
+	column default_decision_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 91ca172c-6fd7-5010-bc01-4bdc21f3ae82
+		summarizeBy: none
+		sourceColumn: default_decision_rate
+
+		annotation SummarizationSetBy = User
+
+	column batched_disputes
+		dataType: int64
+		formatString: #,0
+		lineageTag: 895d55a5-c40e-5e89-a36f-854075da761f
+		summarizeBy: none
+		sourceColumn: batched_disputes
+
+		annotation SummarizationSetBy = User
+
+	column batched_share
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 00241787-4a05-59db-8260-f1a8232a70e5
+		summarizeBy: none
+		sourceColumn: batched_share
+
+		annotation SummarizationSetBy = User
+
+	column median_business_days
+		dataType: double
+		lineageTag: f07ce70e-c26b-5fb9-91b5-cbe114a4bafb
+		summarizeBy: none
+		sourceColumn: median_business_days
+
+		annotation SummarizationSetBy = User
+
+	column idre_compensation_total
+		dataType: double
+		lineageTag: 9a77a662-b732-51b8-9858-a6e1c0afaea3
+		summarizeBy: none
+		sourceColumn: idre_compensation_total
+
+		annotation SummarizationSetBy = User
+
+	column lines_with_qpa_ratio
+		dataType: int64
+		formatString: #,0
+		lineageTag: 4fb0928c-275d-578e-ba5a-3cab210fabac
+		summarizeBy: none
+		sourceColumn: lines_with_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column lines_provider_selected
+		dataType: int64
+		formatString: #,0
+		lineageTag: e9c8dc76-4d41-53de-ae41-5696c1d26adc
+		summarizeBy: none
+		sourceColumn: lines_provider_selected
+
+		annotation SummarizationSetBy = User
+
+	column line_provider_selected_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 5cb5eb3b-0c6c-5907-8af8-af40d3b6c9fc
+		summarizeBy: none
+		sourceColumn: line_provider_selected_rate
+
+		annotation SummarizationSetBy = User
+
+	column median_prevailing_offer_qpa_ratio
+		dataType: double
+		lineageTag: 8b5472bf-396b-5212-952c-075c5fb75c08
+		summarizeBy: none
+		sourceColumn: median_prevailing_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column median_provider_offer_qpa_ratio
+		dataType: double
+		lineageTag: 6e093f42-8c58-5806-bf73-c2e15b1ff398
+		summarizeBy: none
+		sourceColumn: median_provider_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column median_plan_offer_qpa_ratio
+		dataType: double
+		lineageTag: 5abfbca6-54a8-5528-ab89-3389f8ec85cb
+		summarizeBy: none
+		sourceColumn: median_plan_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column share_prevailing_above_qpa
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 2fe809f8-9eeb-5277-97b1-d20b642226e1
+		summarizeBy: none
+		sourceColumn: share_prevailing_above_qpa
+
+		annotation SummarizationSetBy = User
+
+	partition v_quarterly_summary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_quarterly_summary.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"line_items", Int64.Type}, {"disputes", Int64.Type}, {"provider_wins", Int64.Type}, {"plan_wins", Int64.Type}, {"split_decisions", Int64.Type}, {"provider_win_rate", type number}, {"default_decisions", Int64.Type}, {"default_decision_rate", type number}, {"batched_disputes", Int64.Type}, {"batched_share", type number}, {"median_business_days", type number}, {"idre_compensation_total", type number}, {"lines_with_qpa_ratio", Int64.Type}, {"lines_provider_selected", Int64.Type}, {"line_provider_selected_rate", type number}, {"median_prevailing_offer_qpa_ratio", type number}, {"median_provider_offer_qpa_ratio", type number}, {"median_plan_offer_qpa_ratio", type number}, {"share_prevailing_above_qpa", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

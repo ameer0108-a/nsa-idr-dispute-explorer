@@ -1,0 +1,217 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Report Measures",
+          "nodeLineageTag": "b02d47b1-2b03-5952-87ed-8aca52833ede",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 86
+          },
+          "nodeIndex": "dim_category",
+          "nodeLineageTag": "e635cdcd-e691-5f6a-bb3b-6cae9f8e3342",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 74
+          },
+          "nodeIndex": "dim_period",
+          "nodeLineageTag": "c38acd9c-5ab2-59da-bc57-38e36e78e545",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 2
+          },
+          "nodeIndex": "v_determination_timing",
+          "nodeLineageTag": "38a73280-24e5-5833-8e64-a11f3894a07d",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 14
+          },
+          "nodeIndex": "v_dq_summary",
+          "nodeLineageTag": "5a9a5e08-8f98-5456-bfa8-8fecd1ccf893",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1420,
+            "y": 0
+          },
+          "nodeIndex": "v_eligibility_trend",
+          "nodeLineageTag": "018517c5-8088-5ee6-a50b-9d6dd7c30b1d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1704,
+            "y": 14
+          },
+          "nodeIndex": "v_offer_ratio_distribution",
+          "nodeLineageTag": "3986bf6d-2194-570e-ac31-02fc6c229504",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1988,
+            "y": 0
+          },
+          "nodeIndex": "v_outcomes_by_plan_type",
+          "nodeLineageTag": "f2f434a0-d4cf-5040-848d-a3a4104d2811",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2272,
+            "y": 0
+          },
+          "nodeIndex": "v_outcomes_by_practice_size",
+          "nodeLineageTag": "e2f3fa32-4d90-52bf-ab1c-d7775ee321ca",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2556,
+            "y": 0
+          },
+          "nodeIndex": "v_outcomes_by_service_group",
+          "nodeLineageTag": "f2458a07-f2ec-528f-978c-2c30ad624150",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2840,
+            "y": 0
+          },
+          "nodeIndex": "v_outcomes_by_state",
+          "nodeLineageTag": "cfb682d4-2cea-5375-a8e9-1a7846308a3a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3124,
+            "y": 0
+          },
+          "nodeIndex": "v_quarterly_summary",
+          "nodeLineageTag": "4b927937-73d0-5306-937e-18dd859b33a1",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3408,
+            "y": 0
+          },
+          "nodeIndex": "v_reconciliation",
+          "nodeLineageTag": "7f3605c6-aaf9-5d1f-a5c6-273255e16f04",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3692,
+            "y": 0
+          },
+          "nodeIndex": "v_top_initiating_representatives",
+          "nodeLineageTag": "1caef01d-4319-5d4c-bac3-9e7dd897db50",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3976,
+            "y": 0
+          },
+          "nodeIndex": "v_top_plan_representatives",
+          "nodeLineageTag": "7896c4b5-9c98-53c5-93c3-ada7c25b90e3",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

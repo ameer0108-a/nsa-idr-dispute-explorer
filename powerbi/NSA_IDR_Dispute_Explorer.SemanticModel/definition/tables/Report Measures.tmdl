@@ -1,0 +1,601 @@
+table 'Report Measures'
+	lineageTag: b02d47b1-2b03-5952-87ed-8aca52833ede
+
+	measure 'Selected Period' =
+			VAR latestFullYear =
+			    CALCULATE(
+			        MAX(dim_period[period]),
+			        REMOVEFILTERS(dim_period),
+			        dim_period[period_type] = "Full year"
+			    )
+			RETURN
+			    SELECTEDVALUE(dim_period[period], latestFullYear)
+		displayFolder: Selection
+		lineageTag: 546182b6-30e6-5b68-b6b3-a548ffa83440
+
+	measure 'Selected Category' = SELECTEDVALUE(dim_category[dispute_category], "All dispute types")
+		displayFolder: Selection
+		lineageTag: 68238a2b-6843-5499-b6ef-a6f88b8e6114
+
+	measure 'Selection Label' = [Selected Period] & "  |  " & [Selected Category]
+		displayFolder: Selection
+		lineageTag: 7cb473b6-cf70-572b-9712-44169d1fe8fc
+
+	measure 'Disputes Decided' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[disputes]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Overview
+		lineageTag: 582fc842-eab5-576f-9ad1-21219a3fa2cb
+
+	measure 'Line Items' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[line_items]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Overview
+		lineageTag: 8a8a081e-f4be-591e-95d2-6ed692e47186
+
+	measure 'Provider Win Rate' =
+			DIVIDE(
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[provider_wins]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    ),
+			    [Disputes Decided]
+			)
+		formatString: 0.0%
+		displayFolder: Overview
+		lineageTag: 6a548dec-032d-5e08-b55d-8e9743db3021
+
+	measure 'Default Decision Rate' =
+			DIVIDE(
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[default_decisions]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    ),
+			    [Disputes Decided]
+			)
+		formatString: 0.0%
+		displayFolder: Overview
+		lineageTag: 79fa3375-7dc3-52e2-83c0-9a612917b30c
+
+	measure 'Median Prevailing Offer vs QPA' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_quarterly_summary[median_prevailing_offer_qpa_ratio]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: 0.00
+		displayFolder: Overview
+		lineageTag: b8bc8438-b8f5-5640-a2bc-4b385690ca45
+
+	measure 'Median Provider Offer vs QPA' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_quarterly_summary[median_provider_offer_qpa_ratio]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: 0.00
+		displayFolder: Overview
+		lineageTag: e5308c7f-1fd2-51c5-aec6-1e8678f0bf54
+
+	measure 'Median Plan Offer vs QPA' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_quarterly_summary[median_plan_offer_qpa_ratio]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: 0.00
+		displayFolder: Overview
+		lineageTag: fbdf5bba-c27f-5b2a-af77-1c350f8eb1ac
+
+	measure 'Median Business Days' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_quarterly_summary[median_business_days]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: 0
+		displayFolder: Overview
+		lineageTag: ae55f298-0308-5323-a968-7d2315b1721a
+
+	measure 'Share Prevailing Above QPA' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_quarterly_summary[share_prevailing_above_qpa]),
+			        v_quarterly_summary[period] = p,
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: 0.0%
+		displayFolder: Overview
+		lineageTag: b15e3355-df9d-503c-b091-113ed7e76700
+
+	measure 'Disputes by Quarter' =
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[disputes]),
+			        v_quarterly_summary[period_type] = "Quarter",
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Trend
+		lineageTag: aead3f81-9a35-577a-ad62-0f0c4c7f09e8
+
+	measure 'Provider Wins' =
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[provider_wins]),
+			        v_quarterly_summary[period_type] = "Quarter",
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Trend
+		lineageTag: 25fd6870-89c6-554f-9975-1b5b45489147
+
+	measure 'Plan Wins' =
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[plan_wins]),
+			        v_quarterly_summary[period_type] = "Quarter",
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Trend
+		lineageTag: c1394913-c32c-57bc-847e-6bc0ce8b9095
+
+	measure 'Split Decisions' =
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_quarterly_summary[split_decisions]),
+			        v_quarterly_summary[period_type] = "Quarter",
+			        v_quarterly_summary[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Trend
+		lineageTag: 2b2bbc1b-cda7-5cb7-9d7b-845e62f341ae
+
+	measure 'Lines Won by Provider Offer' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_offer_ratio_distribution[line_items]),
+			        v_offer_ratio_distribution[period] = p,
+			        v_offer_ratio_distribution[dispute_category] = c,
+			        v_offer_ratio_distribution[winning_side] = "Provider"
+			    )
+		formatString: #,0
+		displayFolder: Offer ratios
+		lineageTag: 6529c9c4-96b3-569d-b1ed-14fade08a3ce
+
+	measure 'Lines Won by Plan Offer' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_offer_ratio_distribution[line_items]),
+			        v_offer_ratio_distribution[period] = p,
+			        v_offer_ratio_distribution[dispute_category] = c,
+			        v_offer_ratio_distribution[winning_side] = "Plan"
+			    )
+		formatString: #,0
+		displayFolder: Offer ratios
+		lineageTag: 34f86e1b-f2a7-5e42-9231-6df80ed5d7a2
+
+	measure 'Disputes, Both Sides Submitted' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_determination_timing[disputes]),
+			        v_determination_timing[period] = p,
+			        v_determination_timing[dispute_category] = c,
+			        v_determination_timing[decision_path] = "Both sides submitted"
+			    )
+		formatString: #,0
+		displayFolder: Timing
+		lineageTag: e8936a53-2b01-58e6-9b7d-487753f96706
+
+	measure 'Disputes, Default Decision' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_determination_timing[disputes]),
+			        v_determination_timing[period] = p,
+			        v_determination_timing[dispute_category] = c,
+			        v_determination_timing[decision_path] = "Default decision"
+			    )
+		formatString: #,0
+		displayFolder: Timing
+		lineageTag: 4c1fb4cc-693c-576d-8f26-17476b65dad0
+
+	measure 'Plan Type Disputes' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_outcomes_by_plan_type[disputes]),
+			        v_outcomes_by_plan_type[period] = p,
+			        v_outcomes_by_plan_type[dispute_category] = c
+			    )
+		formatString: #,0
+		displayFolder: Plan type
+		lineageTag: bb8bbc92-bfd4-5577-b1cf-dc090db9c000
+
+	measure 'Plan Type Provider Win Rate' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_outcomes_by_plan_type[provider_win_rate]),
+			        v_outcomes_by_plan_type[period] = p,
+			        v_outcomes_by_plan_type[dispute_category] = c
+			    )
+		formatString: 0.0%
+		displayFolder: Plan type
+		lineageTag: 3e1c7cb5-4dff-5cd0-b407-27017c26f45d
+
+	measure 'Plan Type Median Prevailing vs QPA' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_outcomes_by_plan_type[median_prevailing_offer_qpa_ratio]),
+			        v_outcomes_by_plan_type[period] = p,
+			        v_outcomes_by_plan_type[dispute_category] = c
+			    )
+		formatString: 0.00
+		displayFolder: Plan type
+		lineageTag: f2b91995-1ae4-54a6-802b-4eb2052d39fb
+
+	measure 'Service Group Median Prevailing vs QPA' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_outcomes_by_service_group[median_prevailing_offer_qpa_ratio]),
+			        v_outcomes_by_service_group[period] = p,
+			        v_outcomes_by_service_group[dispute_category] = c,
+			        v_outcomes_by_service_group[level] = "Group"
+			    )
+		formatString: 0.00
+		displayFolder: Services
+		lineageTag: 9094686a-b498-5b3c-bbcb-7f1cea707042
+
+	measure 'Service Group Line Items' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_outcomes_by_service_group[line_items]),
+			        v_outcomes_by_service_group[period] = p,
+			        v_outcomes_by_service_group[dispute_category] = c,
+			        v_outcomes_by_service_group[level] = "Group"
+			    )
+		formatString: #,0
+		displayFolder: Services
+		lineageTag: bb98c906-9469-50a7-813d-0dc235426563
+
+	measure 'State Disputes (Top 15)' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    VAR r =
+			        CALCULATE(
+			            MIN(v_outcomes_by_state[state_rank]),
+			            v_outcomes_by_state[period] = p,
+			            v_outcomes_by_state[dispute_category] = c
+			        )
+			    RETURN
+			        IF(
+			            NOT ISBLANK(r) && r <= 15,
+			            CALCULATE(
+			                SUM(v_outcomes_by_state[disputes]),
+			                v_outcomes_by_state[period] = p,
+			                v_outcomes_by_state[dispute_category] = c
+			            )
+			        )
+		formatString: #,0
+		displayFolder: States
+		lineageTag: acf6952f-8238-5a58-bd11-6b7ebc2a5d10
+
+	measure 'Practice Size Provider Win Rate' =
+			VAR p = [Selected Period]
+			RETURN
+			    CALCULATE(
+			        MAX(v_outcomes_by_practice_size[provider_win_rate]),
+			        v_outcomes_by_practice_size[period] = p
+			    )
+		formatString: 0.0%
+		displayFolder: Practice size
+		lineageTag: c9d07258-867b-5f5c-8735-81e486ff5e2a
+
+	measure 'Practice Size Disputes' =
+			VAR p = [Selected Period]
+			RETURN
+			    CALCULATE(
+			        SUM(v_outcomes_by_practice_size[disputes]),
+			        v_outcomes_by_practice_size[period] = p
+			    )
+		formatString: #,0
+		displayFolder: Practice size
+		lineageTag: 0c55c1c4-0821-5a2d-8e34-96aede609aa4
+
+	measure 'Filer Disputes' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_top_initiating_representatives[disputes]),
+			        v_top_initiating_representatives[period] = p,
+			        v_top_initiating_representatives[dispute_category] = c,
+			        KEEPFILTERS(v_top_initiating_representatives[rank_in_slice] <= 15),
+			        KEEPFILTERS(v_top_initiating_representatives[representative] <> "All others")
+			    )
+		formatString: #,0
+		displayFolder: Representatives
+		lineageTag: 67c61a41-86dc-59dc-b0ef-268cabf1c792
+
+	measure 'Filer Share of Disputes' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_top_initiating_representatives[share_of_disputes]),
+			        v_top_initiating_representatives[period] = p,
+			        v_top_initiating_representatives[dispute_category] = c,
+			        KEEPFILTERS(v_top_initiating_representatives[rank_in_slice] <= 15),
+			        KEEPFILTERS(v_top_initiating_representatives[representative] <> "All others")
+			    )
+		formatString: 0.0%
+		displayFolder: Representatives
+		lineageTag: 2d98effb-6069-5c2a-a106-a85140964e15
+
+	measure 'Filer Win Rate' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_top_initiating_representatives[provider_win_rate]),
+			        v_top_initiating_representatives[period] = p,
+			        v_top_initiating_representatives[dispute_category] = c,
+			        KEEPFILTERS(v_top_initiating_representatives[rank_in_slice] <= 15),
+			        KEEPFILTERS(v_top_initiating_representatives[representative] <> "All others")
+			    )
+		formatString: 0.0%
+		displayFolder: Representatives
+		lineageTag: 8d18e7ec-ac64-5b1e-bb49-f1861b3b7681
+
+	measure 'Payer Side Disputes' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        SUM(v_top_plan_representatives[disputes]),
+			        v_top_plan_representatives[period] = p,
+			        v_top_plan_representatives[dispute_category] = c,
+			        KEEPFILTERS(v_top_plan_representatives[rank_in_slice] <= 15),
+			        KEEPFILTERS(v_top_plan_representatives[representative] <> "All others")
+			    )
+		formatString: #,0
+		displayFolder: Representatives
+		lineageTag: a1cda825-7f80-57da-83cd-c739fd9b1ab6
+
+	measure 'Payer Side Share of Disputes' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_top_plan_representatives[share_of_disputes]),
+			        v_top_plan_representatives[period] = p,
+			        v_top_plan_representatives[dispute_category] = c,
+			        KEEPFILTERS(v_top_plan_representatives[rank_in_slice] <= 15),
+			        KEEPFILTERS(v_top_plan_representatives[representative] <> "All others")
+			    )
+		formatString: 0.0%
+		displayFolder: Representatives
+		lineageTag: 2270283f-5774-5c87-9e45-a96e5ef65168
+
+	measure 'Payer Side Win Rate' =
+			VAR p = [Selected Period]
+			VAR c = [Selected Category]
+			RETURN
+			    CALCULATE(
+			        MAX(v_top_plan_representatives[plan_side_win_rate]),
+			        v_top_plan_representatives[period] = p,
+			        v_top_plan_representatives[dispute_category] = c,
+			        KEEPFILTERS(v_top_plan_representatives[rank_in_slice] <= 15),
+			        KEEPFILTERS(v_top_plan_representatives[representative] <> "All others")
+			    )
+		formatString: 0.0%
+		displayFolder: Representatives
+		lineageTag: ba27ee58-d5af-51e3-a840-90009b301a30
+
+	measure 'Ineligible Share' =
+			CALCULATE(
+			    DIVIDE(SUM(v_eligibility_trend[found_ineligible]), SUM(v_eligibility_trend[total_closed])),
+			    v_eligibility_trend[dispute_category] = "All dispute types"
+			)
+		formatString: 0.0%
+		displayFolder: Eligibility
+		lineageTag: 4705eb32-abd1-53fa-bd7a-171c22a5bfd7
+
+	measure 'Closed: Payment Determination' = CALCULATE(SUM(v_eligibility_trend[payment_determinations]), v_eligibility_trend[dispute_category] = "All dispute types")
+		formatString: #,0
+		displayFolder: Eligibility
+		lineageTag: 84460507-859f-5e59-9ff7-41e11b5fb6f4
+
+	measure 'Closed: Found Ineligible' = CALCULATE(SUM(v_eligibility_trend[found_ineligible]), v_eligibility_trend[dispute_category] = "All dispute types")
+		formatString: #,0
+		displayFolder: Eligibility
+		lineageTag: e4a10912-9751-5e52-b549-0b488e8f7c1c
+
+	measure 'Closed: Other Reason' = CALCULATE(SUM(v_eligibility_trend[other_closed]), v_eligibility_trend[dispute_category] = "All dispute types")
+		formatString: #,0
+		displayFolder: Eligibility
+		lineageTag: caf7b089-e119-5e2f-bfd4-3b9f1cfc6414
+
+	measure 'Ineligible Share, Apr to Sep 2022' =
+			CALCULATE(
+			    DIVIDE(SUM(v_eligibility_trend[found_ineligible]), SUM(v_eligibility_trend[total_closed])),
+			    v_eligibility_trend[dispute_category] = "All dispute types",
+			    v_eligibility_trend[year] = 2022,
+			    v_eligibility_trend[quarter] IN {2, 3}
+			)
+		formatString: 0%
+		displayFolder: Eligibility
+		lineageTag: ff802ae8-8629-5dd8-97ce-59b6dbb084e0
+
+	measure 'Ineligible Share, 2025' =
+			CALCULATE(
+			    DIVIDE(SUM(v_eligibility_trend[found_ineligible]), SUM(v_eligibility_trend[total_closed])),
+			    v_eligibility_trend[dispute_category] = "All dispute types",
+			    v_eligibility_trend[year] = 2025
+			)
+		formatString: 0.0%
+		displayFolder: Eligibility
+		lineageTag: c7d6501e-9b92-5bf0-80ba-b67e51366517
+
+	measure 'Closed Disputes in Line-Item Files, 2025' =
+			CALCULATE(
+			    DIVIDE(SUM(v_eligibility_trend[payment_determinations]), SUM(v_eligibility_trend[total_closed])),
+			    v_eligibility_trend[dispute_category] = "All dispute types",
+			    v_eligibility_trend[year] = 2025
+			)
+		formatString: 0.0%
+		displayFolder: Eligibility
+		lineageTag: c45027fd-2cbe-5253-bc5c-1d262f6f655e
+
+	measure 'CMS Published Determinations' =
+			CALCULATE(
+			    SUM(v_reconciliation[cms_published]),
+			    v_reconciliation[metric_sort] = 1,
+			    v_reconciliation[dispute_category] = "All dispute types"
+			)
+		formatString: #,0
+		displayFolder: Reconciliation
+		lineageTag: 90d40293-36d1-5949-883d-9d27fe70b926
+
+	measure 'PUF Disputes (Raw)' =
+			CALCULATE(
+			    SUM(v_reconciliation[puf_raw]),
+			    v_reconciliation[metric_sort] = 1,
+			    v_reconciliation[dispute_category] = "All dispute types"
+			)
+		formatString: #,0
+		displayFolder: Reconciliation
+		lineageTag: 961a4a80-2478-5d4e-bd43-0e63ca61b2d2
+
+	measure 'PUF minus CMS' = [PUF Disputes (Raw)] - [CMS Published Determinations]
+		formatString: #,0
+		displayFolder: Reconciliation
+		lineageTag: 5a904863-d49f-5f89-ad34-58ffe35843b2
+
+	measure 'PUF vs CMS Difference %' = DIVIDE([PUF Disputes (Raw)] - [CMS Published Determinations], [CMS Published Determinations])
+		formatString: 0.000%
+		displayFolder: Reconciliation
+		lineageTag: 08b9dec9-3932-5584-add6-966bd87a32a6
+
+	measure 'Largest Quarterly Gap vs CMS' =
+			MAXX(
+			    FILTER(
+			        ALL(v_reconciliation),
+			        v_reconciliation[metric_sort] = 1 && v_reconciliation[period_type] = "Quarter"
+			    ),
+			    ABS(v_reconciliation[raw_pct_difference])
+			)
+		formatString: 0.000%
+		displayFolder: Reconciliation
+		lineageTag: feedd4f5-41b2-5188-896f-46f52d2e28fd
+
+	measure 'DQ Rows Flagged' =
+			IF(
+			    NOT (SELECTEDVALUE(v_dq_summary[check_id]) IN {"ALL", "REJ"}),
+			    SUM(v_dq_summary[rows_flagged])
+			)
+		formatString: #,0
+		displayFolder: Data quality
+		lineageTag: c5707e39-2126-5d85-9133-e27c1c969b8c
+
+	measure 'DQ Share of Rows' =
+			IF(
+			    NOT (SELECTEDVALUE(v_dq_summary[check_id]) IN {"ALL", "REJ"}),
+			    SUM(v_dq_summary[share_of_rows])
+			)
+		formatString: 0.000%
+		displayFolder: Data quality
+		lineageTag: fcad2d48-ffdc-5300-ad50-7741f30303b4
+
+	measure 'Rows Failing Any Check' = CALCULATE(SUM(v_dq_summary[share_of_rows]), v_dq_summary[check_id] = "ALL")
+		formatString: 0.00%
+		displayFolder: Data quality
+		lineageTag: 4fa3b177-7abb-55b2-85b0-ae5226067a67
+
+	measure 'Rows Rejected' = CALCULATE(SUM(v_dq_summary[share_of_rows]), v_dq_summary[check_id] = "REJ")
+		formatString: 0.00%
+		displayFolder: Data quality
+		lineageTag: 3982dfe5-c080-502b-925d-3a06b0c64fcd
+
+	measure 'Line Items Checked' = MAX(v_dq_summary[total_rows])
+		formatString: #,0
+		displayFolder: Data quality
+		lineageTag: 3cc2b67e-3820-5f7d-9e5a-ca8e33d91251
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 1b4f799f-72db-5e5c-ae07-f53a59c8d9f8
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = User
+
+	partition 'Report Measures' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+

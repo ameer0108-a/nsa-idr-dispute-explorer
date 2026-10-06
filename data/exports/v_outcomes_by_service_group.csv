@@ -1,0 +1,605 @@
+period,period_type,period_sort,dispute_category,level,service_group,cms_specialty,line_items,disputes,lines_provider_selected,line_provider_selected_rate,median_prevailing_offer_qpa_ratio,median_provider_offer_qpa_ratio,median_plan_offer_qpa_ratio
+2025 full year,Full year,20250,Air ambulance,Specialty,Air ambulance,Air ambulance,54657,44191,49571,0.9091759440969865,2.37,2.46,1.2
+2025 full year,Full year,20250,Air ambulance,Group,Air ambulance,All specialties in group,54657,44191,49571,0.9091759440969865,2.37,2.46,1.2
+2025 full year,Full year,20250,All dispute types,Group,Emergency department visits,All specialties in group,1862104,1126890,1581519,0.851029402268667,3.2,3.68,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Emergency department visits,Emergency Department Services,1862104,1126890,1581519,0.851029402268667,3.2,3.68,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Radiology,Radiology,1083447,421058,968727,0.916599960260013,4.72,5.0,1.0
+2025 full year,Full year,20250,All dispute types,Group,Radiology,All specialties in group,1083447,421058,968727,0.916599960260013,4.72,5.0,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Pathology and lab,Pathology and Laboratory,804966,162033,585909,0.8553578389078916,4.53,5.44,1.0
+2025 full year,Full year,20250,All dispute types,Group,Pathology and lab,All specialties in group,804966,162033,585909,0.8553578389078916,4.53,5.44,1.0
+2025 full year,Full year,20250,All dispute types,Group,Anesthesia,All specialties in group,359791,242571,295267,0.821356544186577,3.28,4.41,1.17
+2025 full year,Full year,20250,All dispute types,Specialty,Anesthesia,Anesthesia,356237,240415,292294,0.820693237494911,3.27,4.41,1.17
+2025 full year,Full year,20250,All dispute types,Specialty,HCPCS items and services,HCPCS items and services,350070,133069,242125,0.8578235992276487,4.32,5.3,1.0
+2025 full year,Full year,20250,All dispute types,Group,HCPCS items and services,All specialties in group,350070,133069,242125,0.8578235992276487,4.32,5.3,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Surgery,Surgery,290436,238198,247275,0.8730845279288186,13.96,19.63,1.0
+2025 full year,Full year,20250,All dispute types,Group,Surgery,All specialties in group,290436,238198,247275,0.8730845279288186,13.96,19.63,1.0
+2025 full year,Full year,20250,All dispute types,Group,Other medicine,All specialties in group,265211,121320,194823,0.8688107883928452,4.12,4.85,1.0
+2025 full year,Full year,20250,All dispute types,Group,Neurology and neuromonitoring,All specialties in group,237308,157881,206384,0.8705320611781776,24.37,32.25,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,237308,157881,206384,0.8705320611781776,24.37,32.25,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",225833,105049,167410,0.8716183851552575,4.12,4.87,1.0
+2025 full year,Full year,20250,All dispute types,Group,Cardiovascular,All specialties in group,111898,82931,92987,0.8882043346610501,5.61,6.55,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,107666,46389,91732,0.8527577135101468,3.67,4.18,1.0
+2025 full year,Full year,20250,All dispute types,Group,Hospital inpatient and observation,All specialties in group,107666,46389,91732,0.8527577135101468,3.67,4.18,1.0
+2025 full year,Full year,20250,All dispute types,Group,Critical care,All specialties in group,90057,55563,77311,0.8648923792902851,3.25,3.5,1.05
+2025 full year,Full year,20250,All dispute types,Group,Inpatient facility (DRG),All specialties in group,86862,67089,65837,0.8598163795692886,2.66,3.17,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),86862,67089,65837,0.8598163795692886,2.66,3.17,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Cardiovascular,Cardiovascular,83008,61431,67260,0.8767630419480147,4.64,5.44,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Critical care,Critical Care Services,78343,52402,67721,0.871861884285604,3.37,3.64,1.12
+2025 full year,Full year,20250,All dispute types,Group,Air ambulance,All specialties in group,54657,44191,49571,0.9091759440969865,2.37,2.46,1.2
+2025 full year,Full year,20250,All dispute types,Specialty,Air ambulance,Air ambulance,54657,44191,49571,0.9091759440969865,2.37,2.46,1.2
+2025 full year,Full year,20250,All dispute types,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,28890,22702,25727,0.9195767952246489,7.22,7.45,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Pulmonary,21880,20819,14716,0.8548358989253558,4.38,5.43,1.0
+2025 full year,Full year,20250,All dispute types,Group,Other or unmapped code,All specialties in group,19482,11982,14134,0.8046683746085966,2.44,3.18,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other or unmapped code,Other or unmapped code,19482,11982,14134,0.8046683746085966,2.44,3.18,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,11714,3161,9590,0.8186785043537648,2.37,2.57,1.0
+2025 full year,Full year,20250,All dispute types,Group,Other E/M,All specialties in group,6094,4808,5159,0.8538563389606091,5.68,8.355,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,"Vaccines, Toxoids",4815,4774,3445,0.8520900321543409,3.5149999999999997,4.18,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,4737,4672,3483,0.8530492285084497,3.78,4.04,1.03
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,"Special Services, Procedures and Reports",3546,2966,2242,0.8557251908396947,5.56,6.95,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Office or Other Outpatient Services,3131,2674,2736,0.8763613068545804,9.71,11.895,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,1947,1869,1577,0.8884507042253521,5.395,6.16,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Physical Medicine and Rehabilitation,1864,1060,1417,0.8310850439882698,4.43,5.265,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Anesthesia,Moderate (Conscious) Sedation,1607,1192,1396,0.8965960179833012,6.62,7.609999999999999,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Special Otorhinolaryngologic Services,1379,731,1143,0.8312727272727273,3.79,4.28,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Advance Care Planning,762,709,605,0.7939632545931758,7.295,11.63,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Preventive Medicine Services,749,616,644,0.9108910891089109,2.82,3.4,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Newborn Care Services,672,318,545,0.8110119047619048,2.63,2.875,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Other Services and Procedures,546,331,478,0.8968105065666041,4.15,4.28,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Consultations,388,365,289,0.7448453608247423,7.37,13.85,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Psychiatry,250,91,190,0.7692307692307693,1.46,2.07,1.05
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Delivery/Birthing Room,165,117,143,0.8666666666666667,2.6799999999999997,2.76,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Prolonged Services,130,123,109,0.8449612403100775,8.72,9.11,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Allergy and Clinical Immunology,119,119,113,0.9495798319327731,2.86,2.865,1.14
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",68,60,52,0.8,4.09,5.44,1.05
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Gastroenterology,61,59,51,0.8360655737704918,69.75,101.47,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Nursing Facility Services,44,35,42,0.9545454545454546,5.04,5.04,0.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Home or Residence Services,42,14,39,0.9285714285714286,15.09,15.09,3.02
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Ophthalmology,37,37,29,0.8055555555555556,4.68,6.87,1.125
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Dialysis,36,31,33,0.9166666666666666,1.25,1.58,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Osteopathic Manipulative Treatment,19,19,13,0.7647058823529411,9.63,10.08,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Chiropractic Manipulative Treatment,10,10,1,0.1,1.45,5.82,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Neuropsychological and Developmental Testing,6,6,3,1.0,12.66,12.66,0.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Cognitive Assessment and Care Planning,6,5,5,0.8333333333333334,6.3500000000000005,6.3500000000000005,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other medicine,Education and Training for Patient Self-Management,5,5,4,0.8,1.89,1.89,1.0
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Unlisted Evaluation and Management Service,3,3,1,0.3333333333333333,6.065,11.13,1.2
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Non-Face-to-Face Services,1,1,1,1.0,,,
+2025 full year,Full year,20250,All dispute types,Specialty,Other E/M,Care Management Services,1,1,0,0.0,0.0,,0.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Emergency department visits,All specialties in group,1862104,1126890,1581519,0.851029402268667,3.2,3.68,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Emergency department visits,Emergency Department Services,1862104,1126890,1581519,0.851029402268667,3.2,3.68,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Radiology,All specialties in group,1083447,421058,968727,0.916599960260013,4.72,5.0,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Radiology,Radiology,1083447,421058,968727,0.916599960260013,4.72,5.0,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Pathology and lab,All specialties in group,804966,162033,585909,0.8553578389078916,4.53,5.44,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Pathology and lab,Pathology and Laboratory,804966,162033,585909,0.8553578389078916,4.53,5.44,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Anesthesia,All specialties in group,359791,242571,295267,0.821356544186577,3.28,4.41,1.17
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Anesthesia,Anesthesia,356237,240415,292294,0.820693237494911,3.27,4.41,1.17
+2025 full year,Full year,20250,Emergency / non-emergency,Group,HCPCS items and services,All specialties in group,350070,133069,242125,0.8578235992276487,4.32,5.3,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,HCPCS items and services,HCPCS items and services,350070,133069,242125,0.8578235992276487,4.32,5.3,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Surgery,All specialties in group,290436,238198,247275,0.8730845279288186,13.96,19.63,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Surgery,Surgery,290436,238198,247275,0.8730845279288186,13.96,19.63,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Other medicine,All specialties in group,265211,121320,194823,0.8688107883928452,4.12,4.85,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Neurology and neuromonitoring,All specialties in group,237308,157881,206384,0.8705320611781776,24.37,32.25,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,237308,157881,206384,0.8705320611781776,24.37,32.25,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",225833,105049,167410,0.8716183851552575,4.12,4.87,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Cardiovascular,All specialties in group,111898,82931,92987,0.8882043346610501,5.61,6.55,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,107666,46389,91732,0.8527577135101468,3.67,4.18,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Hospital inpatient and observation,All specialties in group,107666,46389,91732,0.8527577135101468,3.67,4.18,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Critical care,All specialties in group,90057,55563,77311,0.8648923792902851,3.25,3.5,1.05
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Inpatient facility (DRG),All specialties in group,86862,67089,65837,0.8598163795692886,2.66,3.17,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),86862,67089,65837,0.8598163795692886,2.66,3.17,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Cardiovascular,Cardiovascular,83008,61431,67260,0.8767630419480147,4.64,5.44,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Critical care,Critical Care Services,78343,52402,67721,0.871861884285604,3.37,3.64,1.12
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,28890,22702,25727,0.9195767952246489,7.22,7.45,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Pulmonary,21880,20819,14716,0.8548358989253558,4.38,5.43,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Other or unmapped code,All specialties in group,19482,11982,14134,0.8046683746085966,2.44,3.18,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other or unmapped code,Other or unmapped code,19482,11982,14134,0.8046683746085966,2.44,3.18,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,11714,3161,9590,0.8186785043537648,2.37,2.57,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Group,Other E/M,All specialties in group,6094,4808,5159,0.8538563389606091,5.68,8.355,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,"Vaccines, Toxoids",4815,4774,3445,0.8520900321543409,3.5149999999999997,4.18,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,4737,4672,3483,0.8530492285084497,3.78,4.04,1.03
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,"Special Services, Procedures and Reports",3546,2966,2242,0.8557251908396947,5.56,6.95,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Office or Other Outpatient Services,3131,2674,2736,0.8763613068545804,9.71,11.895,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,1947,1869,1577,0.8884507042253521,5.395,6.16,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Physical Medicine and Rehabilitation,1864,1060,1417,0.8310850439882698,4.43,5.265,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Anesthesia,Moderate (Conscious) Sedation,1607,1192,1396,0.8965960179833012,6.62,7.609999999999999,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Special Otorhinolaryngologic Services,1379,731,1143,0.8312727272727273,3.79,4.28,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Advance Care Planning,762,709,605,0.7939632545931758,7.295,11.63,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Preventive Medicine Services,749,616,644,0.9108910891089109,2.82,3.4,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Newborn Care Services,672,318,545,0.8110119047619048,2.63,2.875,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Other Services and Procedures,546,331,478,0.8968105065666041,4.15,4.28,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Consultations,388,365,289,0.7448453608247423,7.37,13.85,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Psychiatry,250,91,190,0.7692307692307693,1.46,2.07,1.05
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Delivery/Birthing Room,165,117,143,0.8666666666666667,2.6799999999999997,2.76,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Prolonged Services,130,123,109,0.8449612403100775,8.72,9.11,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Allergy and Clinical Immunology,119,119,113,0.9495798319327731,2.86,2.865,1.14
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",68,60,52,0.8,4.09,5.44,1.05
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Gastroenterology,61,59,51,0.8360655737704918,69.75,101.47,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Nursing Facility Services,44,35,42,0.9545454545454546,5.04,5.04,0.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Home or Residence Services,42,14,39,0.9285714285714286,15.09,15.09,3.02
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Ophthalmology,37,37,29,0.8055555555555556,4.68,6.87,1.125
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Dialysis,36,31,33,0.9166666666666666,1.25,1.58,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Osteopathic Manipulative Treatment,19,19,13,0.7647058823529411,9.63,10.08,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Chiropractic Manipulative Treatment,10,10,1,0.1,1.45,5.82,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Cognitive Assessment and Care Planning,6,5,5,0.8333333333333334,6.3500000000000005,6.3500000000000005,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Neuropsychological and Developmental Testing,6,6,3,1.0,12.66,12.66,0.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other medicine,Education and Training for Patient Self-Management,5,5,4,0.8,1.89,1.89,1.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Unlisted Evaluation and Management Service,3,3,1,0.3333333333333333,6.065,11.13,1.2
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Care Management Services,1,1,0,0.0,0.0,,0.0
+2025 full year,Full year,20250,Emergency / non-emergency,Specialty,Other E/M,Non-Face-to-Face Services,1,1,1,1.0,,,
+2025 Q1,Quarter,20251,Air ambulance,Specialty,Air ambulance,Air ambulance,13340,11422,11870,0.8914757791963951,2.25,2.29,1.1
+2025 Q1,Quarter,20251,Air ambulance,Group,Air ambulance,All specialties in group,13340,11422,11870,0.8914757791963951,2.25,2.29,1.1
+2025 Q1,Quarter,20251,All dispute types,Specialty,Emergency department visits,Emergency Department Services,369716,212570,322733,0.873374936404672,3.15,3.49,1.05
+2025 Q1,Quarter,20251,All dispute types,Group,Emergency department visits,All specialties in group,369716,212570,322733,0.873374936404672,3.15,3.49,1.05
+2025 Q1,Quarter,20251,All dispute types,Specialty,Radiology,Radiology,278364,97943,254139,0.9193511628495874,4.69,4.9,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Radiology,All specialties in group,278364,97943,254139,0.9193511628495874,4.69,4.9,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Pathology and lab,Pathology and Laboratory,110915,21426,86514,0.8576186841400913,4.72,5.67,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Pathology and lab,All specialties in group,110915,21426,86514,0.8576186841400913,4.72,5.67,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Anesthesia,All specialties in group,67440,47359,57424,0.8516217057942428,3.12,4.26,1.06
+2025 Q1,Quarter,20251,All dispute types,Specialty,Anesthesia,Anesthesia,66782,46856,56825,0.8509793937941775,3.09,4.24,1.06
+2025 Q1,Quarter,20251,All dispute types,Group,Neurology and neuromonitoring,All specialties in group,56902,39521,48167,0.8471753201069369,20.47,26.36,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,56902,39521,48167,0.8471753201069369,20.47,26.36,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Surgery,All specialties in group,55609,44287,48552,0.8851293457057955,13.26,17.4,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Surgery,Surgery,55609,44287,48552,0.8851293457057955,13.26,17.4,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,HCPCS items and services,HCPCS items and services,52246,17832,38714,0.8486190267426568,3.81,4.82,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,HCPCS items and services,All specialties in group,52246,17832,38714,0.8486190267426568,3.81,4.82,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Other medicine,All specialties in group,34157,15991,26660,0.8581452988701838,3.75,4.37,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",27686,13200,21919,0.8625113131074646,3.69,4.28,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Critical care,All specialties in group,20555,11762,17745,0.8651033541341654,3.28,3.5,1.05
+2025 Q1,Quarter,20251,All dispute types,Group,Hospital inpatient and observation,All specialties in group,19721,8272,16808,0.8523326572008113,3.8,4.18,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,19721,8272,16808,0.8523326572008113,3.8,4.18,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Cardiovascular,All specialties in group,19388,14281,16868,0.8934795275173473,6.09,7.08,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Inpatient facility (DRG),All specialties in group,16580,13592,12714,0.8329402515723271,2.79,3.5,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),16580,13592,12714,0.8329402515723271,2.79,3.5,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Critical care,Critical Care Services,16133,10642,14112,0.877066500932256,3.4,3.63,1.14
+2025 Q1,Quarter,20251,All dispute types,Specialty,Air ambulance,Air ambulance,13340,11422,11870,0.8914757791963951,2.25,2.29,1.1
+2025 Q1,Quarter,20251,All dispute types,Group,Air ambulance,All specialties in group,13340,11422,11870,0.8914757791963951,2.25,2.29,1.1
+2025 Q1,Quarter,20251,All dispute types,Specialty,Cardiovascular,Cardiovascular,12843,9598,10938,0.8833077606395865,4.4,5.22,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,6545,4847,5930,0.9128694581280788,7.42,7.79,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other or unmapped code,Other or unmapped code,4553,2790,3448,0.7977788061082832,2.59,3.825,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Other or unmapped code,All specialties in group,4553,2790,3448,0.7977788061082832,2.59,3.825,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,4422,1120,3633,0.8215739484396201,2.46,2.86,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Pulmonary,3373,3194,2366,0.8298842511399509,4.39,4.975,1.0
+2025 Q1,Quarter,20251,All dispute types,Group,Other E/M,All specialties in group,1329,1052,1144,0.8614457831325302,5.04,6.56,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,"Vaccines, Toxoids",741,733,592,0.8796433878157504,3.58,4.18,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,725,710,591,0.8691176470588236,3.9,4.13,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Special Otorhinolaryngologic Services,581,202,456,0.7848537005163512,2.07,4.28,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Office or Other Outpatient Services,578,538,511,0.884083044982699,11.5,12.03,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,"Special Services, Procedures and Reports",535,526,306,0.8292682926829268,4.03,5.01,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Physical Medicine and Rehabilitation,388,212,329,0.8820375335120644,5.195,5.4,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,380,379,353,0.9313984168865436,5.54,5.94,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Newborn Care Services,303,132,251,0.8283828382838284,2.69,2.94,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Anesthesia,Moderate (Conscious) Sedation,278,214,246,0.8978102189781022,6.83,8.55,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Preventive Medicine Services,151,149,144,0.96,3.4,3.63,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Advance Care Planning,119,111,90,0.7563025210084033,7.44,9.08,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Delivery/Birthing Room,73,48,60,0.821917808219178,2.5,2.75,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Consultations,64,64,55,0.859375,7.87,9.280000000000001,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Other Services and Procedures,61,53,48,0.7868852459016393,6.91,7.99,1.05
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Psychiatry,21,11,21,1.0,2.14,2.14,0.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Nursing Facility Services,17,13,16,0.9411764705882353,5.04,5.04,0.55
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Prolonged Services,17,15,11,0.6470588235294118,5.72,118.36000000000001,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Gastroenterology,13,13,7,0.5384615384615384,96.35,150.77,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",11,11,6,0.6,4.09,9.5,1.025
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Dialysis,10,7,10,1.0,0.97,0.97,
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Home or Residence Services,6,4,5,0.8333333333333334,26.065,40.695,0.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Ophthalmology,6,6,5,0.8333333333333334,9.629999999999999,15.59,6.8
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Osteopathic Manipulative Treatment,4,4,2,0.5,9.255,61.400000000000006,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Neuropsychological and Developmental Testing,1,1,1,1.0,,,
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other E/M,Cognitive Assessment and Care Planning,1,1,1,1.0,23.93,23.93,1.0
+2025 Q1,Quarter,20251,All dispute types,Specialty,Other medicine,Education and Training for Patient Self-Management,1,1,1,1.0,1.89,1.89,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Emergency department visits,Emergency Department Services,369716,212570,322733,0.873374936404672,3.15,3.49,1.05
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Emergency department visits,All specialties in group,369716,212570,322733,0.873374936404672,3.15,3.49,1.05
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Radiology,Radiology,278364,97943,254139,0.9193511628495874,4.69,4.9,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Radiology,All specialties in group,278364,97943,254139,0.9193511628495874,4.69,4.9,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Pathology and lab,Pathology and Laboratory,110915,21426,86514,0.8576186841400913,4.72,5.67,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Pathology and lab,All specialties in group,110915,21426,86514,0.8576186841400913,4.72,5.67,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Anesthesia,All specialties in group,67440,47359,57424,0.8516217057942428,3.12,4.26,1.06
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Anesthesia,Anesthesia,66782,46856,56825,0.8509793937941775,3.09,4.24,1.06
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,56902,39521,48167,0.8471753201069369,20.47,26.36,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Neurology and neuromonitoring,All specialties in group,56902,39521,48167,0.8471753201069369,20.47,26.36,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Surgery,Surgery,55609,44287,48552,0.8851293457057955,13.26,17.4,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Surgery,All specialties in group,55609,44287,48552,0.8851293457057955,13.26,17.4,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,HCPCS items and services,HCPCS items and services,52246,17832,38714,0.8486190267426568,3.81,4.82,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,HCPCS items and services,All specialties in group,52246,17832,38714,0.8486190267426568,3.81,4.82,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Other medicine,All specialties in group,34157,15991,26660,0.8581452988701838,3.75,4.37,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",27686,13200,21919,0.8625113131074646,3.69,4.28,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Critical care,All specialties in group,20555,11762,17745,0.8651033541341654,3.28,3.5,1.05
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,19721,8272,16808,0.8523326572008113,3.8,4.18,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Hospital inpatient and observation,All specialties in group,19721,8272,16808,0.8523326572008113,3.8,4.18,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Cardiovascular,All specialties in group,19388,14281,16868,0.8934795275173473,6.09,7.08,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),16580,13592,12714,0.8329402515723271,2.79,3.5,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Inpatient facility (DRG),All specialties in group,16580,13592,12714,0.8329402515723271,2.79,3.5,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Critical care,Critical Care Services,16133,10642,14112,0.877066500932256,3.4,3.63,1.14
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Cardiovascular,Cardiovascular,12843,9598,10938,0.8833077606395865,4.4,5.22,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,6545,4847,5930,0.9128694581280788,7.42,7.79,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other or unmapped code,Other or unmapped code,4553,2790,3448,0.7977788061082832,2.59,3.825,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Other or unmapped code,All specialties in group,4553,2790,3448,0.7977788061082832,2.59,3.825,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,4422,1120,3633,0.8215739484396201,2.46,2.86,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Pulmonary,3373,3194,2366,0.8298842511399509,4.39,4.975,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Group,Other E/M,All specialties in group,1329,1052,1144,0.8614457831325302,5.04,6.56,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,"Vaccines, Toxoids",741,733,592,0.8796433878157504,3.58,4.18,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,725,710,591,0.8691176470588236,3.9,4.13,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Special Otorhinolaryngologic Services,581,202,456,0.7848537005163512,2.07,4.28,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Office or Other Outpatient Services,578,538,511,0.884083044982699,11.5,12.03,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,"Special Services, Procedures and Reports",535,526,306,0.8292682926829268,4.03,5.01,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Physical Medicine and Rehabilitation,388,212,329,0.8820375335120644,5.195,5.4,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,380,379,353,0.9313984168865436,5.54,5.94,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Newborn Care Services,303,132,251,0.8283828382838284,2.69,2.94,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Anesthesia,Moderate (Conscious) Sedation,278,214,246,0.8978102189781022,6.83,8.55,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Preventive Medicine Services,151,149,144,0.96,3.4,3.63,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Advance Care Planning,119,111,90,0.7563025210084033,7.44,9.08,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Delivery/Birthing Room,73,48,60,0.821917808219178,2.5,2.75,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Consultations,64,64,55,0.859375,7.87,9.280000000000001,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Other Services and Procedures,61,53,48,0.7868852459016393,6.91,7.99,1.05
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Psychiatry,21,11,21,1.0,2.14,2.14,0.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Prolonged Services,17,15,11,0.6470588235294118,5.72,118.36000000000001,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Nursing Facility Services,17,13,16,0.9411764705882353,5.04,5.04,0.55
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Gastroenterology,13,13,7,0.5384615384615384,96.35,150.77,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",11,11,6,0.6,4.09,9.5,1.025
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Dialysis,10,7,10,1.0,0.97,0.97,
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Home or Residence Services,6,4,5,0.8333333333333334,26.065,40.695,0.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Ophthalmology,6,6,5,0.8333333333333334,9.629999999999999,15.59,6.8
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Osteopathic Manipulative Treatment,4,4,2,0.5,9.255,61.400000000000006,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other E/M,Cognitive Assessment and Care Planning,1,1,1,1.0,23.93,23.93,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Education and Training for Patient Self-Management,1,1,1,1.0,1.89,1.89,1.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,Specialty,Other medicine,Neuropsychological and Developmental Testing,1,1,1,1.0,,,
+2025 Q2,Quarter,20252,Air ambulance,Specialty,Air ambulance,Air ambulance,14227,12158,12595,0.8892889924451034,2.42,2.52,1.17
+2025 Q2,Quarter,20252,Air ambulance,Group,Air ambulance,All specialties in group,14227,12158,12595,0.8892889924451034,2.42,2.52,1.17
+2025 Q2,Quarter,20252,All dispute types,Group,Emergency department visits,All specialties in group,530696,299155,447682,0.8455189659210238,3.12,3.58,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Emergency department visits,Emergency Department Services,530696,299155,447682,0.8455189659210238,3.12,3.58,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Radiology,Radiology,352807,127498,326399,0.9427666125575511,5.12,5.41,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Radiology,All specialties in group,352807,127498,326399,0.9427666125575511,5.12,5.41,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Pathology and lab,Pathology and Laboratory,209865,42220,156770,0.8667934668421228,4.5,5.43,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Pathology and lab,All specialties in group,209865,42220,156770,0.8667934668421228,4.5,5.43,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,HCPCS items and services,HCPCS items and services,99990,34461,71372,0.8802664035520473,4.59,5.53,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,HCPCS items and services,All specialties in group,99990,34461,71372,0.8802664035520473,4.59,5.53,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Anesthesia,All specialties in group,99391,65436,82750,0.8332578114773082,3.13,4.09,1.12
+2025 Q2,Quarter,20252,All dispute types,Specialty,Anesthesia,Anesthesia,98581,64885,82020,0.8325804716128836,3.12,4.08,1.13
+2025 Q2,Quarter,20252,All dispute types,Group,Surgery,All specialties in group,77793,61908,67707,0.8873903983014194,13.2,17.865000000000002,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Surgery,Surgery,77793,61908,67707,0.8873903983014194,13.2,17.865000000000002,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,67339,46434,59773,0.8895188773308332,28.77,37.1,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Neurology and neuromonitoring,All specialties in group,67339,46434,59773,0.8895188773308332,28.77,37.1,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Other medicine,All specialties in group,63913,29677,47934,0.8760508809123474,4.08,4.73,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",53737,25387,40425,0.8756064806792584,4.02,4.67,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Cardiovascular,All specialties in group,29812,21564,25271,0.8976626882637113,6.0,6.87,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Hospital inpatient and observation,All specialties in group,27444,10413,23686,0.8636015605060706,3.59,3.94,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,27444,10413,23686,0.8636015605060706,3.59,3.94,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),26663,19746,20794,0.8968729782186758,2.82,3.28,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Inpatient facility (DRG),All specialties in group,26663,19746,20794,0.8968729782186758,2.82,3.28,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Critical care,All specialties in group,24688,15595,21265,0.8662620172722829,3.32,3.48,1.09
+2025 Q2,Quarter,20252,All dispute types,Specialty,Critical care,Critical Care Services,21773,14765,18927,0.8749133268617391,3.38,3.6,1.13
+2025 Q2,Quarter,20252,All dispute types,Specialty,Cardiovascular,Cardiovascular,20994,15389,17236,0.881817251611583,4.49,5.365,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Air ambulance,All specialties in group,14227,12158,12595,0.8892889924451034,2.42,2.52,1.17
+2025 Q2,Quarter,20252,All dispute types,Specialty,Air ambulance,Air ambulance,14227,12158,12595,0.8892889924451034,2.42,2.52,1.17
+2025 Q2,Quarter,20252,All dispute types,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,8818,6466,8035,0.9336509412038113,7.345,7.55,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other or unmapped code,Other or unmapped code,6601,3833,4884,0.8165858552081592,2.44,3.03,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Other or unmapped code,All specialties in group,6601,3833,4884,0.8165858552081592,2.44,3.03,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Pulmonary,6040,5695,4336,0.8843565164185193,4.92,6.2,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,2915,830,2338,0.8020583190394511,2.3,2.49,1.0
+2025 Q2,Quarter,20252,All dispute types,Group,Other E/M,All specialties in group,1633,1307,1371,0.8436923076923077,7.34,11.3,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,"Vaccines, Toxoids",1092,1083,841,0.8733125649013499,3.58,4.18,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,1056,1036,846,0.8748707342295761,3.85,4.02,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Office or Other Outpatient Services,844,755,723,0.8566350710900474,12.4,14.37,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,"Special Services, Procedures and Reports",760,739,473,0.8958333333333334,6.53,7.0600000000000005,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Physical Medicine and Rehabilitation,618,275,503,0.8642611683848798,4.56,5.46,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Anesthesia,Moderate (Conscious) Sedation,448,328,412,0.9406392694063926,6.55,6.66,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Special Otorhinolaryngologic Services,418,234,361,0.8657074340527577,4.26,4.26,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,362,358,318,0.888268156424581,5.37,5.54,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Advance Care Planning,239,220,199,0.8326359832635983,7.965,14.545,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Newborn Care Services,185,90,152,0.8216216216216217,2.76,2.76,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Preventive Medicine Services,134,101,110,0.873015873015873,2.745,3.215,0.02
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Consultations,130,119,95,0.7307692307692307,7.25,16.55,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Psychiatry,73,22,42,0.5833333333333334,1.25,1.71,1.25
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Other Services and Procedures,55,45,49,0.9245283018867925,4.175,4.55,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Delivery/Birthing Room,49,31,43,0.8775510204081632,2.77,2.77,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Prolonged Services,35,35,33,0.9428571428571428,7.49,7.49,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Gastroenterology,17,17,17,1.0,115.67,115.67,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",14,11,10,0.7142857142857143,1.97,3.93,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Allergy and Clinical Immunology,14,14,14,1.0,2.07,2.07,1.14
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Nursing Facility Services,10,10,10,1.0,6.005,6.005,0.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Ophthalmology,8,8,7,0.875,5.735,8.25,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Home or Residence Services,5,5,5,1.0,43.97,43.97,0.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Dialysis,4,4,4,1.0,0.88,0.88,0.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Osteopathic Manipulative Treatment,4,4,4,1.0,2.9450000000000003,2.9450000000000003,1.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Neuropsychological and Developmental Testing,2,2,1,1.0,,,
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other medicine,Chiropractic Manipulative Treatment,1,1,1,1.0,5.82,5.82,0.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Care Management Services,1,1,0,0.0,0.0,,0.0
+2025 Q2,Quarter,20252,All dispute types,Specialty,Other E/M,Cognitive Assessment and Care Planning,1,1,1,1.0,1.31,1.31,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Emergency department visits,Emergency Department Services,530696,299155,447682,0.8455189659210238,3.12,3.58,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Emergency department visits,All specialties in group,530696,299155,447682,0.8455189659210238,3.12,3.58,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Radiology,Radiology,352807,127498,326399,0.9427666125575511,5.12,5.41,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Radiology,All specialties in group,352807,127498,326399,0.9427666125575511,5.12,5.41,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Pathology and lab,All specialties in group,209865,42220,156770,0.8667934668421228,4.5,5.43,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Pathology and lab,Pathology and Laboratory,209865,42220,156770,0.8667934668421228,4.5,5.43,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,HCPCS items and services,HCPCS items and services,99990,34461,71372,0.8802664035520473,4.59,5.53,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,HCPCS items and services,All specialties in group,99990,34461,71372,0.8802664035520473,4.59,5.53,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Anesthesia,All specialties in group,99391,65436,82750,0.8332578114773082,3.13,4.09,1.12
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Anesthesia,Anesthesia,98581,64885,82020,0.8325804716128836,3.12,4.08,1.13
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Surgery,All specialties in group,77793,61908,67707,0.8873903983014194,13.2,17.865000000000002,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Surgery,Surgery,77793,61908,67707,0.8873903983014194,13.2,17.865000000000002,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Neurology and neuromonitoring,All specialties in group,67339,46434,59773,0.8895188773308332,28.77,37.1,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,67339,46434,59773,0.8895188773308332,28.77,37.1,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Other medicine,All specialties in group,63913,29677,47934,0.8760508809123474,4.08,4.73,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",53737,25387,40425,0.8756064806792584,4.02,4.67,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Cardiovascular,All specialties in group,29812,21564,25271,0.8976626882637113,6.0,6.87,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,27444,10413,23686,0.8636015605060706,3.59,3.94,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Hospital inpatient and observation,All specialties in group,27444,10413,23686,0.8636015605060706,3.59,3.94,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),26663,19746,20794,0.8968729782186758,2.82,3.28,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Inpatient facility (DRG),All specialties in group,26663,19746,20794,0.8968729782186758,2.82,3.28,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Critical care,All specialties in group,24688,15595,21265,0.8662620172722829,3.32,3.48,1.09
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Critical care,Critical Care Services,21773,14765,18927,0.8749133268617391,3.38,3.6,1.13
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Cardiovascular,Cardiovascular,20994,15389,17236,0.881817251611583,4.49,5.365,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,8818,6466,8035,0.9336509412038113,7.345,7.55,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other or unmapped code,Other or unmapped code,6601,3833,4884,0.8165858552081592,2.44,3.03,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Other or unmapped code,All specialties in group,6601,3833,4884,0.8165858552081592,2.44,3.03,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Pulmonary,6040,5695,4336,0.8843565164185193,4.92,6.2,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,2915,830,2338,0.8020583190394511,2.3,2.49,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Group,Other E/M,All specialties in group,1633,1307,1371,0.8436923076923077,7.34,11.3,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,"Vaccines, Toxoids",1092,1083,841,0.8733125649013499,3.58,4.18,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,1056,1036,846,0.8748707342295761,3.85,4.02,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Office or Other Outpatient Services,844,755,723,0.8566350710900474,12.4,14.37,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,"Special Services, Procedures and Reports",760,739,473,0.8958333333333334,6.53,7.0600000000000005,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Physical Medicine and Rehabilitation,618,275,503,0.8642611683848798,4.56,5.46,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Anesthesia,Moderate (Conscious) Sedation,448,328,412,0.9406392694063926,6.55,6.66,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Special Otorhinolaryngologic Services,418,234,361,0.8657074340527577,4.26,4.26,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,362,358,318,0.888268156424581,5.37,5.54,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Advance Care Planning,239,220,199,0.8326359832635983,7.965,14.545,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Newborn Care Services,185,90,152,0.8216216216216217,2.76,2.76,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Preventive Medicine Services,134,101,110,0.873015873015873,2.745,3.215,0.02
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Consultations,130,119,95,0.7307692307692307,7.25,16.55,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Psychiatry,73,22,42,0.5833333333333334,1.25,1.71,1.25
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Other Services and Procedures,55,45,49,0.9245283018867925,4.175,4.55,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Delivery/Birthing Room,49,31,43,0.8775510204081632,2.77,2.77,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Prolonged Services,35,35,33,0.9428571428571428,7.49,7.49,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Gastroenterology,17,17,17,1.0,115.67,115.67,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",14,11,10,0.7142857142857143,1.97,3.93,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Allergy and Clinical Immunology,14,14,14,1.0,2.07,2.07,1.14
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Nursing Facility Services,10,10,10,1.0,6.005,6.005,0.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Ophthalmology,8,8,7,0.875,5.735,8.25,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Home or Residence Services,5,5,5,1.0,43.97,43.97,0.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Dialysis,4,4,4,1.0,0.88,0.88,0.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Osteopathic Manipulative Treatment,4,4,4,1.0,2.9450000000000003,2.9450000000000003,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Neuropsychological and Developmental Testing,2,2,1,1.0,,,
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Cognitive Assessment and Care Planning,1,1,1,1.0,1.31,1.31,1.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other medicine,Chiropractic Manipulative Treatment,1,1,1,1.0,5.82,5.82,0.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,Specialty,Other E/M,Care Management Services,1,1,0,0.0,0.0,,0.0
+2025 Q3,Quarter,20253,Air ambulance,Specialty,Air ambulance,Air ambulance,14826,11035,13741,0.9277563972722976,2.53,2.65,1.2
+2025 Q3,Quarter,20253,Air ambulance,Group,Air ambulance,All specialties in group,14826,11035,13741,0.9277563972722976,2.53,2.65,1.2
+2025 Q3,Quarter,20253,All dispute types,Specialty,Emergency department visits,Emergency Department Services,524317,329261,451036,0.8617704434419918,3.25,3.73,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Emergency department visits,All specialties in group,524317,329261,451036,0.8617704434419918,3.25,3.73,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Pathology and lab,Pathology and Laboratory,262461,53386,197396,0.8779437730998626,4.53,5.21,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Pathology and lab,All specialties in group,262461,53386,197396,0.8779437730998626,4.53,5.21,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Radiology,Radiology,220072,105330,194207,0.9177764335604851,4.74,5.06,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Radiology,All specialties in group,220072,105330,194207,0.9177764335604851,4.74,5.06,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,HCPCS items and services,All specialties in group,108197,43853,76731,0.8823001828279692,4.31,5.11,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,HCPCS items and services,HCPCS items and services,108197,43853,76731,0.8823001828279692,4.31,5.11,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Anesthesia,All specialties in group,101546,66752,82239,0.8100369367150948,3.27,4.28,1.25
+2025 Q3,Quarter,20253,All dispute types,Specialty,Anesthesia,Anesthesia,100625,66233,81431,0.809284344222379,3.26,4.26,1.25
+2025 Q3,Quarter,20253,All dispute types,Group,Other medicine,All specialties in group,91862,40938,70494,0.8916406319171273,4.25,4.86,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",80063,36244,62006,0.8930978855793051,4.32,4.89,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Surgery,Surgery,79826,66567,67848,0.8735756498899147,14.42,20.1,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Surgery,All specialties in group,79826,66567,67848,0.8735756498899147,14.42,20.1,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,57873,38945,51505,0.890289013344396,23.91,29.314999999999998,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Neurology and neuromonitoring,All specialties in group,57873,38945,51505,0.890289013344396,23.91,29.314999999999998,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Cardiovascular,All specialties in group,32048,24988,26584,0.8917513669450874,5.52,6.2,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,29340,12876,25198,0.8604992657856094,3.59,4.18,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Hospital inpatient and observation,All specialties in group,29340,12876,25198,0.8604992657856094,3.59,4.18,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Cardiovascular,Cardiovascular,25044,19395,20399,0.8825769047722061,4.85,5.55,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),22989,17517,16962,0.8422045680238331,2.53,3.05,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Inpatient facility (DRG),All specialties in group,22989,17517,16962,0.8422045680238331,2.53,3.05,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Critical care,All specialties in group,22950,14631,19731,0.8678307529908516,3.1,3.36,1.05
+2025 Q3,Quarter,20253,All dispute types,Specialty,Critical care,Critical Care Services,20861,13988,18065,0.8749455126652782,3.21,3.5,1.11
+2025 Q3,Quarter,20253,All dispute types,Group,Air ambulance,All specialties in group,14826,11035,13741,0.9277563972722976,2.53,2.65,1.2
+2025 Q3,Quarter,20253,All dispute types,Specialty,Air ambulance,Air ambulance,14826,11035,13741,0.9277563972722976,2.53,2.65,1.2
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Pulmonary,7075,6774,5089,0.8939047953627262,4.22,4.76,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,7004,5983,6185,0.9234099731263063,6.87,7.21,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other or unmapped code,Other or unmapped code,4241,2603,3233,0.8230651731160896,2.5,2.94,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Other or unmapped code,All specialties in group,4241,2603,3233,0.8230651731160896,2.5,2.94,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,2089,643,1666,0.7975107707036859,2.25,2.43,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,"Vaccines, Toxoids",1455,1448,1026,0.8621848739495799,3.335,3.88,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,1428,1412,1042,0.8647302904564316,3.78,4.0,1.0
+2025 Q3,Quarter,20253,All dispute types,Group,Other E/M,All specialties in group,1354,1155,1150,0.85949177877429,7.265,9.16,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,"Special Services, Procedures and Reports",836,721,533,0.9080068143100511,6.38,7.630000000000001,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Office or Other Outpatient Services,766,709,689,0.9018324607329843,10.77,13.46,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Anesthesia,Moderate (Conscious) Sedation,465,342,406,0.8962472406181016,6.75,8.08,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,456,416,402,0.8913525498891353,4.925000000000001,5.4,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Physical Medicine and Rehabilitation,448,280,323,0.7897310513447433,3.94,4.25,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Special Otorhinolaryngologic Services,204,148,173,0.8522167487684729,4.01,4.26,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Advance Care Planning,193,181,151,0.7823834196891192,7.495,11.68,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Preventive Medicine Services,156,110,128,0.8951048951048951,2.25,2.91,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Other Services and Procedures,133,77,120,0.9090909090909091,4.08,4.08,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Newborn Care Services,92,56,71,0.7717391304347826,2.41,2.58,1.05
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Consultations,85,80,60,0.7058823529411765,7.0,16.695,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Psychiatry,84,36,67,0.8170731707317073,1.46,1.5150000000000001,1.05
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Allergy and Clinical Immunology,68,68,64,0.9411764705882353,3.325,3.325,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Prolonged Services,38,38,30,0.8108108108108109,11.3,11.0,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Gastroenterology,20,18,18,0.9,67.795,67.795,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Delivery/Birthing Room,18,18,16,0.8888888888888888,2.58,2.615,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",14,12,13,1.0,7.6,7.6,1.25
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Ophthalmology,10,10,9,0.9,4.505,4.505,1.25
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Chiropractic Manipulative Treatment,9,9,0,0.0,1.225,,1.225
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Osteopathic Manipulative Treatment,5,5,4,1.0,9.855,9.855,3.05
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Dialysis,5,5,5,1.0,1.05,1.05,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Nursing Facility Services,3,3,3,1.0,5.04,5.04,0.5
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Neuropsychological and Developmental Testing,3,3,1,1.0,12.66,12.66,0.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other medicine,Education and Training for Patient Self-Management,2,2,1,0.5,,,
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Unlisted Evaluation and Management Service,1,1,0,0.0,1.0,,1.0
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Home or Residence Services,1,1,1,1.0,15.09,15.09,3.02
+2025 Q3,Quarter,20253,All dispute types,Specialty,Other E/M,Cognitive Assessment and Care Planning,1,1,1,1.0,4.24,4.24,1.25
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Emergency department visits,Emergency Department Services,524317,329261,451036,0.8617704434419918,3.25,3.73,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Emergency department visits,All specialties in group,524317,329261,451036,0.8617704434419918,3.25,3.73,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Pathology and lab,All specialties in group,262461,53386,197396,0.8779437730998626,4.53,5.21,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Pathology and lab,Pathology and Laboratory,262461,53386,197396,0.8779437730998626,4.53,5.21,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Radiology,Radiology,220072,105330,194207,0.9177764335604851,4.74,5.06,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Radiology,All specialties in group,220072,105330,194207,0.9177764335604851,4.74,5.06,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,HCPCS items and services,HCPCS items and services,108197,43853,76731,0.8823001828279692,4.31,5.11,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,HCPCS items and services,All specialties in group,108197,43853,76731,0.8823001828279692,4.31,5.11,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Anesthesia,All specialties in group,101546,66752,82239,0.8100369367150948,3.27,4.28,1.25
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Anesthesia,Anesthesia,100625,66233,81431,0.809284344222379,3.26,4.26,1.25
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Other medicine,All specialties in group,91862,40938,70494,0.8916406319171273,4.25,4.86,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",80063,36244,62006,0.8930978855793051,4.32,4.89,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Surgery,Surgery,79826,66567,67848,0.8735756498899147,14.42,20.1,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Surgery,All specialties in group,79826,66567,67848,0.8735756498899147,14.42,20.1,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,57873,38945,51505,0.890289013344396,23.91,29.314999999999998,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Neurology and neuromonitoring,All specialties in group,57873,38945,51505,0.890289013344396,23.91,29.314999999999998,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Cardiovascular,All specialties in group,32048,24988,26584,0.8917513669450874,5.52,6.2,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,29340,12876,25198,0.8604992657856094,3.59,4.18,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Hospital inpatient and observation,All specialties in group,29340,12876,25198,0.8604992657856094,3.59,4.18,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Cardiovascular,Cardiovascular,25044,19395,20399,0.8825769047722061,4.85,5.55,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Inpatient facility (DRG),All specialties in group,22989,17517,16962,0.8422045680238331,2.53,3.05,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),22989,17517,16962,0.8422045680238331,2.53,3.05,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Critical care,All specialties in group,22950,14631,19731,0.8678307529908516,3.1,3.36,1.05
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Critical care,Critical Care Services,20861,13988,18065,0.8749455126652782,3.21,3.5,1.11
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Pulmonary,7075,6774,5089,0.8939047953627262,4.22,4.76,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,7004,5983,6185,0.9234099731263063,6.87,7.21,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other or unmapped code,Other or unmapped code,4241,2603,3233,0.8230651731160896,2.5,2.94,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Other or unmapped code,All specialties in group,4241,2603,3233,0.8230651731160896,2.5,2.94,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,2089,643,1666,0.7975107707036859,2.25,2.43,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,"Vaccines, Toxoids",1455,1448,1026,0.8621848739495799,3.335,3.88,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,1428,1412,1042,0.8647302904564316,3.78,4.0,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Group,Other E/M,All specialties in group,1354,1155,1150,0.85949177877429,7.265,9.16,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,"Special Services, Procedures and Reports",836,721,533,0.9080068143100511,6.38,7.630000000000001,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Office or Other Outpatient Services,766,709,689,0.9018324607329843,10.77,13.46,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Anesthesia,Moderate (Conscious) Sedation,465,342,406,0.8962472406181016,6.75,8.08,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,456,416,402,0.8913525498891353,4.925000000000001,5.4,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Physical Medicine and Rehabilitation,448,280,323,0.7897310513447433,3.94,4.25,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Special Otorhinolaryngologic Services,204,148,173,0.8522167487684729,4.01,4.26,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Advance Care Planning,193,181,151,0.7823834196891192,7.495,11.68,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Preventive Medicine Services,156,110,128,0.8951048951048951,2.25,2.91,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Other Services and Procedures,133,77,120,0.9090909090909091,4.08,4.08,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Newborn Care Services,92,56,71,0.7717391304347826,2.41,2.58,1.05
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Consultations,85,80,60,0.7058823529411765,7.0,16.695,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Psychiatry,84,36,67,0.8170731707317073,1.46,1.5150000000000001,1.05
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Allergy and Clinical Immunology,68,68,64,0.9411764705882353,3.325,3.325,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Prolonged Services,38,38,30,0.8108108108108109,11.3,11.0,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Gastroenterology,20,18,18,0.9,67.795,67.795,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Delivery/Birthing Room,18,18,16,0.8888888888888888,2.58,2.615,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",14,12,13,1.0,7.6,7.6,1.25
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Ophthalmology,10,10,9,0.9,4.505,4.505,1.25
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Chiropractic Manipulative Treatment,9,9,0,0.0,1.225,,1.225
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Osteopathic Manipulative Treatment,5,5,4,1.0,9.855,9.855,3.05
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Dialysis,5,5,5,1.0,1.05,1.05,1.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Nursing Facility Services,3,3,3,1.0,5.04,5.04,0.5
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Neuropsychological and Developmental Testing,3,3,1,1.0,12.66,12.66,0.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other medicine,Education and Training for Patient Self-Management,2,2,1,0.5,,,
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Cognitive Assessment and Care Planning,1,1,1,1.0,4.24,4.24,1.25
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Home or Residence Services,1,1,1,1.0,15.09,15.09,3.02
+2025 Q3,Quarter,20253,Emergency / non-emergency,Specialty,Other E/M,Unlisted Evaluation and Management Service,1,1,0,0.0,1.0,,1.0
+2025 Q4,Quarter,20254,Air ambulance,Specialty,Air ambulance,Air ambulance,12264,9576,11365,0.9289684485859081,2.37,2.46,1.2
+2025 Q4,Quarter,20254,Air ambulance,Group,Air ambulance,All specialties in group,12264,9576,11365,0.9289684485859081,2.37,2.46,1.2
+2025 Q4,Quarter,20254,All dispute types,Group,Emergency department visits,All specialties in group,437375,285904,360068,0.8258876041626049,3.34,4.04,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Emergency department visits,Emergency Department Services,437375,285904,360068,0.8258876041626049,3.34,4.04,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Radiology,Radiology,232204,90287,193982,0.8713710094017977,3.99,4.51,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Radiology,All specialties in group,232204,90287,193982,0.8713710094017977,3.99,4.51,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Pathology and lab,All specialties in group,221725,45001,145229,0.8140228351708714,4.44,5.63,1.16
+2025 Q4,Quarter,20254,All dispute types,Specialty,Pathology and lab,Pathology and Laboratory,221725,45001,145229,0.8140228351708714,4.44,5.63,1.16
+2025 Q4,Quarter,20254,All dispute types,Group,Anesthesia,All specialties in group,91414,63024,72854,0.798627554152416,3.65,5.21,1.2
+2025 Q4,Quarter,20254,All dispute types,Specialty,Anesthesia,Anesthesia,90249,62441,72018,0.7980275915563189,3.62,5.21,1.2
+2025 Q4,Quarter,20254,All dispute types,Group,HCPCS items and services,All specialties in group,89637,36923,55308,0.8063801248031726,4.43,5.77,1.2
+2025 Q4,Quarter,20254,All dispute types,Specialty,HCPCS items and services,HCPCS items and services,89637,36923,55308,0.8063801248031726,4.43,5.77,1.2
+2025 Q4,Quarter,20254,All dispute types,Specialty,Surgery,Surgery,77208,65436,63168,0.8490208464939988,15.04,23.05,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Surgery,All specialties in group,77208,65436,63168,0.8490208464939988,15.04,23.05,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Other medicine,All specialties in group,75279,34714,49735,0.8373318517770257,4.19,5.08,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",64347,30218,43060,0.8433380990618696,4.25,5.1,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,55194,32981,46939,0.8507603356714335,25.97,34.43,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Neurology and neuromonitoring,All specialties in group,55194,32981,46939,0.8507603356714335,25.97,34.43,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Hospital inpatient and observation,All specialties in group,31161,14828,26040,0.836196653928904,3.7,4.33,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,31161,14828,26040,0.836196653928904,3.7,4.33,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Cardiovascular,All specialties in group,30650,22098,24264,0.8712700635570397,5.17,6.06,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Cardiovascular,Cardiovascular,24127,17049,18687,0.862264673311185,4.74,5.44,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Critical care,All specialties in group,21864,13575,18570,0.8600407558354947,3.3,3.63,1.05
+2025 Q4,Quarter,20254,All dispute types,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),20630,16234,15367,0.8545767990212435,2.51,2.93,1.19
+2025 Q4,Quarter,20254,All dispute types,Group,Inpatient facility (DRG),All specialties in group,20630,16234,15367,0.8545767990212435,2.51,2.93,1.19
+2025 Q4,Quarter,20254,All dispute types,Specialty,Critical care,Critical Care Services,19576,13007,16617,0.8608060505594696,3.47,3.79,1.1
+2025 Q4,Quarter,20254,All dispute types,Specialty,Air ambulance,Air ambulance,12264,9576,11365,0.9289684485859081,2.37,2.46,1.2
+2025 Q4,Quarter,20254,All dispute types,Group,Air ambulance,All specialties in group,12264,9576,11365,0.9289684485859081,2.37,2.46,1.2
+2025 Q4,Quarter,20254,All dispute types,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,6523,5406,5577,0.9028654686741137,6.71,7.18,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Pulmonary,5392,5156,2925,0.7762738853503185,4.21,6.12,1.07
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other or unmapped code,Other or unmapped code,4087,2756,2569,0.7705458908218357,2.27,2.85,1.02
+2025 Q4,Quarter,20254,All dispute types,Group,Other or unmapped code,All specialties in group,4087,2756,2569,0.7705458908218357,2.27,2.85,1.02
+2025 Q4,Quarter,20254,All dispute types,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,2288,568,1953,0.853583916083916,2.38,2.46,1.0
+2025 Q4,Quarter,20254,All dispute types,Group,Other E/M,All specialties in group,1778,1294,1494,0.8532267275842376,4.18,6.05,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,1528,1514,1004,0.8155970755483347,3.73,4.06,1.25
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,"Vaccines, Toxoids",1527,1510,986,0.8101889893179951,3.465,4.36,1.14
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,"Special Services, Procedures and Reports",1415,980,930,0.8186619718309859,5.595,6.95,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Office or Other Outpatient Services,943,672,813,0.8685897435897436,3.8,5.645,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,749,716,504,0.858603066439523,5.84,7.7,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Anesthesia,Moderate (Conscious) Sedation,416,308,332,0.8469387755102041,6.66,8.26,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Physical Medicine and Rehabilitation,410,293,262,0.7683284457478006,3.985,5.69,1.25
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Preventive Medicine Services,308,256,262,0.9097222222222222,3.205,5.795,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Other Services and Procedures,297,156,261,0.9094076655052264,4.15,4.27,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Advance Care Planning,211,197,165,0.7819905213270142,6.14,9.68,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Special Otorhinolaryngologic Services,176,147,153,0.8793103448275862,4.115,4.48,1.05
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Consultations,109,102,79,0.7247706422018348,6.8100000000000005,15.59,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Newborn Care Services,92,40,71,0.7717391304347826,2.755,2.97,1.05
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Psychiatry,72,22,60,0.8333333333333334,2.15,2.15,1.225
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Prolonged Services,40,35,35,0.875,8.8,8.8,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Allergy and Clinical Immunology,37,37,35,0.9459459459459459,2.5,2.5,1.5299999999999998
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Home or Residence Services,30,4,28,0.9333333333333333,15.09,15.09,3.02
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",29,26,23,0.8214285714285714,3.97,4.39,1.25
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Delivery/Birthing Room,25,20,24,0.96,2.88,2.935,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Dialysis,17,15,14,0.8235294117647058,2.1,2.1,1.25
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Nursing Facility Services,14,9,13,0.9285714285714286,4.9350000000000005,4.95,0.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Ophthalmology,13,13,8,0.6666666666666666,2.0,5.49,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Gastroenterology,11,11,9,0.8181818181818182,25.64,36.13,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Osteopathic Manipulative Treatment,6,6,3,0.6,14.62,14.62,1.54
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Cognitive Assessment and Care Planning,3,2,2,0.6666666666666666,8.46,8.46,1.0
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Unlisted Evaluation and Management Service,2,2,1,0.5,11.13,11.13,1.4
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other medicine,Education and Training for Patient Self-Management,2,2,2,1.0,,,
+2025 Q4,Quarter,20254,All dispute types,Specialty,Other E/M,Non-Face-to-Face Services,1,1,1,1.0,,,
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Emergency department visits,Emergency Department Services,437375,285904,360068,0.8258876041626049,3.34,4.04,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Emergency department visits,All specialties in group,437375,285904,360068,0.8258876041626049,3.34,4.04,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Radiology,Radiology,232204,90287,193982,0.8713710094017977,3.99,4.51,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Radiology,All specialties in group,232204,90287,193982,0.8713710094017977,3.99,4.51,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Pathology and lab,Pathology and Laboratory,221725,45001,145229,0.8140228351708714,4.44,5.63,1.16
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Pathology and lab,All specialties in group,221725,45001,145229,0.8140228351708714,4.44,5.63,1.16
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Anesthesia,All specialties in group,91414,63024,72854,0.798627554152416,3.65,5.21,1.2
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Anesthesia,Anesthesia,90249,62441,72018,0.7980275915563189,3.62,5.21,1.2
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,HCPCS items and services,HCPCS items and services,89637,36923,55308,0.8063801248031726,4.43,5.77,1.2
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,HCPCS items and services,All specialties in group,89637,36923,55308,0.8063801248031726,4.43,5.77,1.2
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Surgery,Surgery,77208,65436,63168,0.8490208464939988,15.04,23.05,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Surgery,All specialties in group,77208,65436,63168,0.8490208464939988,15.04,23.05,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Other medicine,All specialties in group,75279,34714,49735,0.8373318517770257,4.19,5.08,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,"Injections, Infusions and Chemotherapy Administration",64347,30218,43060,0.8433380990618696,4.25,5.1,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Neurology and neuromonitoring,Neurology and Neuromuscular Procedures,55194,32981,46939,0.8507603356714335,25.97,34.43,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Neurology and neuromonitoring,All specialties in group,55194,32981,46939,0.8507603356714335,25.97,34.43,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Hospital inpatient and observation,Hospital Inpatient and Observation Care Services,31161,14828,26040,0.836196653928904,3.7,4.33,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Hospital inpatient and observation,All specialties in group,31161,14828,26040,0.836196653928904,3.7,4.33,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Cardiovascular,All specialties in group,30650,22098,24264,0.8712700635570397,5.17,6.06,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Cardiovascular,Cardiovascular,24127,17049,18687,0.862264673311185,4.74,5.44,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Critical care,All specialties in group,21864,13575,18570,0.8600407558354947,3.3,3.63,1.05
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Inpatient facility (DRG),Inpatient facility (DRG),20630,16234,15367,0.8545767990212435,2.51,2.93,1.19
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Inpatient facility (DRG),All specialties in group,20630,16234,15367,0.8545767990212435,2.51,2.93,1.19
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Critical care,Critical Care Services,19576,13007,16617,0.8608060505594696,3.47,3.79,1.1
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Cardiovascular,Noninvasive Vascular Diagnostic Studies,6523,5406,5577,0.9028654686741137,6.71,7.18,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Pulmonary,5392,5156,2925,0.7762738853503185,4.21,6.12,1.07
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other or unmapped code,Other or unmapped code,4087,2756,2569,0.7705458908218357,2.27,2.85,1.02
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Other or unmapped code,All specialties in group,4087,2756,2569,0.7705458908218357,2.27,2.85,1.02
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Critical care,Inpatient Neonatal and Pediatric Critical Care Services,2288,568,1953,0.853583916083916,2.38,2.46,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Group,Other E/M,All specialties in group,1778,1294,1494,0.8532267275842376,4.18,6.05,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Immunization Administration for Vaccines/Toxoids,1528,1514,1004,0.8155970755483347,3.73,4.06,1.25
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,"Vaccines, Toxoids",1527,1510,986,0.8101889893179951,3.465,4.36,1.14
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,"Special Services, Procedures and Reports",1415,980,930,0.8186619718309859,5.595,6.95,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Office or Other Outpatient Services,943,672,813,0.8685897435897436,3.8,5.645,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Anesthesia,Qualifying Circumstances for Anesthesia,749,716,504,0.858603066439523,5.84,7.7,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Anesthesia,Moderate (Conscious) Sedation,416,308,332,0.8469387755102041,6.66,8.26,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Physical Medicine and Rehabilitation,410,293,262,0.7683284457478006,3.985,5.69,1.25
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Preventive Medicine Services,308,256,262,0.9097222222222222,3.205,5.795,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Other Services and Procedures,297,156,261,0.9094076655052264,4.15,4.27,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Advance Care Planning,211,197,165,0.7819905213270142,6.14,9.68,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Special Otorhinolaryngologic Services,176,147,153,0.8793103448275862,4.115,4.48,1.05
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Consultations,109,102,79,0.7247706422018348,6.8100000000000005,15.59,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Newborn Care Services,92,40,71,0.7717391304347826,2.755,2.97,1.05
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Psychiatry,72,22,60,0.8333333333333334,2.15,2.15,1.225
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Prolonged Services,40,35,35,0.875,8.8,8.8,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Allergy and Clinical Immunology,37,37,35,0.9459459459459459,2.5,2.5,1.5299999999999998
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Home or Residence Services,30,4,28,0.9333333333333333,15.09,15.09,3.02
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,"Immune Globulins, Serum or Recombinant Products",29,26,23,0.8214285714285714,3.97,4.39,1.25
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Delivery/Birthing Room,25,20,24,0.96,2.88,2.935,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Dialysis,17,15,14,0.8235294117647058,2.1,2.1,1.25
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Nursing Facility Services,14,9,13,0.9285714285714286,4.9350000000000005,4.95,0.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Ophthalmology,13,13,8,0.6666666666666666,2.0,5.49,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Gastroenterology,11,11,9,0.8181818181818182,25.64,36.13,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Osteopathic Manipulative Treatment,6,6,3,0.6,14.62,14.62,1.54
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Cognitive Assessment and Care Planning,3,2,2,0.6666666666666666,8.46,8.46,1.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Unlisted Evaluation and Management Service,2,2,1,0.5,11.13,11.13,1.4
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other medicine,Education and Training for Patient Self-Management,2,2,2,1.0,,,
+2025 Q4,Quarter,20254,Emergency / non-emergency,Specialty,Other E/M,Non-Face-to-Face Services,1,1,1,1.0,,,

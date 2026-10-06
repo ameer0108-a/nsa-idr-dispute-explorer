@@ -1,0 +1,108 @@
+table v_outcomes_by_state
+	lineageTag: cfb682d4-2cea-5375-a8e9-1a7846308a3a
+
+	column period
+		dataType: string
+		lineageTag: 51d61233-7f38-52dd-a71b-7a59b443dabe
+		summarizeBy: none
+		sourceColumn: period
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 655862ba-5c17-542c-bc32-5c8a28c625d6
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 5ad6b1e6-6ecf-56f7-9231-9147cb0adfca
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 56389421-d176-5896-8737-2dfa405d2983
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column state_code
+		dataType: string
+		lineageTag: 5a78f183-554d-50ca-8335-333fa6c9466d
+		summarizeBy: none
+		sourceColumn: state_code
+
+		annotation SummarizationSetBy = User
+
+	column state_name
+		dataType: string
+		lineageTag: 47cd2e22-2b47-56e7-88be-b535e7ac5fca
+		summarizeBy: none
+		sourceColumn: state_name
+
+		annotation SummarizationSetBy = User
+
+	column line_items
+		dataType: int64
+		formatString: #,0
+		lineageTag: 09ee77b4-740f-5e5b-bd5e-de54010fbd8b
+		summarizeBy: none
+		sourceColumn: line_items
+
+		annotation SummarizationSetBy = User
+
+	column disputes
+		dataType: int64
+		formatString: #,0
+		lineageTag: 70b9ae8c-8108-586b-9d62-465121363314
+		summarizeBy: none
+		sourceColumn: disputes
+
+		annotation SummarizationSetBy = User
+
+	column line_provider_selected_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: fcfcb013-2d5f-5ebc-a4e2-badc5c052a34
+		summarizeBy: none
+		sourceColumn: line_provider_selected_rate
+
+		annotation SummarizationSetBy = User
+
+	column median_prevailing_offer_qpa_ratio
+		dataType: double
+		lineageTag: 47a7b7f4-aa35-52d7-9463-287d01ca899f
+		summarizeBy: none
+		sourceColumn: median_prevailing_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column state_rank
+		dataType: int64
+		lineageTag: da3fd565-ad2f-5614-864a-4bc6bb0ec710
+		summarizeBy: none
+		sourceColumn: state_rank
+
+		annotation SummarizationSetBy = User
+
+	partition v_outcomes_by_state = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_outcomes_by_state.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"state_code", type text}, {"state_name", type text}, {"line_items", Int64.Type}, {"disputes", Int64.Type}, {"line_provider_selected_rate", type number}, {"median_prevailing_offer_qpa_ratio", type number}, {"state_rank", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

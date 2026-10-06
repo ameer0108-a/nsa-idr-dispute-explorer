@@ -1,0 +1,812 @@
+period,period_type,period_sort,dispute_category,state_code,state_name,line_items,disputes,line_provider_selected_rate,median_prevailing_offer_qpa_ratio,state_rank
+2025 full year,Full year,20250,Air ambulance,TX,Texas,10250,8827,0.9434313725490197,2.68,1
+2025 full year,Full year,20250,Air ambulance,TN,Tennessee,4357,3948,0.9008492081707598,1.64,2
+2025 full year,Full year,20250,Air ambulance,FL,Florida,3188,1879,0.92317420170724,6.7,6
+2025 full year,Full year,20250,Air ambulance,GA,Georgia,2947,2478,0.9486219802653963,2.32,3
+2025 full year,Full year,20250,Air ambulance,AZ,Arizona,2873,2198,0.9028213166144201,2.06,4
+2025 full year,Full year,20250,Air ambulance,NM,New Mexico,2481,1767,0.9278516727126159,5.755,7
+2025 full year,Full year,20250,Air ambulance,CA,California,2300,2117,0.7604347826086957,2.14,5
+2025 full year,Full year,20250,Air ambulance,AR,Arkansas,1932,1416,0.865424430641822,1.87,9
+2025 full year,Full year,20250,Air ambulance,MS,Mississippi,1919,1702,0.9103699843668578,1.68,8
+2025 full year,Full year,20250,Air ambulance,AL,Alabama,1511,1215,0.9324950363997353,2.76,11
+2025 full year,Full year,20250,Air ambulance,OH,Ohio,1403,1380,0.9308624376336422,1.9,10
+2025 full year,Full year,20250,Air ambulance,KS,Kansas,1134,919,0.9338624338624338,2.51,13
+2025 full year,Full year,20250,Air ambulance,VA,Virginia,1106,1065,0.9095840867992767,2.45,12
+2025 full year,Full year,20250,Air ambulance,WA,Washington,1022,526,0.8532289628180039,1.57,25
+2025 full year,Full year,20250,Air ambulance,WY,Wyoming,997,811,0.8084252758274825,2.37,18
+2025 full year,Full year,20250,Air ambulance,OK,Oklahoma,992,821,0.9233870967741935,1.95,17
+2025 full year,Full year,20250,Air ambulance,MO,Missouri,990,823,0.9019211324570273,1.79,16
+2025 full year,Full year,20250,Air ambulance,SC,South Carolina,943,827,0.9427359490986215,2.72,15
+2025 full year,Full year,20250,Air ambulance,OR,Oregon,936,806,0.9081196581196581,2.58,19
+2025 full year,Full year,20250,Air ambulance,IL,Illinois,917,634,0.8637873754152824,2.37,23
+2025 full year,Full year,20250,Air ambulance,NC,North Carolina,910,697,0.9285714285714286,2.62,22
+2025 full year,Full year,20250,Air ambulance,KY,Kentucky,899,858,0.9243604004449388,2.145,14
+2025 full year,Full year,20250,Air ambulance,MI,Michigan,776,725,0.9819587628865979,2.93,20
+2025 full year,Full year,20250,Air ambulance,IN,Indiana,762,718,0.9238845144356955,2.2,21
+2025 full year,Full year,20250,Air ambulance,WI,Wisconsin,721,383,0.8765603328710125,2.04,29
+2025 full year,Full year,20250,Air ambulance,NV,Nevada,684,485,0.9078947368421053,2.43,26
+2025 full year,Full year,20250,Air ambulance,CO,Colorado,641,542,0.8096723868954758,2.0,24
+2025 full year,Full year,20250,Air ambulance,MD,Maryland,526,453,0.9049429657794676,4.01,27
+2025 full year,Full year,20250,Air ambulance,LA,Louisiana,525,434,0.8723809523809524,2.75,28
+2025 full year,Full year,20250,Air ambulance,PA,Pennsylvania,440,227,0.9795454545454545,4.14,34
+2025 full year,Full year,20250,Air ambulance,WV,West Virginia,424,379,0.9363207547169812,1.77,30
+2025 full year,Full year,20250,Air ambulance,NE,Nebraska,420,281,0.9547619047619048,2.23,31
+2025 full year,Full year,20250,Air ambulance,NJ,New Jersey,406,267,0.9334975369458128,4.18,32
+2025 full year,Full year,20250,Air ambulance,ID,Idaho,320,161,0.88125,2.43,35
+2025 full year,Full year,20250,Air ambulance,AK,Alaska,279,263,0.8279569892473119,2.47,33
+2025 full year,Full year,20250,Air ambulance,MT,Montana,251,143,0.9243027888446215,2.49,38
+2025 full year,Full year,20250,Air ambulance,IA,Iowa,235,152,0.9234042553191489,2.77,37
+2025 full year,Full year,20250,Air ambulance,NY,New York,162,102,0.9444444444444444,2.1550000000000002,41
+2025 full year,Full year,20250,Air ambulance,HI,Hawaii,154,153,0.8116883116883117,3.19,36
+2025 full year,Full year,20250,Air ambulance,MA,Massachusetts,147,79,0.972027972027972,3.5,43
+2025 full year,Full year,20250,Air ambulance,SD,South Dakota,141,119,0.7642857142857142,2.04,39
+2025 full year,Full year,20250,Air ambulance,ND,North Dakota,141,118,0.8439716312056738,2.14,40
+2025 full year,Full year,20250,Air ambulance,UT,Utah,131,74,0.8549618320610687,2.02,44
+2025 full year,Full year,20250,Air ambulance,MN,Minnesota,122,94,0.9262295081967213,2.71,42
+2025 full year,Full year,20250,Air ambulance,ME,Maine,61,31,0.75,1.73,46
+2025 full year,Full year,20250,Air ambulance,CT,Connecticut,57,50,0.8596491228070176,2.0549999999999997,45
+2025 full year,Full year,20250,Air ambulance,NH,New Hampshire,40,21,0.8918918918918919,2.505,47
+2025 full year,Full year,20250,Air ambulance,Unknown,Unknown,25,2,,,
+2025 full year,Full year,20250,Air ambulance,DE,Delaware,23,13,0.9130434782608695,4.455,48
+2025 full year,Full year,20250,Air ambulance,RI,Rhode Island,16,12,0.9375,2.12,49
+2025 full year,Full year,20250,Air ambulance,DC,District of Columbia,9,5,1.0,3.78,50
+2025 full year,Full year,20250,Air ambulance,VT,Vermont,9,5,0.8888888888888888,3.23,51
+2025 full year,Full year,20250,Air ambulance,PR,Puerto Rico,2,1,1.0,2.97,52
+2025 full year,Full year,20250,All dispute types,TX,Texas,2525162,876383,0.869788698280333,4.79,1
+2025 full year,Full year,20250,All dispute types,AZ,Arizona,438446,162291,0.8383025222380349,4.77,2
+2025 full year,Full year,20250,All dispute types,FL,Florida,384947,145009,0.8816333391111602,2.6,3
+2025 full year,Full year,20250,All dispute types,TN,Tennessee,232571,76134,0.8416062830979941,2.82,6
+2025 full year,Full year,20250,All dispute types,CA,California,208535,71327,0.8874399350172733,2.63,8
+2025 full year,Full year,20250,All dispute types,GA,Georgia,171575,73952,0.8636637671173887,2.97,7
+2025 full year,Full year,20250,All dispute types,NY,New York,171443,79403,0.8666693926666705,5.38,5
+2025 full year,Full year,20250,All dispute types,NJ,New Jersey,157156,105068,0.8613935273181871,13.42,4
+2025 full year,Full year,20250,All dispute types,IN,Indiana,135846,71015,0.8749613419142012,3.58,9
+2025 full year,Full year,20250,All dispute types,OK,Oklahoma,121277,50375,0.927712981744422,5.18,10
+2025 full year,Full year,20250,All dispute types,AR,Arkansas,97211,35799,0.878953557944253,4.73,16
+2025 full year,Full year,20250,All dispute types,OH,Ohio,83396,49519,0.8710857828434313,2.7,12
+2025 full year,Full year,20250,All dispute types,LA,Louisiana,82861,49741,0.7627760634113874,3.79,11
+2025 full year,Full year,20250,All dispute types,NV,Nevada,82602,36151,0.9182485293225787,2.73,15
+2025 full year,Full year,20250,All dispute types,VA,Virginia,70708,38835,0.8438481342122387,3.25,14
+2025 full year,Full year,20250,All dispute types,MO,Missouri,69060,39840,0.8761433976486961,4.12,13
+2025 full year,Full year,20250,All dispute types,MS,Mississippi,66076,16456,0.8653598577734184,3.28,23
+2025 full year,Full year,20250,All dispute types,NM,New Mexico,63180,24875,0.9387138131341111,5.21,17
+2025 full year,Full year,20250,All dispute types,Unknown,Unknown,57345,7033,0.3333333333333333,,
+2025 full year,Full year,20250,All dispute types,AL,Alabama,55522,17470,0.8651002596653202,4.67,21
+2025 full year,Full year,20250,All dispute types,NC,North Carolina,50266,21831,0.8311527968616206,2.64,18
+2025 full year,Full year,20250,All dispute types,SC,South Carolina,45165,20143,0.834839023958195,3.09,20
+2025 full year,Full year,20250,All dispute types,MI,Michigan,44515,13767,0.9320462971335564,3.91,26
+2025 full year,Full year,20250,All dispute types,PA,Pennsylvania,43006,16660,0.9069535005473324,4.445,22
+2025 full year,Full year,20250,All dispute types,IL,Illinois,38125,20977,0.8783900863766442,4.34,19
+2025 full year,Full year,20250,All dispute types,KS,Kansas,36252,12852,0.9198805673052999,3.47,27
+2025 full year,Full year,20250,All dispute types,KY,Kentucky,28760,15733,0.8741346321099321,3.58,24
+2025 full year,Full year,20250,All dispute types,CO,Colorado,27370,15136,0.7723058666468887,2.73,25
+2025 full year,Full year,20250,All dispute types,MD,Maryland,22831,7926,0.798493078675311,3.76,29
+2025 full year,Full year,20250,All dispute types,WI,Wisconsin,21349,9924,0.8425296516806525,3.29,28
+2025 full year,Full year,20250,All dispute types,WA,Washington,15274,7184,0.887993183903526,2.3,30
+2025 full year,Full year,20250,All dispute types,CT,Connecticut,14152,7079,0.8219913787011519,3.24,31
+2025 full year,Full year,20250,All dispute types,ID,Idaho,9148,4789,0.8258635767380849,7.51,32
+2025 full year,Full year,20250,All dispute types,OR,Oregon,7726,2618,0.6136716727084413,1.94,35
+2025 full year,Full year,20250,All dispute types,MA,Massachusetts,7182,3754,0.7397603789356366,2.47,34
+2025 full year,Full year,20250,All dispute types,RI,Rhode Island,5711,2267,0.8631486367634125,3.48,38
+2025 full year,Full year,20250,All dispute types,WV,West Virginia,5464,4256,0.883601756954612,4.46,33
+2025 full year,Full year,20250,All dispute types,IA,Iowa,5408,2515,0.8010024132170039,2.69,37
+2025 full year,Full year,20250,All dispute types,DE,Delaware,4656,2538,0.8073453608247423,3.63,36
+2025 full year,Full year,20250,All dispute types,UT,Utah,3924,2060,0.804630593132154,2.76,39
+2025 full year,Full year,20250,All dispute types,NH,New Hampshire,3637,913,0.8951568519537699,3.22,45
+2025 full year,Full year,20250,All dispute types,NE,Nebraska,2552,879,0.8364831552999178,3.26,46
+2025 full year,Full year,20250,All dispute types,ME,Maine,2388,1546,0.9128613322161709,2.88,42
+2025 full year,Full year,20250,All dispute types,SD,South Dakota,2158,1676,0.6454106280193237,4.18,41
+2025 full year,Full year,20250,All dispute types,AK,Alaska,2033,1840,0.8277393879565647,2.58,40
+2025 full year,Full year,20250,All dispute types,MN,Minnesota,1802,1103,0.8741610738255033,5.205,43
+2025 full year,Full year,20250,All dispute types,WY,Wyoming,1329,986,0.8081264108352144,2.39,44
+2025 full year,Full year,20250,All dispute types,HI,Hawaii,899,730,0.7919911012235817,5.59,47
+2025 full year,Full year,20250,All dispute types,MT,Montana,861,596,0.8908246225319396,6.109999999999999,48
+2025 full year,Full year,20250,All dispute types,DC,District of Columbia,850,501,0.8352941176470589,4.55,49
+2025 full year,Full year,20250,All dispute types,ND,North Dakota,255,146,0.8140495867768595,2.16,50
+2025 full year,Full year,20250,All dispute types,VT,Vermont,55,26,0.8363636363636363,1.87,51
+2025 full year,Full year,20250,All dispute types,AS,American Samoa,12,12,1.0,7.13,52
+2025 full year,Full year,20250,All dispute types,PR,Puerto Rico,10,9,0.8888888888888888,7.85,53
+2025 full year,Full year,20250,All dispute types,MP,Northern Mariana Islands,3,3,1.0,21.39,54
+2025 full year,Full year,20250,All dispute types,VI,U.S. Virgin Islands,1,1,1.0,4.73,56
+2025 full year,Full year,20250,All dispute types,GU,Guam,1,1,1.0,3.3,55
+2025 full year,Full year,20250,Emergency / non-emergency,TX,Texas,2514912,867556,0.8694661317147933,4.81,1
+2025 full year,Full year,20250,Emergency / non-emergency,AZ,Arizona,435573,160093,0.837862370497101,4.85,2
+2025 full year,Full year,20250,Emergency / non-emergency,FL,Florida,381759,143130,0.8812853711437674,2.59,3
+2025 full year,Full year,20250,Emergency / non-emergency,TN,Tennessee,228214,72186,0.8404555991440799,2.85,6
+2025 full year,Full year,20250,Emergency / non-emergency,CA,California,206235,69210,0.8888855895715176,2.65,9
+2025 full year,Full year,20250,Emergency / non-emergency,NY,New York,171281,79301,0.8665957235322664,5.38,5
+2025 full year,Full year,20250,Emergency / non-emergency,GA,Georgia,168628,71474,0.8620994267456066,2.98,7
+2025 full year,Full year,20250,Emergency / non-emergency,NJ,New Jersey,156750,104801,0.8612063232209546,13.465,4
+2025 full year,Full year,20250,Emergency / non-emergency,IN,Indiana,135084,70297,0.8746852877580641,3.59,8
+2025 full year,Full year,20250,Emergency / non-emergency,OK,Oklahoma,120285,49554,0.9277495567980363,5.23,10
+2025 full year,Full year,20250,Emergency / non-emergency,AR,Arkansas,95279,34383,0.8792286802938761,4.85,16
+2025 full year,Full year,20250,Emergency / non-emergency,LA,Louisiana,82336,49307,0.7620752648885641,3.81,11
+2025 full year,Full year,20250,Emergency / non-emergency,OH,Ohio,81993,48139,0.8700623573773293,2.71,12
+2025 full year,Full year,20250,Emergency / non-emergency,NV,Nevada,81918,35666,0.9183351475642422,2.73,15
+2025 full year,Full year,20250,Emergency / non-emergency,VA,Virginia,69602,37770,0.842803356900615,3.3,14
+2025 full year,Full year,20250,Emergency / non-emergency,MO,Missouri,68070,39017,0.8757684501573668,4.15,13
+2025 full year,Full year,20250,Emergency / non-emergency,MS,Mississippi,64157,14754,0.8639959576181528,3.5,24
+2025 full year,Full year,20250,Emergency / non-emergency,NM,New Mexico,60699,23108,0.9391577976210089,5.21,17
+2025 full year,Full year,20250,Emergency / non-emergency,Unknown,Unknown,57320,7031,0.3333333333333333,,
+2025 full year,Full year,20250,Emergency / non-emergency,AL,Alabama,54011,16255,0.8632125312818612,4.82,22
+2025 full year,Full year,20250,Emergency / non-emergency,NC,North Carolina,49356,21134,0.8293548583365445,2.64,18
+2025 full year,Full year,20250,Emergency / non-emergency,SC,South Carolina,44222,19316,0.8325380492548452,3.12,20
+2025 full year,Full year,20250,Emergency / non-emergency,MI,Michigan,43739,13042,0.9311550851357571,3.92,26
+2025 full year,Full year,20250,Emergency / non-emergency,PA,Pennsylvania,42566,16433,0.9061853686691357,4.45,21
+2025 full year,Full year,20250,Emergency / non-emergency,IL,Illinois,37208,20343,0.8787446888613994,4.38,19
+2025 full year,Full year,20250,Emergency / non-emergency,KS,Kansas,35118,11933,0.9194280332220224,3.5,27
+2025 full year,Full year,20250,Emergency / non-emergency,KY,Kentucky,27861,14875,0.8725131078072255,3.59,23
+2025 full year,Full year,20250,Emergency / non-emergency,CO,Colorado,26729,14594,0.7713960113960114,2.77,25
+2025 full year,Full year,20250,Emergency / non-emergency,MD,Maryland,22305,7473,0.7959824231010671,3.74,29
+2025 full year,Full year,20250,Emergency / non-emergency,WI,Wisconsin,20628,9541,0.8413391557496361,3.43,28
+2025 full year,Full year,20250,Emergency / non-emergency,WA,Washington,14252,6658,0.8904889013767913,2.37,31
+2025 full year,Full year,20250,Emergency / non-emergency,CT,Connecticut,14095,7029,0.8218390804597702,3.24,30
+2025 full year,Full year,20250,Emergency / non-emergency,ID,Idaho,8828,4628,0.8238559130040779,7.81,32
+2025 full year,Full year,20250,Emergency / non-emergency,MA,Massachusetts,7035,3675,0.7350390902629709,2.47,34
+2025 full year,Full year,20250,Emergency / non-emergency,OR,Oregon,6790,1812,0.5730701237477902,1.755,39
+2025 full year,Full year,20250,Emergency / non-emergency,RI,Rhode Island,5695,2255,0.862938789910037,3.48,37
+2025 full year,Full year,20250,Emergency / non-emergency,IA,Iowa,5173,2363,0.7954192546583851,2.68,36
+2025 full year,Full year,20250,Emergency / non-emergency,WV,West Virginia,5040,3877,0.8791666666666667,4.49,33
+2025 full year,Full year,20250,Emergency / non-emergency,DE,Delaware,4633,2525,0.8068206345780272,3.63,35
+2025 full year,Full year,20250,Emergency / non-emergency,UT,Utah,3793,1986,0.802854834365742,2.78,38
+2025 full year,Full year,20250,Emergency / non-emergency,NH,New Hampshire,3597,892,0.8951904364748401,3.22,44
+2025 full year,Full year,20250,Emergency / non-emergency,ME,Maine,2327,1515,0.9170605930382467,2.93,42
+2025 full year,Full year,20250,Emergency / non-emergency,NE,Nebraska,2132,598,0.8118172790466733,3.85,45
+2025 full year,Full year,20250,Emergency / non-emergency,SD,South Dakota,2017,1557,0.6367875647668394,4.18,41
+2025 full year,Full year,20250,Emergency / non-emergency,AK,Alaska,1754,1577,0.8277046365197481,2.94,40
+2025 full year,Full year,20250,Emergency / non-emergency,MN,Minnesota,1680,1009,0.8703481392557023,5.4,43
+2025 full year,Full year,20250,Emergency / non-emergency,DC,District of Columbia,841,496,0.8335315101070154,4.55,47
+2025 full year,Full year,20250,Emergency / non-emergency,HI,Hawaii,745,577,0.7879194630872484,6.62,46
+2025 full year,Full year,20250,Emergency / non-emergency,MT,Montana,610,453,0.8770491803278688,9.07,48
+2025 full year,Full year,20250,Emergency / non-emergency,WY,Wyoming,332,175,0.8072289156626506,3.89,49
+2025 full year,Full year,20250,Emergency / non-emergency,ND,North Dakota,114,28,0.7722772277227723,2.41,50
+2025 full year,Full year,20250,Emergency / non-emergency,VT,Vermont,46,21,0.8260869565217391,1.73,51
+2025 full year,Full year,20250,Emergency / non-emergency,AS,American Samoa,12,12,1.0,7.13,52
+2025 full year,Full year,20250,Emergency / non-emergency,PR,Puerto Rico,8,8,0.8571428571428571,8.695,53
+2025 full year,Full year,20250,Emergency / non-emergency,MP,Northern Mariana Islands,3,3,1.0,21.39,54
+2025 full year,Full year,20250,Emergency / non-emergency,GU,Guam,1,1,1.0,3.3,55
+2025 full year,Full year,20250,Emergency / non-emergency,VI,U.S. Virgin Islands,1,1,1.0,4.73,56
+2025 Q1,Quarter,20251,Air ambulance,TX,Texas,2352,2134,0.9336734693877551,2.81,1
+2025 Q1,Quarter,20251,Air ambulance,TN,Tennessee,1289,1196,0.8525989138867339,1.65,2
+2025 Q1,Quarter,20251,Air ambulance,GA,Georgia,813,738,0.9458794587945879,2.3,3
+2025 Q1,Quarter,20251,Air ambulance,AZ,Arizona,643,535,0.9360374414976599,2.1,5
+2025 Q1,Quarter,20251,Air ambulance,MS,Mississippi,608,551,0.9013157894736842,1.67,4
+2025 Q1,Quarter,20251,Air ambulance,AR,Arkansas,559,416,0.8228980322003577,1.83,7
+2025 Q1,Quarter,20251,Air ambulance,CA,California,552,488,0.8768115942028986,2.17,6
+2025 Q1,Quarter,20251,Air ambulance,OH,Ohio,411,407,0.8953771289537713,1.95,8
+2025 Q1,Quarter,20251,Air ambulance,NM,New Mexico,407,327,0.8697788697788698,4.4399999999999995,10
+2025 Q1,Quarter,20251,Air ambulance,FL,Florida,402,280,0.8846153846153846,3.74,11
+2025 Q1,Quarter,20251,Air ambulance,VA,Virginia,351,340,0.905982905982906,2.04,9
+2025 Q1,Quarter,20251,Air ambulance,WA,Washington,332,172,0.7951807228915663,1.59,22
+2025 Q1,Quarter,20251,Air ambulance,KS,Kansas,310,269,0.9225806451612903,2.72,13
+2025 Q1,Quarter,20251,Air ambulance,WY,Wyoming,297,265,0.696969696969697,2.14,14
+2025 Q1,Quarter,20251,Air ambulance,AL,Alabama,296,255,0.9256756756756757,2.47,16
+2025 Q1,Quarter,20251,Air ambulance,KY,Kentucky,279,272,0.9068100358422939,2.12,12
+2025 Q1,Quarter,20251,Air ambulance,SC,South Carolina,276,259,0.9384057971014492,2.49,15
+2025 Q1,Quarter,20251,Air ambulance,MO,Missouri,268,240,0.8619402985074627,1.88,17
+2025 Q1,Quarter,20251,Air ambulance,OK,Oklahoma,250,226,0.912,1.82,19
+2025 Q1,Quarter,20251,Air ambulance,IN,Indiana,238,228,0.907563025210084,2.12,18
+2025 Q1,Quarter,20251,Air ambulance,NC,North Carolina,235,181,0.9659574468085106,2.45,20
+2025 Q1,Quarter,20251,Air ambulance,IL,Illinois,234,172,0.8209606986899564,2.3049999999999997,21
+2025 Q1,Quarter,20251,Air ambulance,OR,Oregon,205,163,0.8780487804878049,2.0,24
+2025 Q1,Quarter,20251,Air ambulance,WI,Wisconsin,199,107,0.8341708542713567,2.04,26
+2025 Q1,Quarter,20251,Air ambulance,CO,Colorado,171,163,0.672514619883041,2.0,23
+2025 Q1,Quarter,20251,Air ambulance,NV,Nevada,153,118,0.9411764705882353,2.48,25
+2025 Q1,Quarter,20251,Air ambulance,WV,West Virginia,112,96,0.9732142857142857,1.67,28
+2025 Q1,Quarter,20251,Air ambulance,MI,Michigan,106,103,0.9622641509433962,3.07,27
+2025 Q1,Quarter,20251,Air ambulance,NE,Nebraska,105,75,0.9523809523809523,2.42,31
+2025 Q1,Quarter,20251,Air ambulance,LA,Louisiana,99,81,0.8383838383838383,2.05,29
+2025 Q1,Quarter,20251,Air ambulance,MD,Maryland,92,78,0.967391304347826,3.25,30
+2025 Q1,Quarter,20251,Air ambulance,ID,Idaho,82,42,0.9024390243902439,2.16,34
+2025 Q1,Quarter,20251,Air ambulance,NJ,New Jersey,80,59,0.8875,4.1,33
+2025 Q1,Quarter,20251,Air ambulance,AK,Alaska,73,71,0.7808219178082192,2.58,32
+2025 Q1,Quarter,20251,Air ambulance,MT,Montana,65,37,0.9692307692307692,2.38,35
+2025 Q1,Quarter,20251,Air ambulance,PA,Pennsylvania,59,32,0.9661016949152542,4.06,39
+2025 Q1,Quarter,20251,Air ambulance,MA,Massachusetts,47,25,0.9772727272727273,3.47,41
+2025 Q1,Quarter,20251,Air ambulance,IA,Iowa,47,35,0.9361702127659575,2.65,36
+2025 Q1,Quarter,20251,Air ambulance,NY,New York,46,34,0.9130434782608695,2.005,38
+2025 Q1,Quarter,20251,Air ambulance,HI,Hawaii,34,34,0.6470588235294118,3.25,37
+2025 Q1,Quarter,20251,Air ambulance,SD,South Dakota,31,26,0.8064516129032258,2.61,40
+2025 Q1,Quarter,20251,Air ambulance,ND,North Dakota,30,23,0.8333333333333334,1.99,42
+2025 Q1,Quarter,20251,Air ambulance,UT,Utah,22,15,0.8636363636363636,2.8,44
+2025 Q1,Quarter,20251,Air ambulance,ME,Maine,20,10,0.9,1.85,46
+2025 Q1,Quarter,20251,Air ambulance,CT,Connecticut,19,17,0.8947368421052632,2.27,43
+2025 Q1,Quarter,20251,Air ambulance,NH,New Hampshire,16,8,0.6923076923076923,2.11,47
+2025 Q1,Quarter,20251,Air ambulance,MN,Minnesota,12,11,0.8333333333333334,2.76,45
+2025 Q1,Quarter,20251,Air ambulance,VT,Vermont,5,3,0.8,3.63,50
+2025 Q1,Quarter,20251,Air ambulance,RI,Rhode Island,5,4,1.0,2.445,48
+2025 Q1,Quarter,20251,Air ambulance,DE,Delaware,3,3,1.0,3.595,49
+2025 Q1,Quarter,20251,All dispute types,TX,Texas,433692,162602,0.8781935825014222,4.9,1
+2025 Q1,Quarter,20251,All dispute types,AZ,Arizona,106143,38160,0.8537159392331806,4.11,3
+2025 Q1,Quarter,20251,All dispute types,FL,Florida,92894,38958,0.8993086313060387,2.57,2
+2025 Q1,Quarter,20251,All dispute types,TN,Tennessee,53929,19042,0.8641867710052479,2.87,5
+2025 Q1,Quarter,20251,All dispute types,NY,New York,41468,17716,0.8639820380966177,4.73,6
+2025 Q1,Quarter,20251,All dispute types,GA,Georgia,33193,17416,0.8735567091395312,2.67,7
+2025 Q1,Quarter,20251,All dispute types,NJ,New Jersey,32026,20580,0.8630051294883022,8.135000000000002,4
+2025 Q1,Quarter,20251,All dispute types,IN,Indiana,28796,15757,0.8673242567379827,3.64,8
+2025 Q1,Quarter,20251,All dispute types,CA,California,26850,8379,0.8974808079302378,2.83,15
+2025 Q1,Quarter,20251,All dispute types,OK,Oklahoma,26222,11412,0.938612550149963,4.04,11
+2025 Q1,Quarter,20251,All dispute types,AR,Arkansas,21526,8840,0.9038836755551426,4.73,14
+2025 Q1,Quarter,20251,All dispute types,MO,Missouri,21050,12836,0.8765737089647965,4.35,9
+2025 Q1,Quarter,20251,All dispute types,NV,Nevada,20890,7387,0.9419339396840594,3.16,16
+2025 Q1,Quarter,20251,All dispute types,OH,Ohio,19520,12429,0.8598370317224414,2.75,10
+2025 Q1,Quarter,20251,All dispute types,VA,Virginia,16345,9753,0.8831844327499694,3.24,12
+2025 Q1,Quarter,20251,All dispute types,AL,Alabama,13989,4544,0.8997069125741655,5.28,20
+2025 Q1,Quarter,20251,All dispute types,LA,Louisiana,12592,8944,0.8298125794155019,3.81,13
+2025 Q1,Quarter,20251,All dispute types,MS,Mississippi,12476,3450,0.9360371914075024,3.5,24
+2025 Q1,Quarter,20251,All dispute types,SC,South Carolina,12363,5202,0.8296529968454258,3.05,19
+2025 Q1,Quarter,20251,All dispute types,NM,New Mexico,10465,4244,0.956808408982322,5.27,21
+2025 Q1,Quarter,20251,All dispute types,NC,North Carolina,10249,5684,0.8993072494877549,2.45,17
+2025 Q1,Quarter,20251,All dispute types,Unknown,Unknown,9789,1196,0.4,,
+2025 Q1,Quarter,20251,All dispute types,IL,Illinois,9555,5220,0.9009424083769634,4.76,18
+2025 Q1,Quarter,20251,All dispute types,KY,Kentucky,7959,4200,0.9155672823218998,3.51,22
+2025 Q1,Quarter,20251,All dispute types,PA,Pennsylvania,7812,4120,0.9071940604198668,4.38,23
+2025 Q1,Quarter,20251,All dispute types,MI,Michigan,6296,2349,0.8921537484116899,3.38,26
+2025 Q1,Quarter,20251,All dispute types,KS,Kansas,5797,2089,0.9078038674033149,2.72,27
+2025 Q1,Quarter,20251,All dispute types,CO,Colorado,4813,2420,0.7691345151199166,3.3,25
+2025 Q1,Quarter,20251,All dispute types,MD,Maryland,4327,1900,0.8814421076958632,5.05,28
+2025 Q1,Quarter,20251,All dispute types,WI,Wisconsin,2552,1559,0.8109803921568628,4.7,29
+2025 Q1,Quarter,20251,All dispute types,CT,Connecticut,1867,1210,0.884841992501339,5.3,30
+2025 Q1,Quarter,20251,All dispute types,WA,Washington,1792,1047,0.8560267857142857,2.74,32
+2025 Q1,Quarter,20251,All dispute types,IA,Iowa,1431,681,0.8120195667365478,2.69,34
+2025 Q1,Quarter,20251,All dispute types,WV,West Virginia,1356,1065,0.8989675516224189,3.95,31
+2025 Q1,Quarter,20251,All dispute types,OR,Oregon,1313,616,0.6176694592536177,1.59,35
+2025 Q1,Quarter,20251,All dispute types,MA,Massachusetts,1275,779,0.6988993710691824,2.72,33
+2025 Q1,Quarter,20251,All dispute types,RI,Rhode Island,1249,384,0.9295436349079264,3.53,38
+2025 Q1,Quarter,20251,All dispute types,DE,Delaware,1021,567,0.7747306562193927,4.03,36
+2025 Q1,Quarter,20251,All dispute types,NH,New Hampshire,868,216,0.838150289017341,2.69,42
+2025 Q1,Quarter,20251,All dispute types,UT,Utah,613,407,0.7315436241610739,3.07,37
+2025 Q1,Quarter,20251,All dispute types,NE,Nebraska,424,178,0.9174528301886793,3.0,43
+2025 Q1,Quarter,20251,All dispute types,ID,Idaho,363,280,0.7823691460055097,3.535,40
+2025 Q1,Quarter,20251,All dispute types,WY,Wyoming,355,293,0.704225352112676,2.29,39
+2025 Q1,Quarter,20251,All dispute types,MN,Minnesota,300,255,0.9215017064846417,10.01,41
+2025 Q1,Quarter,20251,All dispute types,AK,Alaska,228,175,0.6973684210526315,3.43,44
+2025 Q1,Quarter,20251,All dispute types,SD,South Dakota,214,175,0.8865979381443299,13.2,45
+2025 Q1,Quarter,20251,All dispute types,MT,Montana,205,163,0.8926829268292683,6.93,46
+2025 Q1,Quarter,20251,All dispute types,ME,Maine,138,43,0.9420289855072463,1.65,49
+2025 Q1,Quarter,20251,All dispute types,DC,District of Columbia,96,74,0.7708333333333334,4.975,47
+2025 Q1,Quarter,20251,All dispute types,HI,Hawaii,70,65,0.7857142857142857,8.665,48
+2025 Q1,Quarter,20251,All dispute types,ND,North Dakota,42,29,0.8571428571428571,1.955,50
+2025 Q1,Quarter,20251,All dispute types,VT,Vermont,14,8,0.9285714285714286,1.75,51
+2025 Q1,Quarter,20251,All dispute types,PR,Puerto Rico,2,2,1.0,12.635,52
+2025 Q1,Quarter,20251,All dispute types,MP,Northern Mariana Islands,1,1,1.0,,53
+2025 Q1,Quarter,20251,Emergency / non-emergency,TX,Texas,431340,160468,0.877883832497371,4.92,1
+2025 Q1,Quarter,20251,Emergency / non-emergency,AZ,Arizona,105500,37625,0.8532037968049382,4.14,3
+2025 Q1,Quarter,20251,Emergency / non-emergency,FL,Florida,92492,38678,0.899370796268171,2.56,2
+2025 Q1,Quarter,20251,Emergency / non-emergency,TN,Tennessee,52640,17846,0.8644705345947794,2.92,5
+2025 Q1,Quarter,20251,Emergency / non-emergency,NY,New York,41422,17682,0.86392749244713,4.73,6
+2025 Q1,Quarter,20251,Emergency / non-emergency,GA,Georgia,32380,16678,0.8716582719876017,2.69,7
+2025 Q1,Quarter,20251,Emergency / non-emergency,NJ,New Jersey,31946,20521,0.8629436849366612,8.18,4
+2025 Q1,Quarter,20251,Emergency / non-emergency,IN,Indiana,28558,15529,0.866988863206556,3.67,8
+2025 Q1,Quarter,20251,Emergency / non-emergency,CA,California,26298,7891,0.8979149227608249,2.88,15
+2025 Q1,Quarter,20251,Emergency / non-emergency,OK,Oklahoma,25972,11186,0.9388742477284349,4.05,11
+2025 Q1,Quarter,20251,Emergency / non-emergency,AR,Arkansas,20967,8424,0.9060428292078028,4.73,14
+2025 Q1,Quarter,20251,Emergency / non-emergency,MO,Missouri,20782,12596,0.8767624272171696,4.39,9
+2025 Q1,Quarter,20251,Emergency / non-emergency,NV,Nevada,20737,7269,0.9419395283792256,3.18,16
+2025 Q1,Quarter,20251,Emergency / non-emergency,OH,Ohio,19109,12022,0.859072348445189,2.75,10
+2025 Q1,Quarter,20251,Emergency / non-emergency,VA,Virginia,15994,9413,0.8826840097554874,3.32,12
+2025 Q1,Quarter,20251,Emergency / non-emergency,AL,Alabama,13693,4289,0.8991455488205653,5.32,20
+2025 Q1,Quarter,20251,Emergency / non-emergency,LA,Louisiana,12493,8863,0.8297446570079244,3.81,13
+2025 Q1,Quarter,20251,Emergency / non-emergency,SC,South Carolina,12087,4943,0.8271696864399768,3.06,19
+2025 Q1,Quarter,20251,Emergency / non-emergency,MS,Mississippi,11868,2899,0.9378159757330637,3.69,24
+2025 Q1,Quarter,20251,Emergency / non-emergency,NM,New Mexico,10058,3917,0.9603300855040764,5.27,23
+2025 Q1,Quarter,20251,Emergency / non-emergency,NC,North Carolina,10014,5503,0.8977431595765928,2.45,17
+2025 Q1,Quarter,20251,Emergency / non-emergency,Unknown,Unknown,9789,1196,0.4,,
+2025 Q1,Quarter,20251,Emergency / non-emergency,IL,Illinois,9321,5048,0.9029074133676644,4.82,18
+2025 Q1,Quarter,20251,Emergency / non-emergency,PA,Pennsylvania,7753,4088,0.9067457758287115,4.38,21
+2025 Q1,Quarter,20251,Emergency / non-emergency,KY,Kentucky,7680,3928,0.9158854166666667,3.58,22
+2025 Q1,Quarter,20251,Emergency / non-emergency,MI,Michigan,6190,2246,0.8909531502423264,3.38,26
+2025 Q1,Quarter,20251,Emergency / non-emergency,KS,Kansas,5487,1820,0.9069682597592119,2.74,28
+2025 Q1,Quarter,20251,Emergency / non-emergency,CO,Colorado,4642,2257,0.7727076124567474,3.87,25
+2025 Q1,Quarter,20251,Emergency / non-emergency,MD,Maryland,4235,1822,0.8795749704840614,5.1,27
+2025 Q1,Quarter,20251,Emergency / non-emergency,WI,Wisconsin,2353,1452,0.8090174393874947,6.325,29
+2025 Q1,Quarter,20251,Emergency / non-emergency,CT,Connecticut,1848,1193,0.8847402597402597,5.645,30
+2025 Q1,Quarter,20251,Emergency / non-emergency,WA,Washington,1460,875,0.8698630136986302,2.89,32
+2025 Q1,Quarter,20251,Emergency / non-emergency,IA,Iowa,1384,646,0.8078034682080925,2.69,34
+2025 Q1,Quarter,20251,Emergency / non-emergency,RI,Rhode Island,1244,380,0.9292604501607717,3.53,38
+2025 Q1,Quarter,20251,Emergency / non-emergency,WV,West Virginia,1244,969,0.8922829581993569,4.08,31
+2025 Q1,Quarter,20251,Emergency / non-emergency,MA,Massachusetts,1228,754,0.6889250814332247,2.64,33
+2025 Q1,Quarter,20251,Emergency / non-emergency,OR,Oregon,1108,453,0.5694945848375451,1.2,36
+2025 Q1,Quarter,20251,Emergency / non-emergency,DE,Delaware,1018,564,0.7740667976424361,4.03,35
+2025 Q1,Quarter,20251,Emergency / non-emergency,NH,New Hampshire,852,208,0.8403755868544601,2.69,41
+2025 Q1,Quarter,20251,Emergency / non-emergency,UT,Utah,591,392,0.7264808362369338,3.07,37
+2025 Q1,Quarter,20251,Emergency / non-emergency,NE,Nebraska,319,103,0.9059561128526645,3.865,45
+2025 Q1,Quarter,20251,Emergency / non-emergency,MN,Minnesota,288,244,0.9252669039145908,10.35,39
+2025 Q1,Quarter,20251,Emergency / non-emergency,ID,Idaho,281,238,0.7473309608540926,3.81,40
+2025 Q1,Quarter,20251,Emergency / non-emergency,SD,South Dakota,183,149,0.901840490797546,16.45,42
+2025 Q1,Quarter,20251,Emergency / non-emergency,AK,Alaska,155,104,0.6580645161290323,3.43,44
+2025 Q1,Quarter,20251,Emergency / non-emergency,MT,Montana,140,126,0.8571428571428571,9.16,43
+2025 Q1,Quarter,20251,Emergency / non-emergency,ME,Maine,118,33,0.9491525423728814,1.65,47
+2025 Q1,Quarter,20251,Emergency / non-emergency,DC,District of Columbia,96,74,0.7708333333333334,4.975,46
+2025 Q1,Quarter,20251,Emergency / non-emergency,WY,Wyoming,58,28,0.7413793103448276,4.36,49
+2025 Q1,Quarter,20251,Emergency / non-emergency,HI,Hawaii,36,31,0.9166666666666666,22.24,48
+2025 Q1,Quarter,20251,Emergency / non-emergency,ND,North Dakota,12,6,0.9166666666666666,1.69,50
+2025 Q1,Quarter,20251,Emergency / non-emergency,VT,Vermont,9,5,1.0,1.71,51
+2025 Q1,Quarter,20251,Emergency / non-emergency,PR,Puerto Rico,2,2,1.0,12.635,52
+2025 Q1,Quarter,20251,Emergency / non-emergency,MP,Northern Mariana Islands,1,1,1.0,,53
+2025 Q2,Quarter,20252,Air ambulance,TX,Texas,3284,3026,0.9513396981829381,2.88,1
+2025 Q2,Quarter,20252,Air ambulance,TN,Tennessee,950,862,0.8863157894736842,2.01,3
+2025 Q2,Quarter,20252,Air ambulance,CA,California,898,866,0.5801781737193764,1.61,2
+2025 Q2,Quarter,20252,Air ambulance,GA,Georgia,683,595,0.9205882352941176,2.44,4
+2025 Q2,Quarter,20252,Air ambulance,AZ,Arizona,680,548,0.8779411764705882,1.95,5
+2025 Q2,Quarter,20252,Air ambulance,FL,Florida,585,360,0.9181184668989547,6.19,9
+2025 Q2,Quarter,20252,Air ambulance,NM,New Mexico,553,453,0.9059674502712477,5.22,6
+2025 Q2,Quarter,20252,Air ambulance,MS,Mississippi,437,401,0.9267734553775744,1.6749999999999998,7
+2025 Q2,Quarter,20252,Air ambulance,AR,Arkansas,396,307,0.9242424242424242,1.73,11
+2025 Q2,Quarter,20252,Air ambulance,AL,Alabama,391,335,0.9207161125319693,2.61,10
+2025 Q2,Quarter,20252,Air ambulance,OH,Ohio,383,374,0.9347258485639687,1.9,8
+2025 Q2,Quarter,20252,Air ambulance,KS,Kansas,314,255,0.9076433121019108,2.66,15
+2025 Q2,Quarter,20252,Air ambulance,VA,Virginia,300,290,0.8733333333333333,2.52,12
+2025 Q2,Quarter,20252,Air ambulance,MI,Michigan,292,278,0.976027397260274,2.93,13
+2025 Q2,Quarter,20252,Air ambulance,KY,Kentucky,270,257,0.9185185185185185,2.39,14
+2025 Q2,Quarter,20252,Air ambulance,IL,Illinois,268,179,0.861003861003861,2.63,21
+2025 Q2,Quarter,20252,Air ambulance,OR,Oregon,255,221,0.8823529411764706,2.58,16
+2025 Q2,Quarter,20252,Air ambulance,MO,Missouri,244,188,0.897119341563786,2.1,18
+2025 Q2,Quarter,20252,Air ambulance,OK,Oklahoma,235,194,0.9276595744680851,2.1,17
+2025 Q2,Quarter,20252,Air ambulance,WY,Wyoming,214,179,0.8177570093457944,2.355,22
+2025 Q2,Quarter,20252,Air ambulance,NC,North Carolina,212,176,0.8443396226415094,3.0,23
+2025 Q2,Quarter,20252,Air ambulance,SC,South Carolina,204,187,0.9166666666666666,2.545,19
+2025 Q2,Quarter,20252,Air ambulance,WA,Washington,200,105,0.845,1.53,29
+2025 Q2,Quarter,20252,Air ambulance,IN,Indiana,197,186,0.9390862944162437,2.17,20
+2025 Q2,Quarter,20252,Air ambulance,WI,Wisconsin,196,107,0.8622448979591837,2.05,28
+2025 Q2,Quarter,20252,Air ambulance,CO,Colorado,174,155,0.7471264367816092,1.79,24
+2025 Q2,Quarter,20252,Air ambulance,MD,Maryland,163,147,0.9079754601226994,4.47,25
+2025 Q2,Quarter,20252,Air ambulance,LA,Louisiana,158,140,0.9113924050632911,2.76,26
+2025 Q2,Quarter,20252,Air ambulance,WV,West Virginia,141,128,0.8439716312056738,1.77,27
+2025 Q2,Quarter,20252,Air ambulance,NV,Nevada,139,100,0.9064748201438849,2.2199999999999998,30
+2025 Q2,Quarter,20252,Air ambulance,NJ,New Jersey,111,72,0.9099099099099099,4.1,31
+2025 Q2,Quarter,20252,Air ambulance,NE,Nebraska,87,63,0.8735632183908046,2.29,32
+2025 Q2,Quarter,20252,Air ambulance,PA,Pennsylvania,82,44,0.9512195121951219,3.57,35
+2025 Q2,Quarter,20252,Air ambulance,ID,Idaho,70,35,0.7142857142857143,2.6,37
+2025 Q2,Quarter,20252,Air ambulance,AK,Alaska,56,55,0.8035714285714286,2.41,33
+2025 Q2,Quarter,20252,Air ambulance,HI,Hawaii,48,48,0.8333333333333334,3.31,34
+2025 Q2,Quarter,20252,Air ambulance,MT,Montana,47,32,0.8723404255319149,2.5,38
+2025 Q2,Quarter,20252,Air ambulance,NY,New York,44,26,0.8863636363636364,2.33,41
+2025 Q2,Quarter,20252,Air ambulance,MN,Minnesota,43,38,0.9767441860465116,3.06,36
+2025 Q2,Quarter,20252,Air ambulance,IA,Iowa,37,24,0.8918918918918919,2.48,42
+2025 Q2,Quarter,20252,Air ambulance,UT,Utah,36,19,0.8888888888888888,2.0,43
+2025 Q2,Quarter,20252,Air ambulance,SD,South Dakota,35,30,0.7941176470588235,1.93,39
+2025 Q2,Quarter,20252,Air ambulance,ND,North Dakota,33,29,1.0,2.28,40
+2025 Q2,Quarter,20252,Air ambulance,MA,Massachusetts,23,13,0.9090909090909091,2.6950000000000003,45
+2025 Q2,Quarter,20252,Air ambulance,CT,Connecticut,17,14,0.8823529411764706,2.005,44
+2025 Q2,Quarter,20252,Air ambulance,ME,Maine,11,5,0.8,1.84,46
+2025 Q2,Quarter,20252,Air ambulance,NH,New Hampshire,10,5,1.0,5.47,47
+2025 Q2,Quarter,20252,Air ambulance,DC,District of Columbia,8,4,1.0,4.445,49
+2025 Q2,Quarter,20252,Air ambulance,RI,Rhode Island,7,5,0.8571428571428571,2.88,48
+2025 Q2,Quarter,20252,Air ambulance,DE,Delaware,4,2,0.5,2.79,50
+2025 Q2,Quarter,20252,Air ambulance,VT,Vermont,2,1,1.0,2.94,51
+2025 Q2,Quarter,20252,All dispute types,TX,Texas,716751,242366,0.8936998536722885,5.01,1
+2025 Q2,Quarter,20252,All dispute types,AZ,Arizona,143051,47598,0.8388144917764692,4.16,2
+2025 Q2,Quarter,20252,All dispute types,FL,Florida,116097,42303,0.8767959613251465,2.62,3
+2025 Q2,Quarter,20252,All dispute types,TN,Tennessee,70266,20721,0.8482387545734988,2.84,7
+2025 Q2,Quarter,20252,All dispute types,NY,New York,49271,22455,0.8732637829703292,5.36,5
+2025 Q2,Quarter,20252,All dispute types,CA,California,49189,16582,0.8987815544842457,2.73,9
+2025 Q2,Quarter,20252,All dispute types,GA,Georgia,46917,19796,0.8479679107402199,2.79,8
+2025 Q2,Quarter,20252,All dispute types,IN,Indiana,42139,21732,0.8948180501815938,3.68,6
+2025 Q2,Quarter,20252,All dispute types,NJ,New Jersey,41905,25444,0.8677961227864178,8.95,4
+2025 Q2,Quarter,20252,All dispute types,OK,Oklahoma,28971,13173,0.9237567084078712,4.33,11
+2025 Q2,Quarter,20252,All dispute types,OH,Ohio,25962,15448,0.8825659795800423,2.835,10
+2025 Q2,Quarter,20252,All dispute types,AR,Arkansas,25755,9582,0.8795133895604182,4.47,16
+2025 Q2,Quarter,20252,All dispute types,NV,Nevada,23347,10831,0.915949106798612,2.73,14
+2025 Q2,Quarter,20252,All dispute types,MO,Missouri,19421,11252,0.8901993098830921,4.23,13
+2025 Q2,Quarter,20252,All dispute types,LA,Louisiana,18871,12997,0.8056939879122045,3.81,12
+2025 Q2,Quarter,20252,All dispute types,NM,New Mexico,18694,7465,0.9400845236184668,5.14,17
+2025 Q2,Quarter,20252,All dispute types,MS,Mississippi,18414,4336,0.8919481088182166,3.1,24
+2025 Q2,Quarter,20252,All dispute types,VA,Virginia,18287,10037,0.8159938737556066,3.2,15
+2025 Q2,Quarter,20252,All dispute types,PA,Pennsylvania,17842,5367,0.9193430861498795,3.77,21
+2025 Q2,Quarter,20252,All dispute types,AL,Alabama,17765,5165,0.858879819870532,4.37,22
+2025 Q2,Quarter,20252,All dispute types,Unknown,Unknown,15251,1897,,,
+2025 Q2,Quarter,20252,All dispute types,NC,North Carolina,13604,5834,0.8143730211324645,2.62,19
+2025 Q2,Quarter,20252,All dispute types,SC,South Carolina,13059,5571,0.8579197303921569,3.34,20
+2025 Q2,Quarter,20252,All dispute types,MI,Michigan,11907,4008,0.9216427311665407,3.755,25
+2025 Q2,Quarter,20252,All dispute types,IL,Illinois,11119,6509,0.8533753375337534,4.53,18
+2025 Q2,Quarter,20252,All dispute types,KY,Kentucky,8124,4692,0.8544826735725737,3.41,23
+2025 Q2,Quarter,20252,All dispute types,KS,Kansas,7876,3091,0.9068378240976106,2.9,27
+2025 Q2,Quarter,20252,All dispute types,CO,Colorado,6930,3743,0.804630969609262,3.46,26
+2025 Q2,Quarter,20252,All dispute types,MD,Maryland,6026,2253,0.8175630810092962,4.0,29
+2025 Q2,Quarter,20252,All dispute types,WI,Wisconsin,5666,2948,0.8366301660190746,4.29,28
+2025 Q2,Quarter,20252,All dispute types,WA,Washington,3936,2089,0.9004065040650406,2.3,30
+2025 Q2,Quarter,20252,All dispute types,CT,Connecticut,3882,1827,0.7918598660484286,3.05,31
+2025 Q2,Quarter,20252,All dispute types,MA,Massachusetts,2155,960,0.6304549675023212,2.15,33
+2025 Q2,Quarter,20252,All dispute types,OR,Oregon,2092,609,0.4588910133843212,1.0,37
+2025 Q2,Quarter,20252,All dispute types,RI,Rhode Island,1913,760,0.8186095138525875,2.71,34
+2025 Q2,Quarter,20252,All dispute types,DE,Delaware,1650,691,0.7793939393939394,3.1,35
+2025 Q2,Quarter,20252,All dispute types,WV,West Virginia,1572,1234,0.8772264631043257,4.305,32
+2025 Q2,Quarter,20252,All dispute types,IA,Iowa,1440,629,0.7958333333333333,2.47,36
+2025 Q2,Quarter,20252,All dispute types,UT,Utah,1025,558,0.8565488565488566,3.175,39
+2025 Q2,Quarter,20252,All dispute types,ME,Maine,917,579,0.9355895196506551,2.83,38
+2025 Q2,Quarter,20252,All dispute types,NH,New Hampshire,684,197,0.8289473684210527,2.88,44
+2025 Q2,Quarter,20252,All dispute types,MN,Minnesota,636,336,0.8275316455696202,4.49,41
+2025 Q2,Quarter,20252,All dispute types,ID,Idaho,571,443,0.851138353765324,4.35,40
+2025 Q2,Quarter,20252,All dispute types,NE,Nebraska,501,195,0.7504990019960079,3.3600000000000003,45
+2025 Q2,Quarter,20252,All dispute types,AK,Alaska,371,324,0.8559782608695652,2.94,42
+2025 Q2,Quarter,20252,All dispute types,WY,Wyoming,310,240,0.8193548387096774,2.36,43
+2025 Q2,Quarter,20252,All dispute types,MT,Montana,221,144,0.9095022624434389,7.28,47
+2025 Q2,Quarter,20252,All dispute types,SD,South Dakota,188,165,0.8556149732620321,13.29,46
+2025 Q2,Quarter,20252,All dispute types,DC,District of Columbia,123,100,0.8943089430894309,6.824999999999999,48
+2025 Q2,Quarter,20252,All dispute types,HI,Hawaii,90,83,0.8888888888888888,10.09,49
+2025 Q2,Quarter,20252,All dispute types,ND,North Dakota,87,38,0.9885057471264368,3.9450000000000003,50
+2025 Q2,Quarter,20252,All dispute types,VT,Vermont,11,6,0.6363636363636364,3.13,52
+2025 Q2,Quarter,20252,All dispute types,AS,American Samoa,6,6,1.0,5.735,51
+2025 Q2,Quarter,20252,All dispute types,PR,Puerto Rico,2,2,1.0,4.735,53
+2025 Q2,Quarter,20252,All dispute types,MP,Northern Mariana Islands,1,1,1.0,8.15,54
+2025 Q2,Quarter,20252,All dispute types,VI,U.S. Virgin Islands,1,1,1.0,4.73,55
+2025 Q2,Quarter,20252,Emergency / non-emergency,TX,Texas,713467,239340,0.893419328922637,5.02,1
+2025 Q2,Quarter,20252,Emergency / non-emergency,AZ,Arizona,142371,47050,0.8386227178041906,4.18,2
+2025 Q2,Quarter,20252,Emergency / non-emergency,FL,Florida,115512,41943,0.8765877509458475,2.6,3
+2025 Q2,Quarter,20252,Emergency / non-emergency,TN,Tennessee,69316,19859,0.847712560913521,2.87,7
+2025 Q2,Quarter,20252,Emergency / non-emergency,NY,New York,49227,22429,0.8732520507236052,5.37,5
+2025 Q2,Quarter,20252,Emergency / non-emergency,CA,California,48291,15716,0.9047096119180325,2.79,9
+2025 Q2,Quarter,20252,Emergency / non-emergency,GA,Georgia,46234,19201,0.8468114007353802,2.8,8
+2025 Q2,Quarter,20252,Emergency / non-emergency,IN,Indiana,41942,21546,0.894610064393036,3.68,6
+2025 Q2,Quarter,20252,Emergency / non-emergency,NJ,New Jersey,41794,25372,0.8676838058625661,8.95,4
+2025 Q2,Quarter,20252,Emergency / non-emergency,OK,Oklahoma,28736,12979,0.9237236153707379,4.38,11
+2025 Q2,Quarter,20252,Emergency / non-emergency,OH,Ohio,25579,15074,0.8817847645862662,2.84,10
+2025 Q2,Quarter,20252,Emergency / non-emergency,AR,Arkansas,25359,9275,0.8788141949236175,4.57,16
+2025 Q2,Quarter,20252,Emergency / non-emergency,NV,Nevada,23208,10731,0.9160058610584382,2.73,14
+2025 Q2,Quarter,20252,Emergency / non-emergency,MO,Missouri,19177,11064,0.8901116094711589,4.23,13
+2025 Q2,Quarter,20252,Emergency / non-emergency,LA,Louisiana,18713,12857,0.8048011120615911,3.81,12
+2025 Q2,Quarter,20252,Emergency / non-emergency,NM,New Mexico,18141,7012,0.9411245865490628,5.14,17
+2025 Q2,Quarter,20252,Emergency / non-emergency,VA,Virginia,17987,9747,0.8150372594817039,3.21,15
+2025 Q2,Quarter,20252,Emergency / non-emergency,MS,Mississippi,17977,3935,0.8910946612830866,3.15,24
+2025 Q2,Quarter,20252,Emergency / non-emergency,PA,Pennsylvania,17760,5323,0.9191959006700827,3.77,21
+2025 Q2,Quarter,20252,Emergency / non-emergency,AL,Alabama,17374,4830,0.857488200759756,4.4,22
+2025 Q2,Quarter,20252,Emergency / non-emergency,Unknown,Unknown,15251,1897,,,
+2025 Q2,Quarter,20252,Emergency / non-emergency,NC,North Carolina,13392,5658,0.813897823322612,2.62,19
+2025 Q2,Quarter,20252,Emergency / non-emergency,SC,South Carolina,12855,5384,0.8569872393401805,3.34,20
+2025 Q2,Quarter,20252,Emergency / non-emergency,MI,Michigan,11615,3730,0.9202755058114507,3.8,25
+2025 Q2,Quarter,20252,Emergency / non-emergency,IL,Illinois,10851,6330,0.8531932540779652,4.57,18
+2025 Q2,Quarter,20252,Emergency / non-emergency,KY,Kentucky,7854,4435,0.8522770761576731,3.43,23
+2025 Q2,Quarter,20252,Emergency / non-emergency,KS,Kansas,7562,2836,0.9068043420704263,2.96,28
+2025 Q2,Quarter,20252,Emergency / non-emergency,CO,Colorado,6756,3588,0.8061163895486936,3.84,26
+2025 Q2,Quarter,20252,Emergency / non-emergency,MD,Maryland,5863,2106,0.8150486265142467,4.0,29
+2025 Q2,Quarter,20252,Emergency / non-emergency,WI,Wisconsin,5470,2841,0.8357116721551409,4.665,27
+2025 Q2,Quarter,20252,Emergency / non-emergency,CT,Connecticut,3865,1813,0.7914618369987063,3.06,31
+2025 Q2,Quarter,20252,Emergency / non-emergency,WA,Washington,3736,1984,0.903372591006424,2.36,30
+2025 Q2,Quarter,20252,Emergency / non-emergency,MA,Massachusetts,2132,947,0.6275797373358349,2.14,33
+2025 Q2,Quarter,20252,Emergency / non-emergency,RI,Rhode Island,1906,755,0.8184679958027282,2.71,34
+2025 Q2,Quarter,20252,Emergency / non-emergency,OR,Oregon,1837,388,0.4001088731627654,1.0,40
+2025 Q2,Quarter,20252,Emergency / non-emergency,DE,Delaware,1646,689,0.7800729040097205,3.1,35
+2025 Q2,Quarter,20252,Emergency / non-emergency,WV,West Virginia,1431,1106,0.8805031446540881,4.48,32
+2025 Q2,Quarter,20252,Emergency / non-emergency,IA,Iowa,1403,605,0.7933000712758375,2.47,36
+2025 Q2,Quarter,20252,Emergency / non-emergency,UT,Utah,989,539,0.8552915766738661,3.44,38
+2025 Q2,Quarter,20252,Emergency / non-emergency,ME,Maine,906,574,0.9370860927152318,2.83,37
+2025 Q2,Quarter,20252,Emergency / non-emergency,NH,New Hampshire,674,192,0.8264094955489614,2.88,43
+2025 Q2,Quarter,20252,Emergency / non-emergency,MN,Minnesota,593,298,0.8166383701188455,4.76,41
+2025 Q2,Quarter,20252,Emergency / non-emergency,ID,Idaho,501,408,0.8702594810379242,4.470000000000001,39
+2025 Q2,Quarter,20252,Emergency / non-emergency,NE,Nebraska,414,132,0.7246376811594203,3.9,45
+2025 Q2,Quarter,20252,Emergency / non-emergency,AK,Alaska,315,269,0.8653846153846154,3.11,42
+2025 Q2,Quarter,20252,Emergency / non-emergency,MT,Montana,174,112,0.9195402298850575,9.07,46
+2025 Q2,Quarter,20252,Emergency / non-emergency,SD,South Dakota,153,135,0.869281045751634,16.45,44
+2025 Q2,Quarter,20252,Emergency / non-emergency,DC,District of Columbia,115,96,0.8869565217391304,8.559999999999999,47
+2025 Q2,Quarter,20252,Emergency / non-emergency,WY,Wyoming,96,61,0.8229166666666666,2.8,48
+2025 Q2,Quarter,20252,Emergency / non-emergency,ND,North Dakota,54,9,0.9814814814814815,4.56,50
+2025 Q2,Quarter,20252,Emergency / non-emergency,HI,Hawaii,42,35,0.9523809523809523,13.09,49
+2025 Q2,Quarter,20252,Emergency / non-emergency,VT,Vermont,9,5,0.5555555555555556,3.13,52
+2025 Q2,Quarter,20252,Emergency / non-emergency,AS,American Samoa,6,6,1.0,5.735,51
+2025 Q2,Quarter,20252,Emergency / non-emergency,PR,Puerto Rico,2,2,1.0,4.735,53
+2025 Q2,Quarter,20252,Emergency / non-emergency,VI,U.S. Virgin Islands,1,1,1.0,4.73,55
+2025 Q2,Quarter,20252,Emergency / non-emergency,MP,Northern Mariana Islands,1,1,1.0,8.15,54
+2025 Q3,Quarter,20253,Air ambulance,TX,Texas,2513,1997,0.9661219609406138,2.47,1
+2025 Q3,Quarter,20253,Air ambulance,FL,Florida,1284,711,0.9430577223088924,6.75,3
+2025 Q3,Quarter,20253,Air ambulance,TN,Tennessee,1052,907,0.9268060836501901,1.63,2
+2025 Q3,Quarter,20253,Air ambulance,NM,New Mexico,955,595,0.9549738219895288,6.39,6
+2025 Q3,Quarter,20253,Air ambulance,AZ,Arizona,935,635,0.8695187165775401,2.09,5
+2025 Q3,Quarter,20253,Air ambulance,GA,Georgia,836,642,0.9700956937799043,2.67,4
+2025 Q3,Quarter,20253,Air ambulance,AR,Arkansas,539,375,0.8552875695732839,1.89,9
+2025 Q3,Quarter,20253,Air ambulance,AL,Alabama,504,375,0.9484126984126984,2.95,8
+2025 Q3,Quarter,20253,Air ambulance,MS,Mississippi,448,379,0.8883928571428571,1.73,7
+2025 Q3,Quarter,20253,Air ambulance,CA,California,408,364,0.8455882352941176,2.51,10
+2025 Q3,Quarter,20253,Air ambulance,OH,Ohio,330,325,0.9575757575757575,1.875,11
+2025 Q3,Quarter,20253,Air ambulance,WA,Washington,312,158,0.8717948717948718,1.53,23
+2025 Q3,Quarter,20253,Air ambulance,KS,Kansas,306,231,0.9411764705882353,2.465,14
+2025 Q3,Quarter,20253,Air ambulance,SC,South Carolina,290,234,0.9448275862068966,2.91,13
+2025 Q3,Quarter,20253,Air ambulance,NC,North Carolina,282,207,0.9645390070921985,2.65,16
+2025 Q3,Quarter,20253,Air ambulance,OK,Oklahoma,270,215,0.9074074074074074,1.95,15
+2025 Q3,Quarter,20253,Air ambulance,VA,Virginia,268,251,0.9253731343283582,3.51,12
+2025 Q3,Quarter,20253,Air ambulance,MO,Missouri,245,195,0.9306122448979591,1.73,17
+2025 Q3,Quarter,20253,Air ambulance,OR,Oregon,215,185,0.9302325581395349,2.81,18
+2025 Q3,Quarter,20253,Air ambulance,WY,Wyoming,215,165,0.8930232558139535,2.54,21
+2025 Q3,Quarter,20253,Air ambulance,KY,Kentucky,198,184,0.9393939393939394,2.29,19
+2025 Q3,Quarter,20253,Air ambulance,IL,Illinois,194,123,0.8402061855670103,2.4,26
+2025 Q3,Quarter,20253,Air ambulance,NV,Nevada,193,137,0.8808290155440415,2.375,24
+2025 Q3,Quarter,20253,Air ambulance,MI,Michigan,188,169,0.9946808510638298,2.3600000000000003,20
+2025 Q3,Quarter,20253,Air ambulance,IN,Indiana,173,158,0.930635838150289,2.135,22
+2025 Q3,Quarter,20253,Air ambulance,WI,Wisconsin,159,85,0.8616352201257862,2.14,29
+2025 Q3,Quarter,20253,Air ambulance,MD,Maryland,159,132,0.8679245283018868,4.48,25
+2025 Q3,Quarter,20253,Air ambulance,CO,Colorado,145,110,0.8689655172413793,1.99,27
+2025 Q3,Quarter,20253,Air ambulance,LA,Louisiana,126,98,0.8809523809523809,2.75,28
+2025 Q3,Quarter,20253,Air ambulance,NE,Nebraska,125,72,0.992,2.64,32
+2025 Q3,Quarter,20253,Air ambulance,NJ,New Jersey,116,74,1.0,4.25,31
+2025 Q3,Quarter,20253,Air ambulance,IA,Iowa,105,59,0.9238095238095239,2.98,33
+2025 Q3,Quarter,20253,Air ambulance,PA,Pennsylvania,98,49,1.0,4.455,34
+2025 Q3,Quarter,20253,Air ambulance,ID,Idaho,94,47,0.9574468085106383,3.07,35
+2025 Q3,Quarter,20253,Air ambulance,WV,West Virginia,86,80,0.9883720930232558,1.77,30
+2025 Q3,Quarter,20253,Air ambulance,MT,Montana,78,42,0.9358974358974359,2.315,37
+2025 Q3,Quarter,20253,Air ambulance,ND,North Dakota,48,42,0.75,2.13,38
+2025 Q3,Quarter,20253,Air ambulance,HI,Hawaii,46,46,0.8043478260869565,2.75,36
+2025 Q3,Quarter,20253,Air ambulance,UT,Utah,43,24,0.8604651162790697,2.07,41
+2025 Q3,Quarter,20253,Air ambulance,MA,Massachusetts,42,22,0.9761904761904762,3.75,43
+2025 Q3,Quarter,20253,Air ambulance,AK,Alaska,42,33,0.6904761904761905,1.76,39
+2025 Q3,Quarter,20253,Air ambulance,NY,New York,37,20,1.0,3.62,44
+2025 Q3,Quarter,20253,Air ambulance,SD,South Dakota,36,31,0.8055555555555556,2.04,40
+2025 Q3,Quarter,20253,Air ambulance,MN,Minnesota,29,23,0.9310344827586207,2.91,42
+2025 Q3,Quarter,20253,Air ambulance,ME,Maine,16,9,0.875,1.755,46
+2025 Q3,Quarter,20253,Air ambulance,CT,Connecticut,11,11,0.7272727272727273,1.93,45
+2025 Q3,Quarter,20253,Air ambulance,NH,New Hampshire,10,6,1.0,4.195,47
+2025 Q3,Quarter,20253,Air ambulance,Unknown,Unknown,9,1,,,
+2025 Q3,Quarter,20253,Air ambulance,DE,Delaware,8,4,1.0,7.78,48
+2025 Q3,Quarter,20253,Air ambulance,RI,Rhode Island,2,2,1.0,1.985,49
+2025 Q3,Quarter,20253,Air ambulance,VT,Vermont,2,1,1.0,3.09,51
+2025 Q3,Quarter,20253,Air ambulance,DC,District of Columbia,1,1,1.0,3.78,50
+2025 Q3,Quarter,20253,All dispute types,TX,Texas,716126,242087,0.888703157766769,4.91,1
+2025 Q3,Quarter,20253,All dispute types,AZ,Arizona,102268,39967,0.8355906086533392,5.15,2
+2025 Q3,Quarter,20253,All dispute types,FL,Florida,91103,35091,0.8876062030389978,2.5,3
+2025 Q3,Quarter,20253,All dispute types,CA,California,71485,23059,0.8830198329260669,2.42,5
+2025 Q3,Quarter,20253,All dispute types,TN,Tennessee,61430,19327,0.8332499833299993,2.72,8
+2025 Q3,Quarter,20253,All dispute types,GA,Georgia,50057,20952,0.8694022078733598,3.13,6
+2025 Q3,Quarter,20253,All dispute types,NJ,New Jersey,42016,29892,0.8684160350827017,18.15,4
+2025 Q3,Quarter,20253,All dispute types,NY,New York,41679,20556,0.8740959657848579,5.41,7
+2025 Q3,Quarter,20253,All dispute types,OK,Oklahoma,36279,13973,0.9368863955119214,6.73,11
+2025 Q3,Quarter,20253,All dispute types,IN,Indiana,35941,19198,0.8585262689225289,3.25,9
+2025 Q3,Quarter,20253,All dispute types,AR,Arkansas,27611,9616,0.8610869249746046,4.93,15
+2025 Q3,Quarter,20253,All dispute types,LA,Louisiana,25812,16124,0.7445761661242832,3.79,10
+2025 Q3,Quarter,20253,All dispute types,OH,Ohio,22882,12800,0.8654400839087493,2.53,12
+2025 Q3,Quarter,20253,All dispute types,NV,Nevada,22128,10229,0.914155127160829,2.52,14
+2025 Q3,Quarter,20253,All dispute types,MS,Mississippi,20877,4826,0.8337944759963108,3.19,21
+2025 Q3,Quarter,20253,All dispute types,VA,Virginia,20708,11389,0.8382281905129939,3.49,13
+2025 Q3,Quarter,20253,All dispute types,NM,New Mexico,19360,7095,0.9335743801652893,5.16,17
+2025 Q3,Quarter,20253,All dispute types,Unknown,Unknown,19136,2401,0.0,,
+2025 Q3,Quarter,20253,All dispute types,MO,Missouri,14730,8445,0.8734469414081064,3.86,16
+2025 Q3,Quarter,20253,All dispute types,AL,Alabama,13020,4170,0.8556764683182836,4.06,22
+2025 Q3,Quarter,20253,All dispute types,NC,North Carolina,12700,5445,0.8009777637596593,2.67,18
+2025 Q3,Quarter,20253,All dispute types,MI,Michigan,12657,4133,0.9459674215335717,4.43,23
+2025 Q3,Quarter,20253,All dispute types,KS,Kansas,12246,4045,0.9309272444553565,3.5,25
+2025 Q3,Quarter,20253,All dispute types,SC,South Carolina,10617,4895,0.8137892059903927,2.87,20
+2025 Q3,Quarter,20253,All dispute types,PA,Pennsylvania,8647,4050,0.8954154727793696,4.98,24
+2025 Q3,Quarter,20253,All dispute types,IL,Illinois,7991,4937,0.8900012514078338,3.83,19
+2025 Q3,Quarter,20253,All dispute types,CO,Colorado,7316,3931,0.7635432958908005,3.32,26
+2025 Q3,Quarter,20253,All dispute types,MD,Maryland,6354,1635,0.724268177525968,2.7,32
+2025 Q3,Quarter,20253,All dispute types,KY,Kentucky,6339,3782,0.8701687963401168,3.63,27
+2025 Q3,Quarter,20253,All dispute types,WI,Wisconsin,5946,2527,0.8302489905787349,2.71,28
+2025 Q3,Quarter,20253,All dispute types,WA,Washington,4813,2062,0.8790910986032937,2.09,30
+2025 Q3,Quarter,20253,All dispute types,CT,Connecticut,4272,2092,0.8433622102552095,3.15,29
+2025 Q3,Quarter,20253,All dispute types,ID,Idaho,3607,1753,0.8256168561131134,6.8,31
+2025 Q3,Quarter,20253,All dispute types,MA,Massachusetts,1854,1013,0.7971952535059331,2.47,34
+2025 Q3,Quarter,20253,All dispute types,OR,Oregon,1497,601,0.6633266533066132,2.3,38
+2025 Q3,Quarter,20253,All dispute types,RI,Rhode Island,1484,547,0.8463611859838275,2.865,40
+2025 Q3,Quarter,20253,All dispute types,NH,New Hampshire,1441,257,0.9368494101318529,3.7,45
+2025 Q3,Quarter,20253,All dispute types,WV,West Virginia,1428,1108,0.876750700280112,5.0,33
+2025 Q3,Quarter,20253,All dispute types,UT,Utah,1330,581,0.7954887218045112,2.64,39
+2025 Q3,Quarter,20253,All dispute types,IA,Iowa,1176,616,0.8154761904761905,2.76,36
+2025 Q3,Quarter,20253,All dispute types,DE,Delaware,998,648,0.8226452905811623,5.52,35
+2025 Q3,Quarter,20253,All dispute types,SD,South Dakota,788,603,0.8304635761589404,4.18,37
+2025 Q3,Quarter,20253,All dispute types,ME,Maine,762,522,0.9291338582677166,2.97,41
+2025 Q3,Quarter,20253,All dispute types,NE,Nebraska,680,206,0.9008547008547009,2.95,47
+2025 Q3,Quarter,20253,All dispute types,MN,Minnesota,592,344,0.8879456706281834,4.22,43
+2025 Q3,Quarter,20253,All dispute types,HI,Hawaii,448,355,0.7232142857142857,4.84,42
+2025 Q3,Quarter,20253,All dispute types,AK,Alaska,372,340,0.8301886792452831,2.47,44
+2025 Q3,Quarter,20253,All dispute types,WY,Wyoming,315,212,0.8888888888888888,2.54,46
+2025 Q3,Quarter,20253,All dispute types,DC,District of Columbia,289,150,0.7993079584775087,2.71,48
+2025 Q3,Quarter,20253,All dispute types,MT,Montana,205,128,0.8682926829268293,5.17,49
+2025 Q3,Quarter,20253,All dispute types,ND,North Dakota,69,50,0.75,2.13,50
+2025 Q3,Quarter,20253,All dispute types,VT,Vermont,16,8,1.0,1.6949999999999998,51
+2025 Q3,Quarter,20253,All dispute types,AS,American Samoa,3,3,1.0,9.34,52
+2025 Q3,Quarter,20253,All dispute types,PR,Puerto Rico,1,1,1.0,16.08,54
+2025 Q3,Quarter,20253,All dispute types,GU,Guam,1,1,1.0,3.3,53
+2025 Q3,Quarter,20253,Emergency / non-emergency,TX,Texas,713613,240090,0.8884068516408334,4.92,1
+2025 Q3,Quarter,20253,Emergency / non-emergency,AZ,Arizona,101333,39332,0.8352659427483651,5.19,2
+2025 Q3,Quarter,20253,Emergency / non-emergency,FL,Florida,89819,34380,0.8868010012799167,2.49,3
+2025 Q3,Quarter,20253,Emergency / non-emergency,CA,California,71077,22695,0.8832380680194342,2.42,5
+2025 Q3,Quarter,20253,Emergency / non-emergency,TN,Tennessee,60378,18420,0.831580019003665,2.75,9
+2025 Q3,Quarter,20253,Emergency / non-emergency,GA,Georgia,49221,20310,0.8676177555433078,3.14,7
+2025 Q3,Quarter,20253,Emergency / non-emergency,NJ,New Jersey,41900,29818,0.868051240380479,18.21,4
+2025 Q3,Quarter,20253,Emergency / non-emergency,NY,New York,41642,20536,0.8739839353566446,5.42,6
+2025 Q3,Quarter,20253,Emergency / non-emergency,OK,Oklahoma,36009,13758,0.9371113623516111,6.93,11
+2025 Q3,Quarter,20253,Emergency / non-emergency,IN,Indiana,35768,19040,0.8581774459637055,3.25,8
+2025 Q3,Quarter,20253,Emergency / non-emergency,AR,Arkansas,27072,9241,0.8612025901942646,5.03,15
+2025 Q3,Quarter,20253,Emergency / non-emergency,LA,Louisiana,25686,16026,0.7439071867943627,3.79,10
+2025 Q3,Quarter,20253,Emergency / non-emergency,OH,Ohio,22552,12475,0.8640918765519687,2.54,12
+2025 Q3,Quarter,20253,Emergency / non-emergency,NV,Nevada,21935,10092,0.9144487559917827,2.52,14
+2025 Q3,Quarter,20253,Emergency / non-emergency,VA,Virginia,20440,11138,0.8370852500734071,3.49,13
+2025 Q3,Quarter,20253,Emergency / non-emergency,MS,Mississippi,20429,4447,0.8325807572073637,3.35,21
+2025 Q3,Quarter,20253,Emergency / non-emergency,Unknown,Unknown,19127,2400,0.0,,
+2025 Q3,Quarter,20253,Emergency / non-emergency,NM,New Mexico,18405,6500,0.9324640043466449,5.13,17
+2025 Q3,Quarter,20253,Emergency / non-emergency,MO,Missouri,14485,8250,0.8724799779066557,3.91,16
+2025 Q3,Quarter,20253,Emergency / non-emergency,AL,Alabama,12516,3795,0.8519232313498756,4.26,26
+2025 Q3,Quarter,20253,Emergency / non-emergency,MI,Michigan,12469,3964,0.9452286843591191,4.63,23
+2025 Q3,Quarter,20253,Emergency / non-emergency,NC,North Carolina,12418,5238,0.797258064516129,2.67,18
+2025 Q3,Quarter,20253,Emergency / non-emergency,KS,Kansas,11940,3814,0.9306639805254764,3.5,25
+2025 Q3,Quarter,20253,Emergency / non-emergency,SC,South Carolina,10327,4661,0.8101094219037475,2.87,20
+2025 Q3,Quarter,20253,Emergency / non-emergency,PA,Pennsylvania,8549,4001,0.8941773375211404,4.99,22
+2025 Q3,Quarter,20253,Emergency / non-emergency,IL,Illinois,7797,4814,0.8912402205976657,3.89,19
+2025 Q3,Quarter,20253,Emergency / non-emergency,CO,Colorado,7171,3821,0.7613240418118467,3.42,24
+2025 Q3,Quarter,20253,Emergency / non-emergency,MD,Maryland,6195,1503,0.7205811138014527,2.7,32
+2025 Q3,Quarter,20253,Emergency / non-emergency,KY,Kentucky,6141,3598,0.8679368181078,3.63,27
+2025 Q3,Quarter,20253,Emergency / non-emergency,WI,Wisconsin,5787,2442,0.8293863439930855,2.77,28
+2025 Q3,Quarter,20253,Emergency / non-emergency,WA,Washington,4501,1904,0.8795986622073578,2.1,30
+2025 Q3,Quarter,20253,Emergency / non-emergency,CT,Connecticut,4261,2081,0.8436619718309859,3.15,29
+2025 Q3,Quarter,20253,Emergency / non-emergency,ID,Idaho,3513,1706,0.8220893822943354,6.95,31
+2025 Q3,Quarter,20253,Emergency / non-emergency,MA,Massachusetts,1812,991,0.793046357615894,2.4,34
+2025 Q3,Quarter,20253,Emergency / non-emergency,RI,Rhode Island,1482,545,0.8461538461538461,2.87,39
+2025 Q3,Quarter,20253,Emergency / non-emergency,NH,New Hampshire,1431,251,0.9364081062194269,3.7,45
+2025 Q3,Quarter,20253,Emergency / non-emergency,WV,West Virginia,1342,1028,0.8695976154992549,5.53,33
+2025 Q3,Quarter,20253,Emergency / non-emergency,UT,Utah,1287,557,0.7933177933177933,2.71,38
+2025 Q3,Quarter,20253,Emergency / non-emergency,OR,Oregon,1282,416,0.6185647425897036,2.07,41
+2025 Q3,Quarter,20253,Emergency / non-emergency,IA,Iowa,1071,557,0.8048552754435108,2.68,37
+2025 Q3,Quarter,20253,Emergency / non-emergency,DE,Delaware,990,644,0.8212121212121212,5.4350000000000005,35
+2025 Q3,Quarter,20253,Emergency / non-emergency,SD,South Dakota,752,572,0.8317107093184979,4.18,36
+2025 Q3,Quarter,20253,Emergency / non-emergency,ME,Maine,746,513,0.9302949061662198,2.9800000000000004,40
+2025 Q3,Quarter,20253,Emergency / non-emergency,MN,Minnesota,563,321,0.8857142857142857,4.34,42
+2025 Q3,Quarter,20253,Emergency / non-emergency,NE,Nebraska,555,134,0.8760869565217392,2.965,47
+2025 Q3,Quarter,20253,Emergency / non-emergency,HI,Hawaii,402,309,0.7139303482587065,5.3149999999999995,43
+2025 Q3,Quarter,20253,Emergency / non-emergency,AK,Alaska,330,307,0.8480243161094225,3.15,44
+2025 Q3,Quarter,20253,Emergency / non-emergency,DC,District of Columbia,288,149,0.7986111111111112,2.71,46
+2025 Q3,Quarter,20253,Emergency / non-emergency,MT,Montana,127,86,0.8267716535433071,10.885000000000002,48
+2025 Q3,Quarter,20253,Emergency / non-emergency,WY,Wyoming,100,47,0.88,4.6,49
+2025 Q3,Quarter,20253,Emergency / non-emergency,ND,North Dakota,21,8,0.75,12.34,50
+2025 Q3,Quarter,20253,Emergency / non-emergency,VT,Vermont,14,7,1.0,1.66,51
+2025 Q3,Quarter,20253,Emergency / non-emergency,AS,American Samoa,3,3,1.0,9.34,52
+2025 Q3,Quarter,20253,Emergency / non-emergency,PR,Puerto Rico,1,1,1.0,16.08,54
+2025 Q3,Quarter,20253,Emergency / non-emergency,GU,Guam,1,1,1.0,3.3,53
+2025 Q4,Quarter,20254,Air ambulance,TX,Texas,2101,1670,0.9149139579349904,2.33,1
+2025 Q4,Quarter,20254,Air ambulance,TN,Tennessee,1066,983,0.9465290806754222,1.49,2
+2025 Q4,Quarter,20254,Air ambulance,FL,Florida,917,528,0.9149400218102508,6.7,3
+2025 Q4,Quarter,20254,Air ambulance,GA,Georgia,615,503,0.9540983606557377,1.73,4
+2025 Q4,Quarter,20254,Air ambulance,AZ,Arizona,615,480,0.9463414634146341,2.06,5
+2025 Q4,Quarter,20254,Air ambulance,NM,New Mexico,566,392,0.9452296819787986,5.82,7
+2025 Q4,Quarter,20254,Air ambulance,CA,California,442,399,0.9027149321266968,2.57,6
+2025 Q4,Quarter,20254,Air ambulance,AR,Arkansas,438,318,0.8789954337899544,1.92,9
+2025 Q4,Quarter,20254,Air ambulance,MS,Mississippi,426,371,0.9295774647887324,1.68,8
+2025 Q4,Quarter,20254,Air ambulance,AL,Alabama,320,250,0.928125,2.7,11
+2025 Q4,Quarter,20254,Air ambulance,OH,Ohio,279,274,0.946236559139785,1.78,10
+2025 Q4,Quarter,20254,Air ambulance,WY,Wyoming,271,202,0.8560885608856088,2.52,13
+2025 Q4,Quarter,20254,Air ambulance,OR,Oregon,261,237,0.9386973180076629,3.03,12
+2025 Q4,Quarter,20254,Air ambulance,OK,Oklahoma,237,186,0.9493670886075949,1.95,15
+2025 Q4,Quarter,20254,Air ambulance,MO,Missouri,233,200,0.9227467811158798,1.73,14
+2025 Q4,Quarter,20254,Air ambulance,IL,Illinois,221,160,0.9321266968325792,2.37,19
+2025 Q4,Quarter,20254,Air ambulance,KS,Kansas,204,164,0.9803921568627451,2.32,18
+2025 Q4,Quarter,20254,Air ambulance,PA,Pennsylvania,201,102,0.9850746268656716,5.13,28
+2025 Q4,Quarter,20254,Air ambulance,NV,Nevada,199,130,0.9095477386934674,2.36,24
+2025 Q4,Quarter,20254,Air ambulance,MI,Michigan,190,175,0.9894736842105263,1.94,17
+2025 Q4,Quarter,20254,Air ambulance,VA,Virginia,187,184,0.9518716577540107,2.46,16
+2025 Q4,Quarter,20254,Air ambulance,NC,North Carolina,181,133,0.9226519337016574,2.26,23
+2025 Q4,Quarter,20254,Air ambulance,WA,Washington,178,91,0.9382022471910112,1.65,30
+2025 Q4,Quarter,20254,Air ambulance,SC,South Carolina,173,147,0.976878612716763,2.72,20
+2025 Q4,Quarter,20254,Air ambulance,WI,Wisconsin,167,84,0.9580838323353293,2.02,31
+2025 Q4,Quarter,20254,Air ambulance,IN,Indiana,154,146,0.922077922077922,2.44,21
+2025 Q4,Quarter,20254,Air ambulance,KY,Kentucky,152,145,0.9473684210526315,1.93,22
+2025 Q4,Quarter,20254,Air ambulance,CO,Colorado,151,114,0.9801324503311258,2.17,26
+2025 Q4,Quarter,20254,Air ambulance,LA,Louisiana,142,115,0.8450704225352113,2.71,25
+2025 Q4,Quarter,20254,Air ambulance,MD,Maryland,112,96,0.9017857142857143,4.48,29
+2025 Q4,Quarter,20254,Air ambulance,AK,Alaska,108,104,0.9259259259259259,2.47,27
+2025 Q4,Quarter,20254,Air ambulance,NE,Nebraska,103,71,0.9805825242718447,1.71,33
+2025 Q4,Quarter,20254,Air ambulance,NJ,New Jersey,99,62,0.9191919191919192,4.275,34
+2025 Q4,Quarter,20254,Air ambulance,WV,West Virginia,85,75,0.9882352941176471,1.855,32
+2025 Q4,Quarter,20254,Air ambulance,ID,Idaho,74,37,0.918918918918919,2.39,35
+2025 Q4,Quarter,20254,Air ambulance,MT,Montana,61,32,0.9016393442622951,2.72,37
+2025 Q4,Quarter,20254,Air ambulance,IA,Iowa,46,34,0.9347826086956522,2.7800000000000002,36
+2025 Q4,Quarter,20254,Air ambulance,SD,South Dakota,39,32,0.6666666666666666,2.04,38
+2025 Q4,Quarter,20254,Air ambulance,MN,Minnesota,38,22,0.8947368421052632,1.87,41
+2025 Q4,Quarter,20254,Air ambulance,NY,New York,35,22,1.0,2.0,42
+2025 Q4,Quarter,20254,Air ambulance,MA,Massachusetts,35,19,1.0,3.47,43
+2025 Q4,Quarter,20254,Air ambulance,ND,North Dakota,30,24,0.8333333333333334,2.44,40
+2025 Q4,Quarter,20254,Air ambulance,UT,Utah,30,16,0.8,1.755,44
+2025 Q4,Quarter,20254,Air ambulance,HI,Hawaii,26,25,1.0,2.605,39
+2025 Q4,Quarter,20254,Air ambulance,Unknown,Unknown,16,1,,,
+2025 Q4,Quarter,20254,Air ambulance,ME,Maine,14,7,0.35714285714285715,1.475,46
+2025 Q4,Quarter,20254,Air ambulance,CT,Connecticut,10,8,0.9,2.45,45
+2025 Q4,Quarter,20254,Air ambulance,DE,Delaware,8,4,1.0,2.91,47
+2025 Q4,Quarter,20254,Air ambulance,NH,New Hampshire,4,2,1.0,3.7199999999999998,48
+2025 Q4,Quarter,20254,Air ambulance,PR,Puerto Rico,2,1,1.0,2.97,49
+2025 Q4,Quarter,20254,Air ambulance,RI,Rhode Island,2,1,1.0,2.975,50
+2025 Q4,Quarter,20254,All dispute types,TX,Texas,658593,229328,0.8151901797415416,4.31,1
+2025 Q4,Quarter,20254,All dispute types,AZ,Arizona,86984,36566,0.8212015858493443,6.26,2
+2025 Q4,Quarter,20254,All dispute types,FL,Florida,84853,28657,0.8624099650557444,2.71,4
+2025 Q4,Quarter,20254,All dispute types,CA,California,61011,23307,0.8785422308077062,2.72,5
+2025 Q4,Quarter,20254,All dispute types,TN,Tennessee,46946,17044,0.8154525484278963,2.84,7
+2025 Q4,Quarter,20254,All dispute types,GA,Georgia,41408,15788,0.8659725749111225,3.19,8
+2025 Q4,Quarter,20254,All dispute types,NJ,New Jersey,41209,29152,0.8464774689331485,18.21,3
+2025 Q4,Quarter,20254,All dispute types,NY,New York,39025,18676,0.8532762070911797,5.92,6
+2025 Q4,Quarter,20254,All dispute types,OK,Oklahoma,29805,11817,0.9106276035390918,7.13,10
+2025 Q4,Quarter,20254,All dispute types,IN,Indiana,28970,14328,0.8740630720873199,3.69,9
+2025 Q4,Quarter,20254,All dispute types,LA,Louisiana,25586,11676,0.7161102132523947,3.79,11
+2025 Q4,Quarter,20254,All dispute types,AR,Arkansas,22319,7761,0.8763054387630543,5.4,13
+2025 Q4,Quarter,20254,All dispute types,NV,Nevada,16237,7704,0.8964875263745811,2.52,14
+2025 Q4,Quarter,20254,All dispute types,VA,Virginia,15368,7656,0.842725143154607,3.18,15
+2025 Q4,Quarter,20254,All dispute types,OH,Ohio,15032,8842,0.8744666666666666,2.52,12
+2025 Q4,Quarter,20254,All dispute types,NM,New Mexico,14661,6071,0.9308369142623286,5.24,17
+2025 Q4,Quarter,20254,All dispute types,MS,Mississippi,14309,3844,0.813767803193785,3.55,22
+2025 Q4,Quarter,20254,All dispute types,MO,Missouri,13859,7307,0.8585726718885988,4.03,16
+2025 Q4,Quarter,20254,All dispute types,NC,North Carolina,13713,4868,0.824735497993433,2.85,19
+2025 Q4,Quarter,20254,All dispute types,MI,Michigan,13655,3277,0.9469066032123736,4.17,25
+2025 Q4,Quarter,20254,All dispute types,Unknown,Unknown,13169,1539,,,
+2025 Q4,Quarter,20254,All dispute types,AL,Alabama,10748,3591,0.8416938110749186,4.37,24
+2025 Q4,Quarter,20254,All dispute types,KS,Kansas,10333,3627,0.9235328410415857,3.69,23
+2025 Q4,Quarter,20254,All dispute types,IL,Illinois,9460,4311,0.8751854206399661,4.1,21
+2025 Q4,Quarter,20254,All dispute types,SC,South Carolina,9126,4475,0.8333333333333334,3.07,20
+2025 Q4,Quarter,20254,All dispute types,PA,Pennsylvania,8705,3123,0.8911547604153635,5.63,26
+2025 Q4,Quarter,20254,All dispute types,CO,Colorado,8311,5042,0.7544968400583374,2.64,18
+2025 Q4,Quarter,20254,All dispute types,WI,Wisconsin,7185,2890,0.8685714285714285,2.96,28
+2025 Q4,Quarter,20254,All dispute types,KY,Kentucky,6338,3059,0.851214894288419,3.75,27
+2025 Q4,Quarter,20254,All dispute types,MD,Maryland,6124,2138,0.7981381675649192,4.19,30
+2025 Q4,Quarter,20254,All dispute types,WA,Washington,4733,1986,0.8987956898373125,2.43,31
+2025 Q4,Quarter,20254,All dispute types,ID,Idaho,4607,2313,0.8263512046885175,10.14,29
+2025 Q4,Quarter,20254,All dispute types,CT,Connecticut,4131,1950,0.7998063422900025,3.65,32
+2025 Q4,Quarter,20254,All dispute types,OR,Oregon,2824,792,0.7002126151665485,2.17,36
+2025 Q4,Quarter,20254,All dispute types,MA,Massachusetts,1898,1002,0.8350895679662803,3.0549999999999997,33
+2025 Q4,Quarter,20254,All dispute types,IA,Iowa,1361,589,0.7820895522388059,2.935,39
+2025 Q4,Quarter,20254,All dispute types,WV,West Virginia,1108,849,0.8826714801444043,4.9,35
+2025 Q4,Quarter,20254,All dispute types,RI,Rhode Island,1065,576,0.8893166506256015,3.69,40
+2025 Q4,Quarter,20254,All dispute types,AK,Alaska,1062,1001,0.8451369216241738,2.47,34
+2025 Q4,Quarter,20254,All dispute types,DE,Delaware,987,632,0.8723404255319149,3.4450000000000003,38
+2025 Q4,Quarter,20254,All dispute types,SD,South Dakota,968,733,0.40364025695931477,1.71,37
+2025 Q4,Quarter,20254,All dispute types,UT,Utah,956,514,0.8106694560669456,2.71,41
+2025 Q4,Quarter,20254,All dispute types,NE,Nebraska,947,300,0.8051948051948052,3.51,43
+2025 Q4,Quarter,20254,All dispute types,NH,New Hampshire,644,243,0.9487577639751553,3.64,44
+2025 Q4,Quarter,20254,All dispute types,ME,Maine,571,402,0.8476357267950964,2.94,42
+2025 Q4,Quarter,20254,All dispute types,WY,Wyoming,349,241,0.830945558739255,2.56,45
+2025 Q4,Quarter,20254,All dispute types,DC,District of Columbia,342,177,0.8625730994152047,7.74,47
+2025 Q4,Quarter,20254,All dispute types,HI,Hawaii,291,227,0.8694158075601375,6.76,46
+2025 Q4,Quarter,20254,All dispute types,MN,Minnesota,274,168,0.9014598540145985,7.06,48
+2025 Q4,Quarter,20254,All dispute types,MT,Montana,230,161,0.8913043478260869,5.14,49
+2025 Q4,Quarter,20254,All dispute types,ND,North Dakota,57,29,0.5789473684210527,2.21,50
+2025 Q4,Quarter,20254,All dispute types,VT,Vermont,14,4,0.7142857142857143,2.99,52
+2025 Q4,Quarter,20254,All dispute types,PR,Puerto Rico,5,4,0.75,5.41,51
+2025 Q4,Quarter,20254,All dispute types,AS,American Samoa,3,3,1.0,1.0,53
+2025 Q4,Quarter,20254,All dispute types,MP,Northern Mariana Islands,1,1,1.0,34.63,54
+2025 Q4,Quarter,20254,Emergency / non-emergency,TX,Texas,656492,227658,0.8148333746654238,4.32,1
+2025 Q4,Quarter,20254,Emergency / non-emergency,AZ,Arizona,86369,36086,0.8202556538839725,6.33,2
+2025 Q4,Quarter,20254,Emergency / non-emergency,FL,Florida,83936,28129,0.8618311162382686,2.7,4
+2025 Q4,Quarter,20254,Emergency / non-emergency,CA,California,60569,22908,0.8783565357943585,2.72,5
+2025 Q4,Quarter,20254,Emergency / non-emergency,TN,Tennessee,45880,16061,0.8122769937046885,2.86,7
+2025 Q4,Quarter,20254,Emergency / non-emergency,NJ,New Jersey,41110,29090,0.8463019843011067,18.27,3
+2025 Q4,Quarter,20254,Emergency / non-emergency,GA,Georgia,40793,15285,0.8645860201186485,3.19,8
+2025 Q4,Quarter,20254,Emergency / non-emergency,NY,New York,38990,18654,0.8531443391623655,5.92,6
+2025 Q4,Quarter,20254,Emergency / non-emergency,OK,Oklahoma,29568,11631,0.9103089205137105,7.22,10
+2025 Q4,Quarter,20254,Emergency / non-emergency,IN,Indiana,28816,14182,0.8738062992672848,3.71,9
+2025 Q4,Quarter,20254,Emergency / non-emergency,LA,Louisiana,25444,11561,0.715384310461014,3.79,11
+2025 Q4,Quarter,20254,Emergency / non-emergency,AR,Arkansas,21881,7443,0.8762510954291777,5.41,15
+2025 Q4,Quarter,20254,Emergency / non-emergency,NV,Nevada,16038,7574,0.8963242224316682,2.52,13
+2025 Q4,Quarter,20254,Emergency / non-emergency,VA,Virginia,15181,7472,0.8413806732099335,3.18,14
+2025 Q4,Quarter,20254,Emergency / non-emergency,OH,Ohio,14753,8568,0.873106446572923,2.56,12
+2025 Q4,Quarter,20254,Emergency / non-emergency,NM,New Mexico,14095,5679,0.9302589570769777,5.24,17
+2025 Q4,Quarter,20254,Emergency / non-emergency,MS,Mississippi,13883,3473,0.810106856634016,3.72,22
+2025 Q4,Quarter,20254,Emergency / non-emergency,MO,Missouri,13626,7107,0.8574695684249355,4.11,16
+2025 Q4,Quarter,20254,Emergency / non-emergency,NC,North Carolina,13532,4735,0.8234250221827861,2.85,19
+2025 Q4,Quarter,20254,Emergency / non-emergency,MI,Michigan,13465,3102,0.9462965756524363,4.245,25
+2025 Q4,Quarter,20254,Emergency / non-emergency,Unknown,Unknown,13153,1538,,,
+2025 Q4,Quarter,20254,Emergency / non-emergency,AL,Alabama,10428,3341,0.8390407673860911,4.55,24
+2025 Q4,Quarter,20254,Emergency / non-emergency,KS,Kansas,10129,3463,0.9223830293417923,3.76,23
+2025 Q4,Quarter,20254,Emergency / non-emergency,IL,Illinois,9239,4151,0.8738201150048823,4.15,21
+2025 Q4,Quarter,20254,Emergency / non-emergency,SC,South Carolina,8953,4328,0.8305595889645929,3.0949999999999998,20
+2025 Q4,Quarter,20254,Emergency / non-emergency,PA,Pennsylvania,8504,3021,0.8887320328542094,5.78,26
+2025 Q4,Quarter,20254,Emergency / non-emergency,CO,Colorado,8160,4928,0.7502785687755354,2.64,18
+2025 Q4,Quarter,20254,Emergency / non-emergency,WI,Wisconsin,7018,2806,0.8664383561643836,3.0,28
+2025 Q4,Quarter,20254,Emergency / non-emergency,KY,Kentucky,6186,2914,0.848852247009376,3.75,27
+2025 Q4,Quarter,20254,Emergency / non-emergency,MD,Maryland,6012,2042,0.7962069539178174,4.19,30
+2025 Q4,Quarter,20254,Emergency / non-emergency,WA,Washington,4555,1895,0.8972557628979144,2.45,32
+2025 Q4,Quarter,20254,Emergency / non-emergency,ID,Idaho,4533,2276,0.8248400617692477,10.17,29
+2025 Q4,Quarter,20254,Emergency / non-emergency,CT,Connecticut,4121,1942,0.7995632128124242,3.65,31
+2025 Q4,Quarter,20254,Emergency / non-emergency,OR,Oregon,2563,555,0.675907848496681,2.14,40
+2025 Q4,Quarter,20254,Emergency / non-emergency,MA,Massachusetts,1863,983,0.8319914117015567,2.87,33
+2025 Q4,Quarter,20254,Emergency / non-emergency,IA,Iowa,1315,555,0.776661514683153,2.95,39
+2025 Q4,Quarter,20254,Emergency / non-emergency,RI,Rhode Island,1063,575,0.8891031822565092,3.69,38
+2025 Q4,Quarter,20254,Emergency / non-emergency,WV,West Virginia,1023,774,0.873900293255132,5.13,35
+2025 Q4,Quarter,20254,Emergency / non-emergency,DE,Delaware,979,628,0.8712972420837589,3.455,37
+2025 Q4,Quarter,20254,Emergency / non-emergency,AK,Alaska,954,897,0.8359621451104101,2.34,34
+2025 Q4,Quarter,20254,Emergency / non-emergency,SD,South Dakota,929,701,0.39217877094972065,1.71,36
+2025 Q4,Quarter,20254,Emergency / non-emergency,UT,Utah,926,498,0.8110151187904968,2.71,41
+2025 Q4,Quarter,20254,Emergency / non-emergency,NE,Nebraska,844,229,0.7831912302070646,3.9000000000000004,44
+2025 Q4,Quarter,20254,Emergency / non-emergency,NH,New Hampshire,640,241,0.9484375,3.64,43
+2025 Q4,Quarter,20254,Emergency / non-emergency,ME,Maine,557,395,0.8599640933572711,3.0300000000000002,42
+2025 Q4,Quarter,20254,Emergency / non-emergency,DC,District of Columbia,342,177,0.8625730994152047,7.74,46
+2025 Q4,Quarter,20254,Emergency / non-emergency,HI,Hawaii,265,202,0.8566037735849057,7.76,45
+2025 Q4,Quarter,20254,Emergency / non-emergency,MN,Minnesota,236,146,0.902542372881356,8.219999999999999,47
+2025 Q4,Quarter,20254,Emergency / non-emergency,MT,Montana,169,129,0.8875739644970414,6.65,48
+2025 Q4,Quarter,20254,Emergency / non-emergency,WY,Wyoming,78,39,0.7435897435897436,3.24,49
+2025 Q4,Quarter,20254,Emergency / non-emergency,ND,North Dakota,27,5,0.2962962962962963,1.36,50
+2025 Q4,Quarter,20254,Emergency / non-emergency,VT,Vermont,14,4,0.7142857142857143,2.99,51
+2025 Q4,Quarter,20254,Emergency / non-emergency,AS,American Samoa,3,3,1.0,1.0,52
+2025 Q4,Quarter,20254,Emergency / non-emergency,PR,Puerto Rico,3,3,0.5,7.85,53
+2025 Q4,Quarter,20254,Emergency / non-emergency,MP,Northern Mariana Islands,1,1,1.0,34.63,54

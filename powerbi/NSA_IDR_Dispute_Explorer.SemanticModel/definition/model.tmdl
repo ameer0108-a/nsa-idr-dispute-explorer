@@ -1,0 +1,33 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["ExportsFolder", "v_quarterly_summary", "v_offer_ratio_distribution", "v_outcomes_by_plan_type", "v_outcomes_by_service_group", "v_outcomes_by_state", "v_outcomes_by_practice_size", "v_top_initiating_representatives", "v_top_plan_representatives", "v_determination_timing", "v_eligibility_trend", "v_reconciliation", "v_dq_summary", "dim_period", "dim_category", "Report Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Report Measures'
+ref table dim_period
+ref table dim_category
+ref table v_quarterly_summary
+ref table v_offer_ratio_distribution
+ref table v_outcomes_by_plan_type
+ref table v_outcomes_by_service_group
+ref table v_outcomes_by_state
+ref table v_outcomes_by_practice_size
+ref table v_top_initiating_representatives
+ref table v_top_plan_representatives
+ref table v_determination_timing
+ref table v_eligibility_trend
+ref table v_reconciliation
+ref table v_dq_summary
+
+ref cultureInfo en-US
+

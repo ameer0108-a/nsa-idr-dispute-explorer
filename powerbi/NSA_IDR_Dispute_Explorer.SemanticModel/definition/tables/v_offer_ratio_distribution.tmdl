@@ -1,0 +1,84 @@
+table v_offer_ratio_distribution
+	lineageTag: 3986bf6d-2194-570e-ac31-02fc6c229504
+
+	column period
+		dataType: string
+		lineageTag: 3cc7f16d-1b3d-5151-8e47-5abcb5fdad66
+		summarizeBy: none
+		sourceColumn: period
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 41197c22-d8a8-50f5-ab37-677cab09957e
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 0e053aff-9af3-58c4-8bcc-6d15bcb7d6d8
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 4ec537fd-e335-5ab9-a196-20d729b1082c
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column ratio_bucket
+		dataType: string
+		lineageTag: fc5a480e-331e-51d9-b330-6e061cd9380b
+		summarizeBy: none
+		sourceColumn: ratio_bucket
+		sortByColumn: ratio_bucket_sort
+
+		annotation SummarizationSetBy = User
+
+	column ratio_bucket_sort
+		dataType: int64
+		isHidden
+		lineageTag: e4920a8f-9d01-5ade-b347-f9edbd46d42d
+		summarizeBy: none
+		sourceColumn: ratio_bucket_sort
+
+		annotation SummarizationSetBy = User
+
+	column winning_side
+		dataType: string
+		lineageTag: 3ecebd38-9a69-5d55-81bd-2f22d5def1ac
+		summarizeBy: none
+		sourceColumn: winning_side
+
+		annotation SummarizationSetBy = User
+
+	column line_items
+		dataType: int64
+		formatString: #,0
+		lineageTag: 15b4bf94-64c3-503e-9155-4ad8528f2467
+		summarizeBy: none
+		sourceColumn: line_items
+
+		annotation SummarizationSetBy = User
+
+	partition v_offer_ratio_distribution = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_offer_ratio_distribution.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"ratio_bucket", type text}, {"ratio_bucket_sort", Int64.Type}, {"winning_side", type text}, {"line_items", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

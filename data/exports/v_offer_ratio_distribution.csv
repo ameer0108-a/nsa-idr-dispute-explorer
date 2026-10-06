@@ -1,0 +1,181 @@
+period,period_type,period_sort,dispute_category,ratio_bucket,ratio_bucket_sort,winning_side,line_items
+2025 full year,Full year,20250,Air ambulance,Below QPA,1,Plan,275
+2025 full year,Full year,20250,Air ambulance,Below QPA,1,Provider,1785
+2025 full year,Full year,20250,Air ambulance,1x to 2x QPA,2,Plan,3682
+2025 full year,Full year,20250,Air ambulance,1x to 2x QPA,2,Provider,14676
+2025 full year,Full year,20250,Air ambulance,2x to 3x QPA,3,Plan,446
+2025 full year,Full year,20250,Air ambulance,2x to 3x QPA,3,Provider,12682
+2025 full year,Full year,20250,Air ambulance,3x to 5x QPA,4,Plan,266
+2025 full year,Full year,20250,Air ambulance,3x to 5x QPA,4,Provider,8239
+2025 full year,Full year,20250,Air ambulance,5x to 10x QPA,5,Plan,84
+2025 full year,Full year,20250,Air ambulance,5x to 10x QPA,5,Provider,8242
+2025 full year,Full year,20250,Air ambulance,10x QPA or more,6,Plan,46
+2025 full year,Full year,20250,Air ambulance,10x QPA or more,6,Provider,3045
+2025 full year,Full year,20250,All dispute types,Below QPA,1,Plan,62236
+2025 full year,Full year,20250,All dispute types,Below QPA,1,Provider,36944
+2025 full year,Full year,20250,All dispute types,1x to 2x QPA,2,Plan,446306
+2025 full year,Full year,20250,All dispute types,1x to 2x QPA,2,Provider,437964
+2025 full year,Full year,20250,All dispute types,2x to 3x QPA,3,Plan,49821
+2025 full year,Full year,20250,All dispute types,2x to 3x QPA,3,Provider,747650
+2025 full year,Full year,20250,All dispute types,3x to 5x QPA,4,Plan,37718
+2025 full year,Full year,20250,All dispute types,3x to 5x QPA,4,Provider,973675
+2025 full year,Full year,20250,All dispute types,5x to 10x QPA,5,Plan,19940
+2025 full year,Full year,20250,All dispute types,5x to 10x QPA,5,Provider,956680
+2025 full year,Full year,20250,All dispute types,10x QPA or more,6,Plan,8304
+2025 full year,Full year,20250,All dispute types,10x QPA or more,6,Provider,910227
+2025 full year,Full year,20250,Emergency / non-emergency,Below QPA,1,Plan,61961
+2025 full year,Full year,20250,Emergency / non-emergency,Below QPA,1,Provider,35159
+2025 full year,Full year,20250,Emergency / non-emergency,1x to 2x QPA,2,Plan,442624
+2025 full year,Full year,20250,Emergency / non-emergency,1x to 2x QPA,2,Provider,423288
+2025 full year,Full year,20250,Emergency / non-emergency,2x to 3x QPA,3,Plan,49375
+2025 full year,Full year,20250,Emergency / non-emergency,2x to 3x QPA,3,Provider,734968
+2025 full year,Full year,20250,Emergency / non-emergency,3x to 5x QPA,4,Plan,37452
+2025 full year,Full year,20250,Emergency / non-emergency,3x to 5x QPA,4,Provider,965436
+2025 full year,Full year,20250,Emergency / non-emergency,5x to 10x QPA,5,Plan,19856
+2025 full year,Full year,20250,Emergency / non-emergency,5x to 10x QPA,5,Provider,948438
+2025 full year,Full year,20250,Emergency / non-emergency,10x QPA or more,6,Plan,8258
+2025 full year,Full year,20250,Emergency / non-emergency,10x QPA or more,6,Provider,907182
+2025 Q1,Quarter,20251,Air ambulance,Below QPA,1,Plan,59
+2025 Q1,Quarter,20251,Air ambulance,Below QPA,1,Provider,473
+2025 Q1,Quarter,20251,Air ambulance,1x to 2x QPA,2,Plan,1108
+2025 Q1,Quarter,20251,Air ambulance,1x to 2x QPA,2,Provider,3785
+2025 Q1,Quarter,20251,Air ambulance,2x to 3x QPA,3,Plan,138
+2025 Q1,Quarter,20251,Air ambulance,2x to 3x QPA,3,Provider,3477
+2025 Q1,Quarter,20251,Air ambulance,3x to 5x QPA,4,Plan,71
+2025 Q1,Quarter,20251,Air ambulance,3x to 5x QPA,4,Provider,1971
+2025 Q1,Quarter,20251,Air ambulance,5x to 10x QPA,5,Plan,25
+2025 Q1,Quarter,20251,Air ambulance,5x to 10x QPA,5,Provider,1376
+2025 Q1,Quarter,20251,Air ambulance,10x QPA or more,6,Plan,13
+2025 Q1,Quarter,20251,Air ambulance,10x QPA or more,6,Provider,563
+2025 Q1,Quarter,20251,All dispute types,Below QPA,1,Plan,10495
+2025 Q1,Quarter,20251,All dispute types,Below QPA,1,Provider,6957
+2025 Q1,Quarter,20251,All dispute types,1x to 2x QPA,2,Plan,84324
+2025 Q1,Quarter,20251,All dispute types,1x to 2x QPA,2,Provider,91109
+2025 Q1,Quarter,20251,All dispute types,2x to 3x QPA,3,Plan,7197
+2025 Q1,Quarter,20251,All dispute types,2x to 3x QPA,3,Provider,159415
+2025 Q1,Quarter,20251,All dispute types,3x to 5x QPA,4,Plan,6010
+2025 Q1,Quarter,20251,All dispute types,3x to 5x QPA,4,Provider,217398
+2025 Q1,Quarter,20251,All dispute types,5x to 10x QPA,5,Plan,3728
+2025 Q1,Quarter,20251,All dispute types,5x to 10x QPA,5,Provider,189959
+2025 Q1,Quarter,20251,All dispute types,10x QPA or more,6,Plan,1324
+2025 Q1,Quarter,20251,All dispute types,10x QPA or more,6,Provider,170931
+2025 Q1,Quarter,20251,Emergency / non-emergency,Below QPA,1,Plan,10436
+2025 Q1,Quarter,20251,Emergency / non-emergency,Below QPA,1,Provider,6484
+2025 Q1,Quarter,20251,Emergency / non-emergency,1x to 2x QPA,2,Plan,83216
+2025 Q1,Quarter,20251,Emergency / non-emergency,1x to 2x QPA,2,Provider,87324
+2025 Q1,Quarter,20251,Emergency / non-emergency,2x to 3x QPA,3,Plan,7059
+2025 Q1,Quarter,20251,Emergency / non-emergency,2x to 3x QPA,3,Provider,155938
+2025 Q1,Quarter,20251,Emergency / non-emergency,3x to 5x QPA,4,Plan,5939
+2025 Q1,Quarter,20251,Emergency / non-emergency,3x to 5x QPA,4,Provider,215427
+2025 Q1,Quarter,20251,Emergency / non-emergency,5x to 10x QPA,5,Plan,3703
+2025 Q1,Quarter,20251,Emergency / non-emergency,5x to 10x QPA,5,Provider,188583
+2025 Q1,Quarter,20251,Emergency / non-emergency,10x QPA or more,6,Plan,1311
+2025 Q1,Quarter,20251,Emergency / non-emergency,10x QPA or more,6,Provider,170368
+2025 Q2,Quarter,20252,Air ambulance,Below QPA,1,Plan,86
+2025 Q2,Quarter,20252,Air ambulance,Below QPA,1,Provider,546
+2025 Q2,Quarter,20252,Air ambulance,1x to 2x QPA,2,Plan,1192
+2025 Q2,Quarter,20252,Air ambulance,1x to 2x QPA,2,Provider,3213
+2025 Q2,Quarter,20252,Air ambulance,2x to 3x QPA,3,Plan,132
+2025 Q2,Quarter,20252,Air ambulance,2x to 3x QPA,3,Provider,3484
+2025 Q2,Quarter,20252,Air ambulance,3x to 5x QPA,4,Plan,75
+2025 Q2,Quarter,20252,Air ambulance,3x to 5x QPA,4,Provider,2247
+2025 Q2,Quarter,20252,Air ambulance,5x to 10x QPA,5,Plan,22
+2025 Q2,Quarter,20252,Air ambulance,5x to 10x QPA,5,Provider,2167
+2025 Q2,Quarter,20252,Air ambulance,10x QPA or more,6,Plan,14
+2025 Q2,Quarter,20252,Air ambulance,10x QPA or more,6,Provider,688
+2025 Q2,Quarter,20252,All dispute types,Below QPA,1,Plan,18098
+2025 Q2,Quarter,20252,All dispute types,Below QPA,1,Provider,10465
+2025 Q2,Quarter,20252,All dispute types,1x to 2x QPA,2,Plan,111459
+2025 Q2,Quarter,20252,All dispute types,1x to 2x QPA,2,Provider,119863
+2025 Q2,Quarter,20252,All dispute types,2x to 3x QPA,3,Plan,11679
+2025 Q2,Quarter,20252,All dispute types,2x to 3x QPA,3,Provider,209223
+2025 Q2,Quarter,20252,All dispute types,3x to 5x QPA,4,Plan,9217
+2025 Q2,Quarter,20252,All dispute types,3x to 5x QPA,4,Provider,286418
+2025 Q2,Quarter,20252,All dispute types,5x to 10x QPA,5,Plan,4497
+2025 Q2,Quarter,20252,All dispute types,5x to 10x QPA,5,Provider,272233
+2025 Q2,Quarter,20252,All dispute types,10x QPA or more,6,Plan,1877
+2025 Q2,Quarter,20252,All dispute types,10x QPA or more,6,Provider,249407
+2025 Q2,Quarter,20252,Emergency / non-emergency,Below QPA,1,Plan,18012
+2025 Q2,Quarter,20252,Emergency / non-emergency,Below QPA,1,Provider,9919
+2025 Q2,Quarter,20252,Emergency / non-emergency,1x to 2x QPA,2,Plan,110267
+2025 Q2,Quarter,20252,Emergency / non-emergency,1x to 2x QPA,2,Provider,116650
+2025 Q2,Quarter,20252,Emergency / non-emergency,2x to 3x QPA,3,Plan,11547
+2025 Q2,Quarter,20252,Emergency / non-emergency,2x to 3x QPA,3,Provider,205739
+2025 Q2,Quarter,20252,Emergency / non-emergency,3x to 5x QPA,4,Plan,9142
+2025 Q2,Quarter,20252,Emergency / non-emergency,3x to 5x QPA,4,Provider,284171
+2025 Q2,Quarter,20252,Emergency / non-emergency,5x to 10x QPA,5,Plan,4475
+2025 Q2,Quarter,20252,Emergency / non-emergency,5x to 10x QPA,5,Provider,270066
+2025 Q2,Quarter,20252,Emergency / non-emergency,10x QPA or more,6,Plan,1863
+2025 Q2,Quarter,20252,Emergency / non-emergency,10x QPA or more,6,Provider,248719
+2025 Q3,Quarter,20253,Air ambulance,Below QPA,1,Plan,87
+2025 Q3,Quarter,20253,Air ambulance,Below QPA,1,Provider,413
+2025 Q3,Quarter,20253,Air ambulance,1x to 2x QPA,2,Plan,760
+2025 Q3,Quarter,20253,Air ambulance,1x to 2x QPA,2,Provider,3854
+2025 Q3,Quarter,20253,Air ambulance,2x to 3x QPA,3,Plan,106
+2025 Q3,Quarter,20253,Air ambulance,2x to 3x QPA,3,Provider,3116
+2025 Q3,Quarter,20253,Air ambulance,3x to 5x QPA,4,Plan,59
+2025 Q3,Quarter,20253,Air ambulance,3x to 5x QPA,4,Provider,2215
+2025 Q3,Quarter,20253,Air ambulance,5x to 10x QPA,5,Plan,13
+2025 Q3,Quarter,20253,Air ambulance,5x to 10x QPA,5,Provider,2744
+2025 Q3,Quarter,20253,Air ambulance,10x QPA or more,6,Plan,12
+2025 Q3,Quarter,20253,Air ambulance,10x QPA or more,6,Provider,1117
+2025 Q3,Quarter,20253,All dispute types,Below QPA,1,Plan,16183
+2025 Q3,Quarter,20253,All dispute types,Below QPA,1,Provider,12252
+2025 Q3,Quarter,20253,All dispute types,1x to 2x QPA,2,Plan,113470
+2025 Q3,Quarter,20253,All dispute types,1x to 2x QPA,2,Provider,126117
+2025 Q3,Quarter,20253,All dispute types,2x to 3x QPA,3,Plan,15022
+2025 Q3,Quarter,20253,All dispute types,2x to 3x QPA,3,Provider,209147
+2025 Q3,Quarter,20253,All dispute types,3x to 5x QPA,4,Plan,9162
+2025 Q3,Quarter,20253,All dispute types,3x to 5x QPA,4,Provider,247183
+2025 Q3,Quarter,20253,All dispute types,5x to 10x QPA,5,Plan,5037
+2025 Q3,Quarter,20253,All dispute types,5x to 10x QPA,5,Provider,259513
+2025 Q3,Quarter,20253,All dispute types,10x QPA or more,6,Plan,2525
+2025 Q3,Quarter,20253,All dispute types,10x QPA or more,6,Provider,255399
+2025 Q3,Quarter,20253,Emergency / non-emergency,Below QPA,1,Plan,16096
+2025 Q3,Quarter,20253,Emergency / non-emergency,Below QPA,1,Provider,11839
+2025 Q3,Quarter,20253,Emergency / non-emergency,1x to 2x QPA,2,Plan,112710
+2025 Q3,Quarter,20253,Emergency / non-emergency,1x to 2x QPA,2,Provider,122263
+2025 Q3,Quarter,20253,Emergency / non-emergency,2x to 3x QPA,3,Plan,14916
+2025 Q3,Quarter,20253,Emergency / non-emergency,2x to 3x QPA,3,Provider,206031
+2025 Q3,Quarter,20253,Emergency / non-emergency,3x to 5x QPA,4,Plan,9103
+2025 Q3,Quarter,20253,Emergency / non-emergency,3x to 5x QPA,4,Provider,244968
+2025 Q3,Quarter,20253,Emergency / non-emergency,5x to 10x QPA,5,Plan,5024
+2025 Q3,Quarter,20253,Emergency / non-emergency,5x to 10x QPA,5,Provider,256769
+2025 Q3,Quarter,20253,Emergency / non-emergency,10x QPA or more,6,Plan,2513
+2025 Q3,Quarter,20253,Emergency / non-emergency,10x QPA or more,6,Provider,254282
+2025 Q4,Quarter,20254,Air ambulance,Below QPA,1,Plan,43
+2025 Q4,Quarter,20254,Air ambulance,Below QPA,1,Provider,353
+2025 Q4,Quarter,20254,Air ambulance,1x to 2x QPA,2,Plan,622
+2025 Q4,Quarter,20254,Air ambulance,1x to 2x QPA,2,Provider,3824
+2025 Q4,Quarter,20254,Air ambulance,2x to 3x QPA,3,Plan,70
+2025 Q4,Quarter,20254,Air ambulance,2x to 3x QPA,3,Provider,2605
+2025 Q4,Quarter,20254,Air ambulance,3x to 5x QPA,4,Plan,61
+2025 Q4,Quarter,20254,Air ambulance,3x to 5x QPA,4,Provider,1806
+2025 Q4,Quarter,20254,Air ambulance,5x to 10x QPA,5,Plan,24
+2025 Q4,Quarter,20254,Air ambulance,5x to 10x QPA,5,Provider,1955
+2025 Q4,Quarter,20254,Air ambulance,10x QPA or more,6,Plan,7
+2025 Q4,Quarter,20254,Air ambulance,10x QPA or more,6,Provider,677
+2025 Q4,Quarter,20254,All dispute types,Below QPA,1,Plan,17460
+2025 Q4,Quarter,20254,All dispute types,Below QPA,1,Provider,7270
+2025 Q4,Quarter,20254,All dispute types,1x to 2x QPA,2,Plan,137053
+2025 Q4,Quarter,20254,All dispute types,1x to 2x QPA,2,Provider,100875
+2025 Q4,Quarter,20254,All dispute types,2x to 3x QPA,3,Plan,15923
+2025 Q4,Quarter,20254,All dispute types,2x to 3x QPA,3,Provider,169865
+2025 Q4,Quarter,20254,All dispute types,3x to 5x QPA,4,Plan,13329
+2025 Q4,Quarter,20254,All dispute types,3x to 5x QPA,4,Provider,222676
+2025 Q4,Quarter,20254,All dispute types,5x to 10x QPA,5,Plan,6678
+2025 Q4,Quarter,20254,All dispute types,5x to 10x QPA,5,Provider,234975
+2025 Q4,Quarter,20254,All dispute types,10x QPA or more,6,Plan,2578
+2025 Q4,Quarter,20254,All dispute types,10x QPA or more,6,Provider,234490
+2025 Q4,Quarter,20254,Emergency / non-emergency,Below QPA,1,Plan,17417
+2025 Q4,Quarter,20254,Emergency / non-emergency,Below QPA,1,Provider,6917
+2025 Q4,Quarter,20254,Emergency / non-emergency,1x to 2x QPA,2,Plan,136431
+2025 Q4,Quarter,20254,Emergency / non-emergency,1x to 2x QPA,2,Provider,97051
+2025 Q4,Quarter,20254,Emergency / non-emergency,2x to 3x QPA,3,Plan,15853
+2025 Q4,Quarter,20254,Emergency / non-emergency,2x to 3x QPA,3,Provider,167260
+2025 Q4,Quarter,20254,Emergency / non-emergency,3x to 5x QPA,4,Plan,13268
+2025 Q4,Quarter,20254,Emergency / non-emergency,3x to 5x QPA,4,Provider,220870
+2025 Q4,Quarter,20254,Emergency / non-emergency,5x to 10x QPA,5,Plan,6654
+2025 Q4,Quarter,20254,Emergency / non-emergency,5x to 10x QPA,5,Provider,233020
+2025 Q4,Quarter,20254,Emergency / non-emergency,10x QPA or more,6,Plan,2571
+2025 Q4,Quarter,20254,Emergency / non-emergency,10x QPA or more,6,Provider,233813

@@ -1,0 +1,12 @@
+check_id,check_name,dq_dimension,severity,check_description,rows_flagged,share_of_rows,total_rows
+ALL,Failed at least one check,All,any,Distinct line items that failed one or more of the nine checks.,110973,0.01918940818954203,5783034
+DQ01,Duplicate DLI across quarters,Uniqueness,reject,"Same DLI number shows up in more than one quarterly file. CMS republishes reopened disputes in the quarter they were corrected, so the latest copy is kept and earlier copies fail.",5604,0.0009690415100447274,5783034
+DQ02,Missing or malformed IDs,Completeness,reject,Dispute number is not DISP-<digits> or DLI number is not DLI - <digits>.,0,0.0,5783034
+DQ03,Unknown determination outcome,Validity,reject,"Payment determination outcome is blank or not one of the three values CMS defines (provider, plan, split).",2,3.45839225569139e-07,5783034
+DQ04,Service state missing or invalid,Validity,warn,Location of service is N/R or not a valid state or territory code. Row is kept and reported under Unknown state.,57356,0.009917977310871767,5783034
+DQ05,Malformed NPI,Validity,warn,An NPI was reported but it is not 10 digits (most of these look like 9-digit tax IDs typed into the NPI field).,780,0.0001348772979719642,5783034
+DQ06,Line result contradicts dispute result,Consistency,reject,"Dispute is marked as a provider win or a plan win, but at least one of its line items shows the other side's offer selected. That should have been a split decision.",43492,0.007520619799226496,5783034
+DQ07,Single dispute with several billable lines,Consistency,reject,Dispute type is Single but it carries more than one single or bundled line item. A single dispute should cover one item or one bundle.,437,7.556587078685686e-05,5783034
+DQ08,Prevailing offer does not match selected offer,Consistency,reject,"The prevailing offer (as a ratio to QPA) does not equal the offer of the side that was selected, within 0.01.",0,0.0,5783034
+DQ09,Implausible offer ratio,Plausibility,reject,"An offer or the prevailing offer is negative, the provider offered $0, or a ratio is above 1,000 times the QPA.",3623,0.0006264877571184953,5783034
+REJ,Rejected (removed from reporting),All,reject,Distinct line items that failed at least one reject-level check and were left out of fct_line_items.,52985,0.009162145683390414,5783034

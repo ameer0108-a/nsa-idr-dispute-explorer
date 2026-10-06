@@ -1,0 +1,1040 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "report_measures.disputes_decided": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Disputes Decided"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disputes decided": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.line_items": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Line Items"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Line items": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.provider_win_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Provider Win Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Provider win rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.median_prevailing_offer_vs_qpa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Median Prevailing Offer vs QPA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Median winning offer (x QPA)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.default_decision_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Default Decision Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Decided by default": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.plan_type_disputes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Plan Type Disputes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disputes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.plan_type_provider_win_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Plan Type Provider Win Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Provider win rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.plan_type_median_prevailing_vs_qpa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Plan Type Median Prevailing vs QPA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Median winning offer (x QPA)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.lines_won_by_provider_offer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Lines Won by Provider Offer"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Provider offer won": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.lines_won_by_plan_offer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Lines Won by Plan Offer"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Plan offer won": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.disputes_both_sides_submitted": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Disputes, Both Sides Submitted"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Both sides submitted": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.disputes_default_decision": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Disputes, Default Decision"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Default decision": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.disputes_by_quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Disputes by Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disputes decided": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.provider_wins": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Provider Wins"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Provider won": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.plan_wins": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Plan Wins"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Plan won": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.split_decisions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Split Decisions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Split": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.filer_disputes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Filer Disputes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disputes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.filer_share_of_disputes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Filer Share of Disputes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.filer_win_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Filer Win Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Provider win rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.payer_side_disputes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Payer Side Disputes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disputes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.payer_side_share_of_disputes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Payer Side Share of Disputes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.payer_side_win_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Payer Side Win Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Plan win rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.practice_size_provider_win_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Practice Size Provider Win Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Provider win rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.service_group_median_prevailing_vs_qpa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Service Group Median Prevailing vs QPA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Median winning offer (x QPA)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.state_disputes_top_15": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "State Disputes (Top 15)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Disputes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.ineligible_share_apr_to_sep_2022": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Ineligible Share, Apr to Sep 2022"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Found ineligible, Apr to Sep 2022": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.ineligible_share_2025": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Ineligible Share, 2025"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Found ineligible, 2025": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.closed_disputes_in_lineitem_files_2025": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Closed Disputes in Line-Item Files, 2025"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Visible in line-item files, 2025": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.rows_failing_any_check": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Rows Failing Any Check"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Line items failing a data check": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.largest_quarterly_gap_vs_cms": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Largest Quarterly Gap vs CMS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Largest quarterly gap vs CMS totals": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.closed_payment_determination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Closed: Payment Determination"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Payment determination": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.closed_found_ineligible": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Closed: Found Ineligible"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Found ineligible": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.closed_other_reason": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Closed: Other Reason"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Withdrawn, settled or other": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.dq_rows_flagged": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "DQ Rows Flagged"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rows flagged": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.dq_share_of_rows": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "DQ Share of Rows"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share of rows": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.ineligible_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "Ineligible Share"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Found ineligible": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.cms_published_determinations": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "CMS Published Determinations"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CMS published": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.puf_disputes_raw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "PUF Disputes (Raw)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Line-item files": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.puf_minus_cms": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "PUF minus CMS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Difference": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "report_measures.puf_vs_cms_difference_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Report Measures",
+			          "ConceptualProperty": "PUF vs CMS Difference %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Difference %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_outcomes_by_plan_type.health_plan_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_outcomes_by_plan_type",
+			          "ConceptualProperty": "health_plan_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Health plan type": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_category.dispute_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_category",
+			          "ConceptualProperty": "dispute_category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Dispute type": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_period.period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_period",
+			          "ConceptualProperty": "period"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Period": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_top_initiating_representatives.representative": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_top_initiating_representatives",
+			          "ConceptualProperty": "representative"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Filer (email domain)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_top_plan_representatives.representative": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_top_plan_representatives",
+			          "ConceptualProperty": "representative"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Plan side (email domain)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_dq_summary.check_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_dq_summary",
+			          "ConceptualProperty": "check_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Check": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_dq_summary.check_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_dq_summary",
+			          "ConceptualProperty": "check_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "What it catches": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_dq_summary.severity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_dq_summary",
+			          "ConceptualProperty": "severity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Severity": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "v_reconciliation.period": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "v_reconciliation",
+			          "ConceptualProperty": "period"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Period": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

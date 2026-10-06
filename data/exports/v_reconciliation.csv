@@ -1,0 +1,76 @@
+period,period_type,period_sort,dispute_category,metric,metric_sort,cms_published,puf_raw,raw_difference,raw_pct_difference,puf_after_dq,clean_difference,clean_pct_difference
+2025 full year,Full year,20250,Air ambulance,Payment determinations (disputes),1,44359,44358,-1,-2.2543339570323948e-05,44191,-168,-0.0037872810478144234
+2025 full year,Full year,20250,Air ambulance,Provider prevailed,2,40550,40550,0,0.0,40412,-138,-0.003403205918618989
+2025 full year,Full year,20250,Air ambulance,Plan prevailed,3,3710,3710,0,0.0,3681,-29,-0.007816711590296496
+2025 full year,Full year,20250,Air ambulance,Split decisions,4,98,98,0,0.0,98,0,0.0
+2025 full year,Full year,20250,Air ambulance,Default decisions (one side only),5,7036,7036,0,0.0,7002,-34,-0.004832291074474133
+2025 full year,Full year,20250,All dispute types,Payment determinations (disputes),1,2227286,2227266,-20,-8.979538326016507e-06,2219379,-7907,-0.003550060477190626
+2025 full year,Full year,20250,All dispute types,Provider prevailed,2,1928831,1928831,0,0.0,1923309,-5522,-0.0028628739376337273
+2025 full year,Full year,20250,All dispute types,Plan prevailed,3,296180,296180,0,0.0,293819,-2361,-0.007971503815247485
+2025 full year,Full year,20250,All dispute types,Split decisions,4,2253,2253,0,0.0,2251,-2,-0.000887705281846427
+2025 full year,Full year,20250,All dispute types,Default decisions (one side only),5,432790,432790,0,0.0,432207,-583,-0.0013470736384851776
+2025 full year,Full year,20250,Emergency / non-emergency,Payment determinations (disputes),1,2182927,2182908,-19,-8.703909933772407e-06,2175188,-7739,-0.0035452399461823507
+2025 full year,Full year,20250,Emergency / non-emergency,Provider prevailed,2,1888281,1888281,0,0.0,1882897,-5384,-0.002851270547127255
+2025 full year,Full year,20250,Emergency / non-emergency,Plan prevailed,3,292470,292470,0,0.0,290138,-2332,-0.007973467364174104
+2025 full year,Full year,20250,Emergency / non-emergency,Split decisions,4,2155,2155,0,0.0,2153,-2,-0.0009280742459396752
+2025 full year,Full year,20250,Emergency / non-emergency,Default decisions (one side only),5,425754,425754,0,0.0,425205,-549,-0.0012894770219422484
+2025 Q1,Quarter,20251,Air ambulance,Payment determinations (disputes),1,11461,11461,0,0.0,11422,-39,-0.003402844428932903
+2025 Q1,Quarter,20251,Air ambulance,Provider prevailed,2,10299,10299,0,0.0,10270,-29,-0.002815807359937858
+2025 Q1,Quarter,20251,Air ambulance,Plan prevailed,3,1142,1142,0,0.0,1132,-10,-0.008756567425569177
+2025 Q1,Quarter,20251,Air ambulance,Split decisions,4,20,20,0,0.0,20,0,0.0
+2025 Q1,Quarter,20251,Air ambulance,Default decisions (one side only),5,3447,3447,0,0.0,3428,-19,-0.005512039454598201
+2025 Q1,Quarter,20251,All dispute types,Payment determinations (disputes),1,466227,466224,-3,-6.43463377281882e-06,464664,-1563,-0.003352444195638605
+2025 Q1,Quarter,20251,All dispute types,Provider prevailed,2,407618,407618,0,0.0,406440,-1178,-0.002889960698497122
+2025 Q1,Quarter,20251,All dispute types,Plan prevailed,3,58214,58214,0,0.0,57833,-381,-0.0065448173978768
+2025 Q1,Quarter,20251,All dispute types,Split decisions,4,392,392,0,0.0,391,-1,-0.002551020408163265
+2025 Q1,Quarter,20251,All dispute types,Default decisions (one side only),5,107081,107081,0,0.0,106897,-184,-0.001718325379852635
+2025 Q1,Quarter,20251,Emergency / non-emergency,Payment determinations (disputes),1,454766,454763,-3,-6.596799233012142e-06,453242,-1524,-0.0033511740103701684
+2025 Q1,Quarter,20251,Emergency / non-emergency,Provider prevailed,2,397319,397319,0,0.0,396170,-1149,-0.002891882844767051
+2025 Q1,Quarter,20251,Emergency / non-emergency,Plan prevailed,3,57072,57072,0,0.0,56701,-371,-0.006500560695262125
+2025 Q1,Quarter,20251,Emergency / non-emergency,Split decisions,4,372,372,0,0.0,371,-1,-0.002688172043010753
+2025 Q1,Quarter,20251,Emergency / non-emergency,Default decisions (one side only),5,103634,103634,0,0.0,103469,-165,-0.0015921415751587317
+2025 Q2,Quarter,20252,Air ambulance,Payment determinations (disputes),1,12263,12262,-1,-8.15461143276523e-05,12158,-105,-0.00856234200440349
+2025 Q2,Quarter,20252,Air ambulance,Provider prevailed,2,10938,10938,0,0.0,10850,-88,-0.008045346498445785
+2025 Q2,Quarter,20252,Air ambulance,Plan prevailed,3,1310,1310,0,0.0,1294,-16,-0.012213740458015267
+2025 Q2,Quarter,20252,Air ambulance,Split decisions,4,14,14,0,0.0,14,0,0.0
+2025 Q2,Quarter,20252,Air ambulance,Default decisions (one side only),5,1738,1738,0,0.0,1727,-11,-0.006329113924050633
+2025 Q2,Quarter,20252,All dispute types,Payment determinations (disputes),1,616020,616013,-7,-1.136326742638226e-05,613655,-2365,-0.0038391610661991492
+2025 Q2,Quarter,20252,All dispute types,Provider prevailed,2,543552,543552,0,0.0,541863,-1689,-0.0031073383963263865
+2025 Q2,Quarter,20252,All dispute types,Plan prevailed,3,71984,71984,0,0.0,71316,-668,-0.00927983996443654
+2025 Q2,Quarter,20252,All dispute types,Split decisions,4,477,477,0,0.0,476,-1,-0.0020964360587002098
+2025 Q2,Quarter,20252,All dispute types,Default decisions (one side only),5,135841,135841,0,0.0,135616,-225,-0.0016563482306520122
+2025 Q2,Quarter,20252,Emergency / non-emergency,Payment determinations (disputes),1,603757,603751,-6,-9.937772978201495e-06,601497,-2260,-0.0037432278217892296
+2025 Q2,Quarter,20252,Emergency / non-emergency,Provider prevailed,2,532614,532614,0,0.0,531013,-1601,-0.0030059292470719884
+2025 Q2,Quarter,20252,Emergency / non-emergency,Plan prevailed,3,70674,70674,0,0.0,70022,-652,-0.009225457735518012
+2025 Q2,Quarter,20252,Emergency / non-emergency,Split decisions,4,463,463,0,0.0,462,-1,-0.0021598272138228943
+2025 Q2,Quarter,20252,Emergency / non-emergency,Default decisions (one side only),5,134103,134103,0,0.0,133889,-214,-0.001595788311969158
+2025 Q3,Quarter,20253,Air ambulance,Payment determinations (disputes),1,11045,11045,0,0.0,11035,-10,-0.0009053870529651426
+2025 Q3,Quarter,20253,Air ambulance,Provider prevailed,2,10303,10303,0,0.0,10294,-9,-0.0008735319809764147
+2025 Q3,Quarter,20253,Air ambulance,Plan prevailed,3,710,710,0,0.0,709,-1,-0.0014084507042253522
+2025 Q3,Quarter,20253,Air ambulance,Split decisions,4,32,32,0,0.0,32,0,0.0
+2025 Q3,Quarter,20253,Air ambulance,Default decisions (one side only),5,886,886,0,0.0,885,-1,-0.001128668171557562
+2025 Q3,Quarter,20253,All dispute types,Payment determinations (disputes),1,602901,602897,-4,-6.6345884315998815e-06,601216,-1685,-0.00279482037681145
+2025 Q3,Quarter,20253,All dispute types,Provider prevailed,2,523465,523465,0,0.0,522332,-1133,-0.0021644236004317386
+2025 Q3,Quarter,20253,All dispute types,Plan prevailed,3,78837,78837,0,0.0,78289,-548,-0.006951050902495022
+2025 Q3,Quarter,20253,All dispute types,Split decisions,4,595,595,0,0.0,595,0,0.0
+2025 Q3,Quarter,20253,All dispute types,Default decisions (one side only),5,118296,118296,0,0.0,118186,-110,-0.0009298708324879962
+2025 Q3,Quarter,20253,Emergency / non-emergency,Payment determinations (disputes),1,591856,591852,-4,-6.758400692060231e-06,590181,-1675,-0.0028300802898002216
+2025 Q3,Quarter,20253,Emergency / non-emergency,Provider prevailed,2,513162,513162,0,0.0,512038,-1124,-0.0021903414516273615
+2025 Q3,Quarter,20253,Emergency / non-emergency,Plan prevailed,3,78127,78127,0,0.0,77580,-547,-0.007001420763628451
+2025 Q3,Quarter,20253,Emergency / non-emergency,Split decisions,4,563,563,0,0.0,563,0,0.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,Default decisions (one side only),5,117410,117410,0,0.0,117301,-109,-0.000928370666893791
+2025 Q4,Quarter,20254,Air ambulance,Payment determinations (disputes),1,9590,9590,0,0.0,9576,-14,-0.00145985401459854
+2025 Q4,Quarter,20254,Air ambulance,Provider prevailed,2,9010,9010,0,0.0,8998,-12,-0.0013318534961154272
+2025 Q4,Quarter,20254,Air ambulance,Plan prevailed,3,548,548,0,0.0,546,-2,-0.0036496350364963502
+2025 Q4,Quarter,20254,Air ambulance,Split decisions,4,32,32,0,0.0,32,0,0.0
+2025 Q4,Quarter,20254,Air ambulance,Default decisions (one side only),5,965,965,0,0.0,962,-3,-0.0031088082901554403
+2025 Q4,Quarter,20254,All dispute types,Payment determinations (disputes),1,542138,542132,-6,-1.1067292829500976e-05,539844,-2294,-0.004231394958479206
+2025 Q4,Quarter,20254,All dispute types,Provider prevailed,2,454196,454196,0,0.0,452674,-1522,-0.0033509762305260283
+2025 Q4,Quarter,20254,All dispute types,Plan prevailed,3,87145,87145,0,0.0,86381,-764,-0.008766997532847553
+2025 Q4,Quarter,20254,All dispute types,Split decisions,4,789,789,0,0.0,789,0,0.0
+2025 Q4,Quarter,20254,All dispute types,Default decisions (one side only),5,71572,71572,0,0.0,71508,-64,-0.0008942044374895211
+2025 Q4,Quarter,20254,Emergency / non-emergency,Payment determinations (disputes),1,532548,532542,-6,-1.12665900538543e-05,530268,-2280,-0.004281304220464634
+2025 Q4,Quarter,20254,Emergency / non-emergency,Provider prevailed,2,445186,445186,0,0.0,443676,-1510,-0.003391840713769076
+2025 Q4,Quarter,20254,Emergency / non-emergency,Plan prevailed,3,86597,86597,0,0.0,85835,-762,-0.008799381040913658
+2025 Q4,Quarter,20254,Emergency / non-emergency,Split decisions,4,757,757,0,0.0,757,0,0.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,Default decisions (one side only),5,70607,70607,0,0.0,70546,-61,-0.0008639370034132593

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "NSA_IDR_Dispute_Explorer"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2f57d063-1cae-5372-87e1-6c62065d8e05"
+  }
+}

@@ -1,0 +1,181 @@
+period,period_type,period_sort,dispute_category,days_bucket,days_bucket_sort,decision_path,disputes,median_business_days
+2025 full year,Full year,20250,Air ambulance,30 or fewer,1,Both sides submitted,18192,19.0
+2025 full year,Full year,20250,Air ambulance,30 or fewer,1,Default decision,2356,23.0
+2025 full year,Full year,20250,Air ambulance,31 to 60,2,Both sides submitted,9702,40.0
+2025 full year,Full year,20250,Air ambulance,31 to 60,2,Default decision,1804,40.0
+2025 full year,Full year,20250,Air ambulance,61 to 90,3,Both sides submitted,2763,74.0
+2025 full year,Full year,20250,Air ambulance,61 to 90,3,Default decision,585,75.0
+2025 full year,Full year,20250,Air ambulance,91 to 180,4,Both sides submitted,3945,125.0
+2025 full year,Full year,20250,Air ambulance,91 to 180,4,Default decision,1190,123.0
+2025 full year,Full year,20250,Air ambulance,181 to 365,5,Both sides submitted,2107,257.0
+2025 full year,Full year,20250,Air ambulance,181 to 365,5,Default decision,808,248.0
+2025 full year,Full year,20250,Air ambulance,More than 365,6,Both sides submitted,480,453.5
+2025 full year,Full year,20250,Air ambulance,More than 365,6,Default decision,259,489.0
+2025 full year,Full year,20250,All dispute types,30 or fewer,1,Both sides submitted,920873,21.0
+2025 full year,Full year,20250,All dispute types,30 or fewer,1,Default decision,185686,21.0
+2025 full year,Full year,20250,All dispute types,31 to 60,2,Both sides submitted,484293,40.0
+2025 full year,Full year,20250,All dispute types,31 to 60,2,Default decision,120759,40.0
+2025 full year,Full year,20250,All dispute types,61 to 90,3,Both sides submitted,122926,72.0
+2025 full year,Full year,20250,All dispute types,61 to 90,3,Default decision,38063,74.0
+2025 full year,Full year,20250,All dispute types,91 to 180,4,Both sides submitted,158031,127.0
+2025 full year,Full year,20250,All dispute types,91 to 180,4,Default decision,45972,125.0
+2025 full year,Full year,20250,All dispute types,181 to 365,5,Both sides submitted,86719,234.0
+2025 full year,Full year,20250,All dispute types,181 to 365,5,Default decision,35304,252.0
+2025 full year,Full year,20250,All dispute types,More than 365,6,Both sides submitted,14330,461.0
+2025 full year,Full year,20250,All dispute types,More than 365,6,Default decision,6423,450.0
+2025 full year,Full year,20250,Emergency / non-emergency,30 or fewer,1,Both sides submitted,902681,21.0
+2025 full year,Full year,20250,Emergency / non-emergency,30 or fewer,1,Default decision,183330,21.0
+2025 full year,Full year,20250,Emergency / non-emergency,31 to 60,2,Both sides submitted,474591,39.0
+2025 full year,Full year,20250,Emergency / non-emergency,31 to 60,2,Default decision,118955,40.0
+2025 full year,Full year,20250,Emergency / non-emergency,61 to 90,3,Both sides submitted,120163,72.0
+2025 full year,Full year,20250,Emergency / non-emergency,61 to 90,3,Default decision,37478,74.0
+2025 full year,Full year,20250,Emergency / non-emergency,91 to 180,4,Both sides submitted,154086,127.0
+2025 full year,Full year,20250,Emergency / non-emergency,91 to 180,4,Default decision,44782,125.0
+2025 full year,Full year,20250,Emergency / non-emergency,181 to 365,5,Both sides submitted,84612,234.0
+2025 full year,Full year,20250,Emergency / non-emergency,181 to 365,5,Default decision,34496,252.0
+2025 full year,Full year,20250,Emergency / non-emergency,More than 365,6,Both sides submitted,13850,461.0
+2025 full year,Full year,20250,Emergency / non-emergency,More than 365,6,Default decision,6164,449.0
+2025 Q1,Quarter,20251,Air ambulance,30 or fewer,1,Both sides submitted,2460,23.0
+2025 Q1,Quarter,20251,Air ambulance,30 or fewer,1,Default decision,791,25.0
+2025 Q1,Quarter,20251,Air ambulance,31 to 60,2,Both sides submitted,2521,40.0
+2025 Q1,Quarter,20251,Air ambulance,31 to 60,2,Default decision,954,39.0
+2025 Q1,Quarter,20251,Air ambulance,61 to 90,3,Both sides submitted,918,72.0
+2025 Q1,Quarter,20251,Air ambulance,61 to 90,3,Default decision,349,75.0
+2025 Q1,Quarter,20251,Air ambulance,91 to 180,4,Both sides submitted,1114,128.0
+2025 Q1,Quarter,20251,Air ambulance,91 to 180,4,Default decision,703,118.0
+2025 Q1,Quarter,20251,Air ambulance,181 to 365,5,Both sides submitted,834,255.0
+2025 Q1,Quarter,20251,Air ambulance,181 to 365,5,Default decision,487,246.0
+2025 Q1,Quarter,20251,Air ambulance,More than 365,6,Both sides submitted,147,436.0
+2025 Q1,Quarter,20251,Air ambulance,More than 365,6,Default decision,144,483.5
+2025 Q1,Quarter,20251,All dispute types,30 or fewer,1,Both sides submitted,131544,23.0
+2025 Q1,Quarter,20251,All dispute types,30 or fewer,1,Default decision,26105,24.0
+2025 Q1,Quarter,20251,All dispute types,31 to 60,2,Both sides submitted,100531,40.0
+2025 Q1,Quarter,20251,All dispute types,31 to 60,2,Default decision,35995,39.0
+2025 Q1,Quarter,20251,All dispute types,61 to 90,3,Both sides submitted,32531,73.0
+2025 Q1,Quarter,20251,All dispute types,61 to 90,3,Default decision,10630,73.0
+2025 Q1,Quarter,20251,All dispute types,91 to 180,4,Both sides submitted,53031,130.0
+2025 Q1,Quarter,20251,All dispute types,91 to 180,4,Default decision,15444,127.0
+2025 Q1,Quarter,20251,All dispute types,181 to 365,5,Both sides submitted,32477,240.0
+2025 Q1,Quarter,20251,All dispute types,181 to 365,5,Default decision,15075,245.0
+2025 Q1,Quarter,20251,All dispute types,More than 365,6,Both sides submitted,7653,472.0
+2025 Q1,Quarter,20251,All dispute types,More than 365,6,Default decision,3648,451.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,30 or fewer,1,Both sides submitted,129084,23.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,30 or fewer,1,Default decision,25314,24.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,31 to 60,2,Both sides submitted,98010,40.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,31 to 60,2,Default decision,35041,39.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,61 to 90,3,Both sides submitted,31613,73.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,61 to 90,3,Default decision,10281,73.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,91 to 180,4,Both sides submitted,51917,130.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,91 to 180,4,Default decision,14741,128.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,181 to 365,5,Both sides submitted,31643,240.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,181 to 365,5,Default decision,14588,244.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,More than 365,6,Both sides submitted,7506,473.0
+2025 Q1,Quarter,20251,Emergency / non-emergency,More than 365,6,Default decision,3504,450.0
+2025 Q2,Quarter,20252,Air ambulance,30 or fewer,1,Both sides submitted,4388,20.0
+2025 Q2,Quarter,20252,Air ambulance,30 or fewer,1,Default decision,486,23.0
+2025 Q2,Quarter,20252,Air ambulance,31 to 60,2,Both sides submitted,2503,42.0
+2025 Q2,Quarter,20252,Air ambulance,31 to 60,2,Default decision,535,44.0
+2025 Q2,Quarter,20252,Air ambulance,61 to 90,3,Both sides submitted,1056,77.0
+2025 Q2,Quarter,20252,Air ambulance,61 to 90,3,Default decision,170,73.0
+2025 Q2,Quarter,20252,Air ambulance,91 to 180,4,Both sides submitted,1507,113.0
+2025 Q2,Quarter,20252,Air ambulance,91 to 180,4,Default decision,285,134.0
+2025 Q2,Quarter,20252,Air ambulance,181 to 365,5,Both sides submitted,881,287.0
+2025 Q2,Quarter,20252,Air ambulance,181 to 365,5,Default decision,205,266.0
+2025 Q2,Quarter,20252,Air ambulance,More than 365,6,Both sides submitted,96,477.5
+2025 Q2,Quarter,20252,Air ambulance,More than 365,6,Default decision,46,518.0
+2025 Q2,Quarter,20252,All dispute types,30 or fewer,1,Both sides submitted,199228,23.0
+2025 Q2,Quarter,20252,All dispute types,30 or fewer,1,Default decision,43670,23.0
+2025 Q2,Quarter,20252,All dispute types,31 to 60,2,Both sides submitted,142713,40.0
+2025 Q2,Quarter,20252,All dispute types,31 to 60,2,Default decision,48100,41.0
+2025 Q2,Quarter,20252,All dispute types,61 to 90,3,Both sides submitted,36767,73.0
+2025 Q2,Quarter,20252,All dispute types,61 to 90,3,Default decision,12616,75.0
+2025 Q2,Quarter,20252,All dispute types,91 to 180,4,Both sides submitted,60004,126.0
+2025 Q2,Quarter,20252,All dispute types,91 to 180,4,Default decision,14889,126.0
+2025 Q2,Quarter,20252,All dispute types,181 to 365,5,Both sides submitted,36174,229.0
+2025 Q2,Quarter,20252,All dispute types,181 to 365,5,Default decision,15039,276.0
+2025 Q2,Quarter,20252,All dispute types,More than 365,6,Both sides submitted,3153,469.0
+2025 Q2,Quarter,20252,All dispute types,More than 365,6,Default decision,1302,464.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,30 or fewer,1,Both sides submitted,194840,23.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,30 or fewer,1,Default decision,43184,23.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,31 to 60,2,Both sides submitted,140210,40.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,31 to 60,2,Default decision,47565,41.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,61 to 90,3,Both sides submitted,35711,73.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,61 to 90,3,Default decision,12446,75.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,91 to 180,4,Both sides submitted,58497,127.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,91 to 180,4,Default decision,14604,125.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,181 to 365,5,Both sides submitted,35293,229.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,181 to 365,5,Default decision,14834,276.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,More than 365,6,Both sides submitted,3057,468.0
+2025 Q2,Quarter,20252,Emergency / non-emergency,More than 365,6,Default decision,1256,464.0
+2025 Q3,Quarter,20253,Air ambulance,30 or fewer,1,Both sides submitted,5379,19.0
+2025 Q3,Quarter,20253,Air ambulance,30 or fewer,1,Default decision,404,24.0
+2025 Q3,Quarter,20253,Air ambulance,31 to 60,2,Both sides submitted,2902,40.0
+2025 Q3,Quarter,20253,Air ambulance,31 to 60,2,Default decision,217,41.0
+2025 Q3,Quarter,20253,Air ambulance,61 to 90,3,Both sides submitted,591,71.0
+2025 Q3,Quarter,20253,Air ambulance,61 to 90,3,Default decision,38,76.5
+2025 Q3,Quarter,20253,Air ambulance,91 to 180,4,Both sides submitted,904,129.0
+2025 Q3,Quarter,20253,Air ambulance,91 to 180,4,Default decision,136,131.0
+2025 Q3,Quarter,20253,Air ambulance,181 to 365,5,Both sides submitted,249,223.0
+2025 Q3,Quarter,20253,Air ambulance,181 to 365,5,Default decision,51,208.0
+2025 Q3,Quarter,20253,Air ambulance,More than 365,6,Both sides submitted,125,405.0
+2025 Q3,Quarter,20253,Air ambulance,More than 365,6,Default decision,39,421.0
+2025 Q3,Quarter,20253,All dispute types,30 or fewer,1,Both sides submitted,267426,20.0
+2025 Q3,Quarter,20253,All dispute types,30 or fewer,1,Default decision,66989,20.0
+2025 Q3,Quarter,20253,All dispute types,31 to 60,2,Both sides submitted,147179,40.0
+2025 Q3,Quarter,20253,All dispute types,31 to 60,2,Default decision,25891,41.0
+2025 Q3,Quarter,20253,All dispute types,61 to 90,3,Both sides submitted,25583,71.0
+2025 Q3,Quarter,20253,All dispute types,61 to 90,3,Default decision,11306,75.0
+2025 Q3,Quarter,20253,All dispute types,91 to 180,4,Both sides submitted,30531,125.0
+2025 Q3,Quarter,20253,All dispute types,91 to 180,4,Default decision,9785,120.0
+2025 Q3,Quarter,20253,All dispute types,181 to 365,5,Both sides submitted,10639,220.0
+2025 Q3,Quarter,20253,All dispute types,181 to 365,5,Default decision,3434,231.0
+2025 Q3,Quarter,20253,All dispute types,More than 365,6,Both sides submitted,1672,414.0
+2025 Q3,Quarter,20253,All dispute types,More than 365,6,Default decision,781,416.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,30 or fewer,1,Both sides submitted,262047,20.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,30 or fewer,1,Default decision,66585,20.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,31 to 60,2,Both sides submitted,144277,40.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,31 to 60,2,Default decision,25674,41.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,61 to 90,3,Both sides submitted,24992,71.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,61 to 90,3,Default decision,11268,75.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,91 to 180,4,Both sides submitted,29627,125.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,91 to 180,4,Default decision,9649,120.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,181 to 365,5,Both sides submitted,10390,220.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,181 to 365,5,Default decision,3383,232.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,More than 365,6,Both sides submitted,1547,415.0
+2025 Q3,Quarter,20253,Emergency / non-emergency,More than 365,6,Default decision,742,416.0
+2025 Q4,Quarter,20254,Air ambulance,30 or fewer,1,Both sides submitted,5965,18.0
+2025 Q4,Quarter,20254,Air ambulance,30 or fewer,1,Default decision,675,20.0
+2025 Q4,Quarter,20254,Air ambulance,31 to 60,2,Both sides submitted,1776,38.0
+2025 Q4,Quarter,20254,Air ambulance,31 to 60,2,Default decision,98,40.0
+2025 Q4,Quarter,20254,Air ambulance,61 to 90,3,Both sides submitted,198,73.0
+2025 Q4,Quarter,20254,Air ambulance,61 to 90,3,Default decision,28,75.0
+2025 Q4,Quarter,20254,Air ambulance,91 to 180,4,Both sides submitted,420,142.0
+2025 Q4,Quarter,20254,Air ambulance,91 to 180,4,Default decision,66,131.0
+2025 Q4,Quarter,20254,Air ambulance,181 to 365,5,Both sides submitted,143,225.0
+2025 Q4,Quarter,20254,Air ambulance,181 to 365,5,Default decision,65,257.0
+2025 Q4,Quarter,20254,Air ambulance,More than 365,6,Both sides submitted,112,482.0
+2025 Q4,Quarter,20254,Air ambulance,More than 365,6,Default decision,30,481.0
+2025 Q4,Quarter,20254,All dispute types,30 or fewer,1,Both sides submitted,322675,20.0
+2025 Q4,Quarter,20254,All dispute types,30 or fewer,1,Default decision,48922,20.0
+2025 Q4,Quarter,20254,All dispute types,31 to 60,2,Both sides submitted,93870,38.0
+2025 Q4,Quarter,20254,All dispute types,31 to 60,2,Default decision,10773,39.0
+2025 Q4,Quarter,20254,All dispute types,61 to 90,3,Both sides submitted,28045,72.0
+2025 Q4,Quarter,20254,All dispute types,61 to 90,3,Default decision,3511,74.0
+2025 Q4,Quarter,20254,All dispute types,91 to 180,4,Both sides submitted,14465,120.0
+2025 Q4,Quarter,20254,All dispute types,91 to 180,4,Default decision,5854,125.0
+2025 Q4,Quarter,20254,All dispute types,181 to 365,5,Both sides submitted,7429,236.0
+2025 Q4,Quarter,20254,All dispute types,181 to 365,5,Default decision,1756,254.0
+2025 Q4,Quarter,20254,All dispute types,More than 365,6,Both sides submitted,1852,449.0
+2025 Q4,Quarter,20254,All dispute types,More than 365,6,Default decision,692,435.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,30 or fewer,1,Both sides submitted,316710,20.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,30 or fewer,1,Default decision,48247,20.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,31 to 60,2,Both sides submitted,92094,38.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,31 to 60,2,Default decision,10675,39.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,61 to 90,3,Both sides submitted,27847,72.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,61 to 90,3,Default decision,3483,74.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,91 to 180,4,Both sides submitted,14045,120.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,91 to 180,4,Default decision,5788,125.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,181 to 365,5,Both sides submitted,7286,237.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,181 to 365,5,Default decision,1691,254.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,More than 365,6,Both sides submitted,1740,445.0
+2025 Q4,Quarter,20254,Emergency / non-emergency,More than 365,6,Default decision,662,433.0

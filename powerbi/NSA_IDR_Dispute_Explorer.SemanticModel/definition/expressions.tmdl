@@ -1,0 +1,5 @@
+expression ExportsFolder = "C:\Users\wreck\OneDrive\Desktop\'Optimization Analyst' - Pivotal Health\'No Surprises Act Dispute Data Explorer' Project\data\exports\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: e3b566b3-7aa8-515d-b30b-19490ca75464
+
+	annotation PBI_ResultType = Text
+

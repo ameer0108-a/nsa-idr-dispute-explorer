@@ -1,0 +1,92 @@
+table v_determination_timing
+	lineageTag: 38a73280-24e5-5833-8e64-a11f3894a07d
+
+	column period
+		dataType: string
+		lineageTag: cab7da25-b897-56a3-981a-89e50588870f
+		summarizeBy: none
+		sourceColumn: period
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 83b0e2ed-ac92-5bee-8f58-07176a847fec
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 2b724e3d-33eb-51b6-87d9-7e8419d5a4bd
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 7c22f270-75aa-591c-9e27-4137d1bfd965
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column days_bucket
+		dataType: string
+		lineageTag: 43c217c6-c6aa-57bf-8bce-01aa16cc2e0e
+		summarizeBy: none
+		sourceColumn: days_bucket
+		sortByColumn: days_bucket_sort
+
+		annotation SummarizationSetBy = User
+
+	column days_bucket_sort
+		dataType: int64
+		isHidden
+		lineageTag: d603a717-f504-5cb1-abb1-98a51efdd0b3
+		summarizeBy: none
+		sourceColumn: days_bucket_sort
+
+		annotation SummarizationSetBy = User
+
+	column decision_path
+		dataType: string
+		lineageTag: a333534a-bd81-58e8-b820-c34875502ef5
+		summarizeBy: none
+		sourceColumn: decision_path
+
+		annotation SummarizationSetBy = User
+
+	column disputes
+		dataType: int64
+		formatString: #,0
+		lineageTag: d80d8aa7-3e89-52d4-93f2-c2e7ee6168a7
+		summarizeBy: none
+		sourceColumn: disputes
+
+		annotation SummarizationSetBy = User
+
+	column median_business_days
+		dataType: double
+		lineageTag: 1a6a7050-d961-5593-a555-3764eb60a09a
+		summarizeBy: none
+		sourceColumn: median_business_days
+
+		annotation SummarizationSetBy = User
+
+	partition v_determination_timing = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_determination_timing.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"days_bucket", type text}, {"days_bucket_sort", Int64.Type}, {"decision_path", type text}, {"disputes", Int64.Type}, {"median_business_days", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

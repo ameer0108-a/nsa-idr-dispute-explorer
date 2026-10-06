@@ -1,0 +1,133 @@
+table v_outcomes_by_service_group
+	lineageTag: f2458a07-f2ec-528f-978c-2c30ad624150
+
+	column period
+		dataType: string
+		lineageTag: c7988584-c595-5ba1-9cfa-870b94430cd8
+		summarizeBy: none
+		sourceColumn: period
+
+		annotation SummarizationSetBy = User
+
+	column period_type
+		dataType: string
+		lineageTag: 03bfe438-c95c-5fa8-81ef-ddf67cf2ca22
+		summarizeBy: none
+		sourceColumn: period_type
+
+		annotation SummarizationSetBy = User
+
+	column period_sort
+		dataType: int64
+		isHidden
+		lineageTag: 8615cfce-d5c3-59b8-88dc-a6e1f18738c3
+		summarizeBy: none
+		sourceColumn: period_sort
+
+		annotation SummarizationSetBy = User
+
+	column dispute_category
+		dataType: string
+		lineageTag: 8ee2ee1b-595a-5469-bf27-86d20b8cfe76
+		summarizeBy: none
+		sourceColumn: dispute_category
+
+		annotation SummarizationSetBy = User
+
+	column level
+		dataType: string
+		lineageTag: 7b37f588-c2d4-5bb8-abfd-2913447fdd81
+		summarizeBy: none
+		sourceColumn: level
+
+		annotation SummarizationSetBy = User
+
+	column service_group
+		dataType: string
+		lineageTag: 8c0e08de-b495-52dc-8437-1eb60692b9ed
+		summarizeBy: none
+		sourceColumn: service_group
+
+		annotation SummarizationSetBy = User
+
+	column cms_specialty
+		dataType: string
+		lineageTag: c5abe315-565c-5295-abeb-92ca5faf8196
+		summarizeBy: none
+		sourceColumn: cms_specialty
+
+		annotation SummarizationSetBy = User
+
+	column line_items
+		dataType: int64
+		formatString: #,0
+		lineageTag: 7b588fc3-5eea-50c6-9f3a-e1847fa052b4
+		summarizeBy: none
+		sourceColumn: line_items
+
+		annotation SummarizationSetBy = User
+
+	column disputes
+		dataType: int64
+		formatString: #,0
+		lineageTag: d4816337-e47e-5ea0-b7d4-d07515863c7e
+		summarizeBy: none
+		sourceColumn: disputes
+
+		annotation SummarizationSetBy = User
+
+	column lines_provider_selected
+		dataType: int64
+		formatString: #,0
+		lineageTag: 68af058b-6855-5d4f-93c3-0cfb109bff3c
+		summarizeBy: none
+		sourceColumn: lines_provider_selected
+
+		annotation SummarizationSetBy = User
+
+	column line_provider_selected_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 611c6e39-e77f-5f42-b951-b8c9e6b64850
+		summarizeBy: none
+		sourceColumn: line_provider_selected_rate
+
+		annotation SummarizationSetBy = User
+
+	column median_prevailing_offer_qpa_ratio
+		dataType: double
+		lineageTag: 4952fdf2-642f-5cfa-a5a2-a272f146e566
+		summarizeBy: none
+		sourceColumn: median_prevailing_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column median_provider_offer_qpa_ratio
+		dataType: double
+		lineageTag: a9380e84-03b3-545c-b6bc-7082b167f2ee
+		summarizeBy: none
+		sourceColumn: median_provider_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	column median_plan_offer_qpa_ratio
+		dataType: double
+		lineageTag: 6f14254c-bbdc-5102-becf-180af4e50894
+		summarizeBy: none
+		sourceColumn: median_plan_offer_qpa_ratio
+
+		annotation SummarizationSetBy = User
+
+	partition v_outcomes_by_service_group = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExportsFolder & "v_outcomes_by_service_group.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.TransformColumns(Promoted, {}, each if _ = "" then null else _),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"period", type text}, {"period_type", type text}, {"period_sort", Int64.Type}, {"dispute_category", type text}, {"level", type text}, {"service_group", type text}, {"cms_specialty", type text}, {"line_items", Int64.Type}, {"disputes", Int64.Type}, {"lines_provider_selected", Int64.Type}, {"line_provider_selected_rate", type number}, {"median_prevailing_offer_qpa_ratio", type number}, {"median_provider_offer_qpa_ratio", type number}, {"median_plan_offer_qpa_ratio", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
